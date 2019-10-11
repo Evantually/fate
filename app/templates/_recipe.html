@@ -1,0 +1,17 @@
+<div class="card" style="width: 18rem;">
+    <img class="card-img-top" src="{{ url_for('static', filename=recipe.image_link) }}" alt="Card image cap">
+    <div class="card-body">
+        <h5 class="card-title">{{ recipe.name }}</h5>
+        <p class="card-text">
+            Learned from: {{ recipe.learned_from }}<br>
+            <div class="card-header">Ingredients</div>
+            <ul class="list-group list-group-flush"></ul>
+                {% for ingredient in recipe.ingredients %}
+                <li class="list-group-item">{{ ingredient.quantity }} {{ ingredient.name }}</li>
+                {% endfor %}
+            </ul>
+            Skill required: {{ recipe.skill_required }}<br>
+            Action: {{ recipe.action }}
+        </p>
+    </div>
+</div>

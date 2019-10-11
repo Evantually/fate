@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block app_content %}
+    {% for recipe_group in recipes | batch(4, '&nbsp;') %}
+        <div class="row">
+            {% for recipe in recipe_group %}
+                <div class="col-md-3">
+                    {% include '_recipe.html' %}
+                </div>
+            {% endfor %}
+        </div>
+    {% endfor %}
+{% endblock %}
