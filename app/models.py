@@ -4,6 +4,11 @@ from flask_login import UserMixin
 from hashlib import md5
 from datetime import datetime
 
+user_recipes = db.Table('user_recipes',
+    db.Column('user_id', db.Integer, db.ForeignKey('user.id')),
+    db.Column('recipe_id', db.Integer, db.ForeignKey('profession_item.id'))
+)
+
 class User(UserMixin, db.Model):
     id = db.Column(db.Integer, primary_key=True)
     username = db.Column(db.String(64), index=True, unique=True)
@@ -11,8 +16,14 @@ class User(UserMixin, db.Model):
     password_hash = db.Column(db.String(128))
     about_me = db.Column(db.String(140))
     last_seen = db.Column(db.DateTime, default=datetime.utcnow)
-    profession_one = db.Column(db.String(128))
-    profession_two = db.Column(db.String(128))
+    profession_one = db.Column(db.String(128), default='None')
+    profession_two = db.Column(db.String(128), default='None')
+    known_recipes = db.relationship(
+        'ProfessionItem', 
+        secondary=user_recipes,
+        primaryjoin=(user_recipes.c.user_id==id),
+        lazy='dynamic'
+    )
 
     def __repr__(self):
         return '<User {}>'.format(self.username)
@@ -27,6 +38,13 @@ class User(UserMixin, db.Model):
         digest = md5(self.email.lower().encode('utf-8')).hexdigest()
         return 'https://www.gravatar.com/avatar/{}?d=identicon&s={}'.format(
             digest, size)
+
+    def add_recipe(self, recipe):
+        if not self.knows_recipe(recipe):
+            self.known_recipes.append(recipe)
+    
+    def knows_recipe(self, recipe):
+        return self.known_recipes.filter(user_recipes.c.recipe_id).count > 0
 
 class RecipeIngredient(db.Model):
     id = db.Column(db.Integer, primary_key=True)
@@ -44,6 +62,19 @@ class ProfessionItem(db.Model):
     skill_required = db.Column(db.Integer)
     action = db.Column(db.String(256))
     result = db.Column(db.Integer)
+    known = db.relationship(
+        'User', 
+        secondary=user_recipes,
+        primaryjoin=(user_recipes.c.recipe_id==id),
+        lazy='dynamic'
+    )
+
+    def add_user(self, user):
+        if not self.knows_user(user):
+            self.known.append(user)
+    
+    def knows_user(self, user):
+        return self.known.filter(user_recipes.c.user_id).count > 0
 
 class ProfessionIngredient(db.Model):
     id = db.Column(db.Integer, primary_key=True)

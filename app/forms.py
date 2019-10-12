@@ -1,7 +1,7 @@
 from flask_wtf import FlaskForm
-from wtforms import StringField, PasswordField, BooleanField, SubmitField, TextAreaField, SelectField
+from wtforms import StringField, PasswordField, BooleanField, SubmitField, TextAreaField, SelectField, SelectMultipleField
 from wtforms.validators import DataRequired, ValidationError, Email, EqualTo, Length
-from app.models import User
+from app.models import User, ProfessionItem
 
 class LoginForm(FlaskForm):
     username = StringField('Username', validators=[DataRequired()])
@@ -53,3 +53,7 @@ class EditProfileForm(FlaskForm):
             user = User.query.filter_by(username=self.username.data).first()
             if user is not None:
                 raise ValidationError('Please use a different username.')
+
+class AddRecipeForm(FlaskForm):
+    options = SelectMultipleField('Recipes', coerce=int, validators=[DataRequired()])
+    submit = SubmitField('Add to my known recipes.')

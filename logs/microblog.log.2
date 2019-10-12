@@ -1,4 +1,4 @@
-2019-10-11 01:47:37,669 ERROR: Exception on /recipes/Alchemy [GET] [in c:\users\evan\anaconda3\envs\fate\lib\site-packages\flask\app.py:1891]
+2019-10-11 18:21:33,977 ERROR: Exception on /add_recipes [GET] [in c:\users\evan\anaconda3\envs\fate\lib\site-packages\flask\app.py:1891]
 Traceback (most recent call last):
   File "c:\users\evan\anaconda3\envs\fate\lib\site-packages\flask\app.py", line 2446, in wsgi_app
     response = self.full_dispatch_request()
@@ -12,37 +12,32 @@ Traceback (most recent call last):
     rv = self.dispatch_request()
   File "c:\users\evan\anaconda3\envs\fate\lib\site-packages\flask\app.py", line 1935, in dispatch_request
     return self.view_functions[rule.endpoint](**req.view_args)
-  File "C:\Users\Evan\documents\fate\app\routes.py", line 82, in recipes
-    return render_template('profession_recipes.html', recipes=recipes)
-  File "c:\users\evan\anaconda3\envs\fate\lib\site-packages\flask\templating.py", line 140, in render_template
-    ctx.app,
-  File "c:\users\evan\anaconda3\envs\fate\lib\site-packages\flask\templating.py", line 120, in _render
-    rv = template.render(context)
-  File "c:\users\evan\anaconda3\envs\fate\lib\site-packages\jinja2\asyncsupport.py", line 76, in render
-    return original_render(self, *args, **kwargs)
-  File "c:\users\evan\anaconda3\envs\fate\lib\site-packages\jinja2\environment.py", line 1008, in render
-    return self.environment.handle_exception(exc_info, True)
-  File "c:\users\evan\anaconda3\envs\fate\lib\site-packages\jinja2\environment.py", line 780, in handle_exception
-    reraise(exc_type, exc_value, tb)
-  File "c:\users\evan\anaconda3\envs\fate\lib\site-packages\jinja2\_compat.py", line 37, in reraise
-    raise value.with_traceback(tb)
-  File "C:\Users\Evan\documents\fate\app\templates\profession_recipes.html", line 1, in top-level template code
-    {% extends "base.html" %}
-  File "c:\users\evan\anaconda3\envs\fate\lib\site-packages\jinja2\environment.py", line 1005, in render
-    return concat(self.root_render_func(self.new_context(vars)))
-  File "C:\Users\Evan\documents\fate\app\templates\profession_recipes.html", line 14, in root
-  File "C:\Users\Evan\documents\fate\app\templates\base.html", line 54, in root
-  File "C:\Users\Evan\documents\fate\app\templates\profession_recipes.html", line 27, in block_content
-  File "C:\Users\Evan\documents\fate\app\templates\_recipe.html", line 13, in root
-    <td>
-  File "c:\users\evan\anaconda3\envs\fate\lib\site-packages\jinja2\runtime.py", line 262, in call
-    return __obj(*args, **kwargs)
-TypeError: url_for() takes 1 positional argument but 2 were given
-2019-10-11 01:48:21,626 INFO: Fate startup [in C:\Users\Evan\documents\fate\app\__init__.py:44]
-2019-10-11 01:49:43,839 INFO: Fate startup [in C:\Users\Evan\documents\fate\app\__init__.py:44]
-2019-10-11 01:51:15,024 INFO: Fate startup [in C:\Users\Evan\documents\fate\app\__init__.py:44]
-2019-10-11 02:02:24,313 INFO: Fate startup [in C:\Users\Evan\documents\fate\app\__init__.py:46]
-2019-10-11 02:02:29,732 ERROR: Exception on /recipes/Alchemy [GET] [in c:\users\evan\anaconda3\envs\fate\lib\site-packages\flask\app.py:1891]
+  File "c:\users\evan\anaconda3\envs\fate\lib\site-packages\flask_login\utils.py", line 261, in decorated_view
+    return func(*args, **kwargs)
+  File "C:\Users\Evan\documents\fate\app\routes.py", line 92, in add_recipes
+    form_one = AddRecipeForm()
+  File "c:\users\evan\anaconda3\envs\fate\lib\site-packages\wtforms\form.py", line 212, in __call__
+    return type.__call__(cls, *args, **kwargs)
+  File "c:\users\evan\anaconda3\envs\fate\lib\site-packages\flask_wtf\form.py", line 88, in __init__
+    super(FlaskForm, self).__init__(formdata=formdata, **kwargs)
+  File "c:\users\evan\anaconda3\envs\fate\lib\site-packages\wtforms\form.py", line 272, in __init__
+    super(Form, self).__init__(self._unbound_fields, meta=meta_obj, prefix=prefix)
+  File "c:\users\evan\anaconda3\envs\fate\lib\site-packages\wtforms\form.py", line 52, in __init__
+    field = meta.bind_field(self, unbound_field, options)
+  File "c:\users\evan\anaconda3\envs\fate\lib\site-packages\wtforms\meta.py", line 27, in bind_field
+    return unbound_field.bind(form=form, **options)
+  File "c:\users\evan\anaconda3\envs\fate\lib\site-packages\wtforms\fields\core.py", line 353, in bind
+    return self.field_class(*self.args, **kw)
+  File "c:\users\evan\anaconda3\envs\fate\lib\site-packages\wtforms\fields\core.py", line 449, in __init__
+    super(SelectField, self).__init__(label, validators, **kwargs)
+  File "c:\users\evan\anaconda3\envs\fate\lib\site-packages\wtforms\fields\core.py", line 418, in __init__
+    super(SelectFieldBase, self).__init__(label, validators, **kwargs)
+  File "c:\users\evan\anaconda3\envs\fate\lib\site-packages\wtforms\fields\core.py", line 115, in __init__
+    for v in itertools.chain(self.validators, [self.widget]):
+TypeError: 'DataRequired' object is not iterable
+2019-10-11 18:21:51,405 INFO: Fate startup [in C:\Users\Evan\documents\fate\app\__init__.py:46]
+2019-10-11 18:22:40,480 INFO: Fate startup [in C:\Users\Evan\documents\fate\app\__init__.py:46]
+2019-10-11 18:22:46,833 ERROR: Exception on /add_recipes [GET] [in c:\users\evan\anaconda3\envs\fate\lib\site-packages\flask\app.py:1891]
 Traceback (most recent call last):
   File "c:\users\evan\anaconda3\envs\fate\lib\site-packages\flask\app.py", line 2446, in wsgi_app
     response = self.full_dispatch_request()
@@ -56,8 +51,30 @@ Traceback (most recent call last):
     rv = self.dispatch_request()
   File "c:\users\evan\anaconda3\envs\fate\lib\site-packages\flask\app.py", line 1935, in dispatch_request
     return self.view_functions[rule.endpoint](**req.view_args)
-  File "C:\Users\Evan\documents\fate\app\routes.py", line 82, in recipes
-    return render_template('profession_recipes.html', recipes=recipes)
+  File "c:\users\evan\anaconda3\envs\fate\lib\site-packages\flask_login\utils.py", line 261, in decorated_view
+    return func(*args, **kwargs)
+  File "C:\Users\Evan\documents\fate\app\routes.py", line 102, in add_recipes
+    return render_template('recipe_selection.html', profession_one=profession_one, profession_two=profession_two, form_one=form_one, form_two=form_two)
+NameError: name 'form_two' is not defined
+2019-10-11 18:23:02,726 INFO: Fate startup [in C:\Users\Evan\documents\fate\app\__init__.py:46]
+2019-10-11 18:23:03,454 ERROR: Exception on /add_recipes [GET] [in c:\users\evan\anaconda3\envs\fate\lib\site-packages\flask\app.py:1891]
+Traceback (most recent call last):
+  File "c:\users\evan\anaconda3\envs\fate\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\evan\anaconda3\envs\fate\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\evan\anaconda3\envs\fate\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\users\evan\anaconda3\envs\fate\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "c:\users\evan\anaconda3\envs\fate\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\users\evan\anaconda3\envs\fate\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\users\evan\anaconda3\envs\fate\lib\site-packages\flask_login\utils.py", line 261, in decorated_view
+    return func(*args, **kwargs)
+  File "C:\Users\Evan\documents\fate\app\routes.py", line 102, in add_recipes
+    return render_template('recipe_selection.html', profession_one=profession_one, profession_two=profession_two, form_one=form_one)
   File "c:\users\evan\anaconda3\envs\fate\lib\site-packages\flask\templating.py", line 140, in render_template
     ctx.app,
   File "c:\users\evan\anaconda3\envs\fate\lib\site-packages\flask\templating.py", line 120, in _render
@@ -70,31 +87,38 @@ Traceback (most recent call last):
     reraise(exc_type, exc_value, tb)
   File "c:\users\evan\anaconda3\envs\fate\lib\site-packages\jinja2\_compat.py", line 37, in reraise
     raise value.with_traceback(tb)
-  File "C:\Users\Evan\documents\fate\app\templates\profession_recipes.html", line 1, in top-level template code
-    {% extends "base.html" %}
+  File "C:\Users\Evan\documents\fate\app\templates\recipe_selection.html", line 2, in top-level template code
+    {% import 'bootstrap/wtf.html' as wtf %}
   File "c:\users\evan\anaconda3\envs\fate\lib\site-packages\jinja2\environment.py", line 1005, in render
     return concat(self.root_render_func(self.new_context(vars)))
-  File "C:\Users\Evan\documents\fate\app\templates\profession_recipes.html", line 14, in root
+  File "C:\Users\Evan\documents\fate\app\templates\recipe_selection.html", line 17, in root
+    <h1>{{ profession_two }}</h1>
   File "C:\Users\Evan\documents\fate\app\templates\base.html", line 14, in root
-    <span class="icon-bar"></span>
+    <div class="collapse navbar-collapse" id="navbarText">
   File "c:\users\evan\anaconda3\envs\fate\lib\site-packages\flask_bootstrap\templates\bootstrap\base.html", line 10, in root
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {%- endblock metas %}
   File "c:\users\evan\anaconda3\envs\fate\lib\site-packages\flask_bootstrap\templates\bootstrap\base.html", line 20, in block_doc
-    {% block body -%}
-  File "c:\users\evan\anaconda3\envs\fate\lib\site-packages\flask_bootstrap\templates\bootstrap\base.html", line 39, in block_html
-  File "c:\users\evan\anaconda3\envs\fate\lib\site-packages\flask_bootstrap\templates\bootstrap\base.html", line 90, in block_body
-  File "C:\Users\Evan\documents\fate\app\templates\base.html", line 42, in block_navbar
-    <div class="alert alert-info" role="alert">{{ message }}</div>
+    {%- endblock head %}
+  File "c:\users\evan\anaconda3\envs\fate\lib\site-packages\flask_bootstrap\templates\bootstrap\base.html", line 40, in block_html
+  File "c:\users\evan\anaconda3\envs\fate\lib\site-packages\flask_bootstrap\templates\bootstrap\base.html", line 93, in block_body
+  File "C:\Users\Evan\documents\fate\app\templates\base.html", line 85, in block_content
+  File "C:\Users\Evan\documents\fate\app\templates\recipe_selection.html", line 45, in block_app_content
   File "c:\users\evan\anaconda3\envs\fate\lib\site-packages\jinja2\runtime.py", line 262, in call
     return __obj(*args, **kwargs)
-  File "c:\users\evan\anaconda3\envs\fate\lib\site-packages\flask\helpers.py", line 370, in url_for
-    return appctx.app.handle_url_build_error(error, endpoint, values)
-  File "c:\users\evan\anaconda3\envs\fate\lib\site-packages\flask\app.py", line 2215, in handle_url_build_error
-    reraise(exc_type, exc_value, tb)
-  File "c:\users\evan\anaconda3\envs\fate\lib\site-packages\flask\_compat.py", line 39, in reraise
-    raise value
-  File "c:\users\evan\anaconda3\envs\fate\lib\site-packages\flask\helpers.py", line 358, in url_for
-    endpoint, values, method=method, force_external=external
-  File "c:\users\evan\anaconda3\envs\fate\lib\site-packages\werkzeug\routing.py", line 2020, in build
-    raise BuildError(endpoint, values, method, self)
-werkzeug.routing.BuildError: Could not build url for endpoint 'explore'. Did you mean 'edit_profile' instead?
+  File "c:\users\evan\anaconda3\envs\fate\lib\site-packages\jinja2\runtime.py", line 570, in __call__
+    return self._invoke(arguments, autoescape)
+  File "c:\users\evan\anaconda3\envs\fate\lib\site-packages\jinja2\asyncsupport.py", line 110, in _invoke
+    return original_invoke(self, arguments, autoescape)
+  File "c:\users\evan\anaconda3\envs\fate\lib\site-packages\jinja2\runtime.py", line 574, in _invoke
+    rv = self._func(*arguments)
+  File "c:\users\evan\anaconda3\envs\fate\lib\site-packages\flask_bootstrap\templates\bootstrap\wtf.html", line 507, in macro
+  File "c:\users\evan\anaconda3\envs\fate\lib\site-packages\jinja2\environment.py", line 430, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'form_two' is undefined
+2019-10-11 18:23:33,460 INFO: Fate startup [in C:\Users\Evan\documents\fate\app\__init__.py:46]
+2019-10-11 18:28:40,773 INFO: Fate startup [in C:\Users\Evan\documents\fate\app\__init__.py:46]
+2019-10-11 18:30:33,822 INFO: Fate startup [in C:\Users\Evan\documents\fate\app\__init__.py:46]
+2019-10-11 18:32:28,285 INFO: Fate startup [in C:\Users\Evan\documents\fate\app\__init__.py:46]
+2019-10-11 18:34:05,745 INFO: Fate startup [in C:\Users\Evan\documents\fate\app\__init__.py:46]
+2019-10-11 18:35:31,910 INFO: Fate startup [in C:\Users\Evan\documents\fate\app\__init__.py:46]
+2019-10-11 18:45:10,306 INFO: Fate startup [in C:\Users\Evan\documents\fate\app\__init__.py:46]
