@@ -15,7 +15,6 @@ def before_request():
 @app.route('/index')
 @login_required
 def index():
-    user = {'username': 'Evan'}
     return render_template('index.html', title='Home')
 
 @app.route('/login', methods=['GET','POST'])
@@ -54,7 +53,18 @@ def register():
 @app.route('/user/<username>')
 def user(username):
     user = User.query.filter_by(username=username).first_or_404()
-    return render_template('user.html', user=user)
+    recipes = user.known_recipes
+    profession_one_recipes = recipes.filter_by(profession=user.profession_one).all()
+    profession_two_recipes = recipes.filter_by(profession=user.profession_two).all()
+    for recipe in profession_one_recipes:
+        recipe.ingredients = RecipeIngredient.query.filter_by(item_id=recipe.id).all()
+        for item in recipe.ingredients:
+            item.name = ProfessionIngredient.query.filter_by(id=item.ingredient_id).first().name
+    for recipe in profession_two_recipes:
+        recipe.ingredients = RecipeIngredient.query.filter_by(item_id=recipe.id).all()
+        for item in recipe.ingredients:
+            item.name = ProfessionIngredient.query.filter_by(id=item.ingredient_id).first().name
+    return render_template('user.html', user=user, profession_one=user.profession_one, profession_two=user.profession_two, profession_one_recipes=profession_one_recipes, profession_two_recipes=profession_two_recipes)
 
 @app.route('/edit_profile', methods=['GET', 'POST'])
 @login_required
@@ -103,5 +113,4 @@ def add_recipes(profession):
             current_user.known_recipes.append(ProfessionItem.query.filter_by(id=item).first())
             db.session.commit()
         return redirect(url_for('index'))
-        
     return render_template('recipe_selection.html', profession=profession, form=form)

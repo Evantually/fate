@@ -1,13 +1,13 @@
 {% extends "base.html" %}
 
 {% block app_content %}
-    {% for recipe_group in recipes | batch(4, '&nbsp;') %}
+    {%- for recipe_group in recipes | batch(4) %}
         <div class="row">
-            {% for recipe in recipe_group %}
+            {%- for recipe in recipe_group %}
                 <div class="col-md-3">
                     {% include '_recipe.html' %}
                 </div>
-            {% endfor %}
+            {%- endfor %}
         </div>
-    {% endfor %}
+    {%- endfor %}
 {% endblock %}

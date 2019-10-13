@@ -34,6 +34,12 @@
                     {% if current_user.is_anonymous %}
                     <li class="nav-item"><a class="nav-link" href="{{ url_for('login') }}">Login</a></li>
                     {% else %}
+                    {% if current_user.profession_one != 'None' %}
+                    <li class="nav-item"><a class="nav-link" href="{{ url_for('add_recipes', profession=current_user.profession_one) }}">Add known {{ current_user.profession_one }} recipes</a></li>
+                    {% endif %}
+                    {% if current_user.profession_two != 'None' %}
+                    <li class="nav-item"><a class="nav-link" href="{{ url_for('add_recipes', profession=current_user.profession_two) }}">Add known {{ current_user.profession_two }} recipes</a></li>
+                    {% endif %}
                     <li class="nav-item"><a class="nav-link" href="{{ url_for('user', username=current_user.username) }}">Profile</a></li>
                     <li class="nav-item"><a class="nav-link" href="{{ url_for('logout') }}">Logout</a></li>
                     {% endif %}

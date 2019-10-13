@@ -22,7 +22,7 @@ class User(UserMixin, db.Model):
         'ProfessionItem', 
         secondary=user_recipes,
         primaryjoin=(user_recipes.c.user_id==id),
-        lazy='dynamic'
+        backref=db.backref('item', lazy='dynamic'), lazy='dynamic'
     )
 
     def __repr__(self):
@@ -42,6 +42,10 @@ class User(UserMixin, db.Model):
     def add_recipe(self, recipe):
         if not self.knows_recipe(recipe):
             self.known_recipes.append(recipe)
+
+    def remove_recipe(self, recipe):
+        if self.knows_recipe(recipe):
+            self.known_recipes.remove(recipe)
     
     def knows_recipe(self, recipe):
         return self.known_recipes.filter(user_recipes.c.recipe_id).count > 0
@@ -66,12 +70,17 @@ class ProfessionItem(db.Model):
         'User', 
         secondary=user_recipes,
         primaryjoin=(user_recipes.c.recipe_id==id),
+        backref=db.backref('user', lazy='dynamic'),
         lazy='dynamic'
     )
 
     def add_user(self, user):
         if not self.knows_user(user):
             self.known.append(user)
+    
+    def remove_user(self, user):
+        if self.knows_user(user):
+            self.known.remove(user)
     
     def knows_user(self, user):
         return self.known.filter(user_recipes.c.user_id).count > 0
