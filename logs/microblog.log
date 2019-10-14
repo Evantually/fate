@@ -110,3 +110,6 @@ Traceback (most recent call last):
 NameError: name 'profession' is not defined
 2019-10-12 16:01:49,035 INFO: Fate startup [in C:\Users\Evan\documents\fate\app\__init__.py:46]
 2019-10-12 16:15:26,352 INFO: Fate startup [in C:\Users\Evan\documents\fate\app\__init__.py:46]
+2019-10-13 17:32:17,932 INFO: Fate startup [in C:\Users\Evan\documents\fate\app\__init__.py:46]
+2019-10-13 17:42:45,551 INFO: Fate startup [in C:\Users\Evan\documents\fate\app\__init__.py:46]
+2019-10-14 09:24:34,581 INFO: Fate startup [in C:\Users\Evan\documents\fate\app\__init__.py:46]

@@ -1,0 +1,338 @@
+id,name,internal_id
+1,Peacebloom,id2447
+2,Silverleaf,id765
+3,"Empty Vial",id3371
+4,Earthroot,id2449
+5,Mageroyal,id785
+6,Swiftthistle,id2452
+7,"Discolored Worg Heart",id3164
+8,"Minor Healing Potion",id118
+9,Briarthorn,id2450
+10,"Sharp Claw",id5635
+11,Stranglekelp,id3820
+12,"Blackmouth Oil",id6370
+13,"Deviate Fish",id6522
+14,Bruiseweed,id2453
+15,"Wild Steelbloom",id3355
+16,"Leaded Vial",id3372
+17,"Large Venom Sac",id1288
+18,"Grave Moss",id3369
+19,Kingsblood,id3356
+20,"Fire Oil",id6371
+21,Liferoot,id3357
+22,Fadeleaf,id3818
+23,"Small Flame Sac",id4402
+24,Goldthorn,id3821
+25,"Large Fang",id5637
+26,Wintersbite,id3819
+27,"Khadgar's Whisker",id3358
+28,Firebloom,id4625
+29,"Crystal Vial",id8925
+30,"Purple Lotus",id8831
+31,"Mithril Ore",id3858
+32,"Elemental Earth",id7067
+33,Sungrass,id8838
+34,"Ichor of Undeath",id7972
+35,Wildvine,id8153
+36,"Arthas' Tears",id8836
+37,Blindweed,id8839
+38,"Ghost Mushroom",id8845
+39,Gromsblood,id8846
+40,"Stonescale Oil",id13423
+41,Dreamfoil,id13463
+42,Plaguebloom,id13466
+43,"Golden Sansam",id13464
+44,"Mountain Silversage",id13465
+45,"Thorium Ore",id10620
+46,Icecap,id13467
+47,"Heart of the Wild",id10286
+48,"Elemental Fire",id7068
+49,"Elemental Water",id7070
+50,"Dream Dust",id11176
+51,"Shadow Oil",id3824
+52,"Essence of Fire",id7078
+53,"Essence of Earth",id7076
+54,"Essence of Air",id7082
+55,"Essence of Water",id7080
+56,"Living Essence",id12803
+57,"Black Vitriol",id9262
+58,"Black Lotus",id13468
+59,"Imbued Vial",id18256
+60,"Blood of Heroes",id12938
+61,"Massive Mojo",id19943
+62,"Powerful Mojo",id12804
+63,"Rough Stone",id2835
+64,"Linen Cloth",id2589
+65,"Coarse Stone",id2836
+66,"Wool Cloth",id2592
+67,"Silver Bar",id2842
+68,"Rough Grinding Stone",id3470
+69,"Heavy Stone",id2838
+70,"Iron Bar",id3575
+71,"Coarse Grinding Stone",id3478
+72,"Gold Bar",id3577
+73,"Heavy Grinding Stone",id3486
+74,"Lesser Moonstone",id1705
+75,"Steel Bar",id3859
+76,"Strong Flux",id3466
+77,"Moss Agate",id1206
+78,"Heavy Leather",id4234
+79,"Frost Oil",id3829
+80,"Elemental Air",id7069
+81,Jade,id1529
+82,"Solid Stone",id7912
+83,"Silk Cloth",id4306
+84,"Truesilver Bar",id6037
+85,"Solid Grinding Stone",id7966
+86,"Mithril Bar",id3860
+87,Aquamarine,id7909
+88,"Mageweave Cloth",id4338
+89,"Thick Leather",id4304
+90,"Heart of Fire",id7077
+91,"Core of Earth",id7075
+92,Citrine,id3864
+93,"Star Ruby",id7910
+94,"Black Pearl",id7971
+95,"Breath of Wind",id7081
+96,"Lesser Invisibility Potion",id3823
+97,"Dense Stone",id12365
+98,Runecloth,id14047
+99,"Thorium Bar",id12359
+100,"Dense Grinding Stone",id12644
+101,"Arcanite Bar",id12360
+102,"Rugged Leather",id8170
+103,"Sulfuron Ingot",id17203
+104,"Dark Iron Bar",id11371
+105,"Blood of the Mountain",id11382
+106,"Lava Core",id17011
+107,"Fiery Core",id17010
+108,"Azerothian Diamond",id12800
+109,"Guardian Stone",id12809
+110,"Huge Emerald",id12364
+111,Souldarite,id19774
+112,Bloodvine,id19726
+113,"Enchanted Leather",id12810
+114,"Large Opal",id12799
+115,"Dark Rune",id20520
+116,"Black Diamond",id11754
+117,"Small Obsidian Shard",id22202
+118,"Enchanted Thorium Bar",id12655
+119,"Large Obsidian Shard",id22203
+120,"Flask of Supreme Power",id13512
+121,"Essence of Undeath",id12808
+122,"Devilsaur Leather",id15417
+123,"Skin of Shadow",id12753
+124,"Flask of the Titans",id13510
+125,"Nexus Crystal",id20725
+126,"Demonic Rune",id12662
+127,"Blue Sapphire",id12361
+128,"Wicked Claw",id8146
+129,"Righteous Orb",id12811
+130,"Strange Dust",id10940
+131,"Maple Seed",id17034
+132,"Soul Dust",id11083
+133,"Vision Dust",id11137
+134,"Stranglethorn Seed",id17035
+135,"Illusion Dust",id16204
+136,"Large Brilliant Shard",id14344
+137,"Rough Blasting Powder",id4357
+138,"Copper Bar",id2840
+139,"Handful of Copper Bolts",id4359
+140,"Copper Tube",id4361
+141,Malachite,id774
+142,"Copper Modulator",id4363
+143,"Coarse Blasting Powder",id4364
+144,"Bronze Bar",id2841
+145,"Light Leather",id2318
+146,"Refreshing Spring Water",id159
+147,"Silver Contact",id4404
+148,"Bronze Tube",id4371
+149,"Whirring Bronze Gizmo",id4375
+150,"Heavy Blasting Powder",id4377
+151,"Flask of Oil",id814
+152,Tigerseye,id818
+153,"Medium Leather",id2319
+154,"Black Mageweave Boots",id10026
+155,"Mithril Tube",id10559
+156,"Goblin Rocket Fuel",id9061
+157,"Unstable Trigger",id10560
+158,"Bronze Framework",id4382
+159,Nightcrawlers,id6530
+160,"Iron Strut",id4387
+161,Shadowgem,id1210
+162,"Fused Wiring",id7191
+163,Gyrochronatom,id4389
+164,"Solid Blasting Powder",id10505
+165,"Blue Pearl",id4611
+166,Snowball,id17202
+167,"Blank Parchment",id10648
+168,"Engineer's Ink",id10647
+169,"Gold Power Core",id10558
+170,"Big Iron Bomb",id4394
+171,"Shadow Silk",id10285
+172,"Thick Spider's Silk",id4337
+173,"Mithril Casing",id10561
+174,"Dusky Belt",id7387
+175,"Catseye Elixir",id10592
+176,"Heavy Stock",id4400
+177,"Bolt of Mageweave",id4339
+178,"Inlaid Mithril Cylinder",id9060
+179,"Accurate Scope",id4407
+180,"Solid Dynamite",id10507
+181,"Goblin Construction Helmet",id10543
+182,"Dense Blasting Powder",id15992
+183,"Deeprock Salt",id8150
+184,"Thorium Widget",id15994
+185,"Deadly Scope",id10546
+186,"Truesilver Transformer",id18631
+187,"Spellpower Goggles Xtreme",id10502
+188,"Thorium Tube",id16000
+189,"Delicate Arcanite Converter",id16006
+190,"Mithril Mechanical Dragonling",id10576
+191,"Globe of Water",id7079
+192,"The Big One",id10586
+193,"Cured Rugged Hide",id15407
+194,"Flask of Mojo",id8151
+195,"Ironweb Spider Silk",id14227
+196,"Coarse Thread",id2320
+197,"Fine Leather Gloves",id2312
+198,"Cured Medium Hide",id4233
+199,"Fine Thread",id2321
+200,"Gray Dye",id4340
+201,"Red Whelp Scale",id7287
+202,"Long Tail Feather",id5116
+203,"Bolt of Woolen Cloth",id2997
+204,"Green Whelp Scale",id7392
+205,"Cured Heavy Hide",id4236
+206,"Iridescent Pearl",id5500
+207,"Silken Thread",id4291
+208,"Coarse Gorilla Hair",id4096
+209,"Great Rage Potion",id5633
+210,"Iron Buckle",id7071
+211,"Swiftness Potion",id2459
+212,"Shadowcat Hide",id7428
+213,"Heavy Silken Thread",id8343
+214,"Cured Thick Hide",id8172
+215,"Elixir of Agility",id8949
+216,"Elixir of Greater Defense",id8951
+217,"Worn Dragonscale",id8165
+218,"Rune Thread",id14341
+219,"Core Leather",id17012
+220,"Larval Acid",id18512
+221,Ironfeather,id15420
+222,"Primal Bat Leather",id19767
+223,"Light Silithid Carapace",id20500
+224,"Silithid Chitin",id20498
+225,Dreamscale,id20381
+226,"Scale of Onyxia",id15410
+227,"Cindercloth Cloak",id14044
+228,"Bolt of Runecloth",id14048
+229,"Ogre Tannin",id18240
+230,"Black Dragonscale",id15416
+231,"Red Dragonscale",id15414
+232,"Brilliant Chromatic Scale",id12607
+233,Mooncloth,id14342
+234,"Thick Wolfhide",id8368
+235,Bleach,id2324
+236,"Bolt of Silk Cloth",id4305
+237,"Blue Dye",id6260
+238,"Shadow Protection Potion",id6048
+239,"Healing Potion",id929
+240,"Naga Scale",id7072
+241,"Red Dye",id2604
+242,"Long Elegant Feather",id4589
+243,"Ghost Dye",id9210
+244,Felcloth,id14256
+245,"Golden Pearl",id13926
+246,"Oily Blackmouth",id6358
+247,"Firefin Snapper",id6359
+248,"Volatile Rum",id9260
+249,"Purple Dye",id4342
+250,"Stonescale Eel",id13422
+251,"Arcane Crystal",id12363
+252,"Delicate Feather",id5636
+253,"Weak Flux",id2880
+254,"Small Lustrous Pearl",id5498
+255,"Elixir of Ogre's Strength",id3391
+256,"Green Dye",id2605
+257,"Green Leather Armor",id4255
+258,"Guardian Gloves",id5966
+259,"Yellow Power Crystal",id11188
+260,"Red Power Crystal",id11186
+261,"Blue Power Crystal",id11184
+262,"Green Power Crystal",id11185
+263,"Jet Black Feather",id8168
+264,"Copper Rod",id6217
+265,"Lesser Magic Essence",id10938
+266,"Simple Wood",id4470
+267,"Greater Magic Essence",id10939
+268,"Silver Rod",id6338
+269,"Golden Rod",id11128
+270,"Greater Astral Essence",id11082
+271,"Star Wood",id11291
+272,"Lesser Mystic Essence",id11134
+273,"Greater Mystic Essence",id11135
+274,"Truesilver Rod",id11144
+275,"Lesser Eternal Essence",id16202
+276,"Small Brilliant Shard",id14343
+277,"Arcanite Rod",id16206
+278,"Greater Eternal Essence",id16203
+279,UnknownItem,id17967
+280,"Wooden Stock",id4399
+281,"Flying Tiger Goggles",id4368
+282,"Green Tinted Goggles",id4385
+283,"Fire Goggles",id10500
+284,"Razor Arrow",id3030
+285,"Ruined Leather Scraps",id2934
+286,"Light Hide",id783
+287,Salt,id4289
+288,"Thin Kodo Leather",id5082
+289,"Cured Light Hide",id4231
+290,"Slimy Murloc Scale",id5784
+291,"Deviate Scale",id6470
+292,"Fine Leather Tunic",id4243
+293,"Medium Hide",id4232
+294,"Black Whelp Scale",id7286
+295,"Perfect Deviate Scale",id6471
+296,"Elixir of Wisdom",id3383
+297,"Elixir of Minor Agility",id2457
+298,"Fine Leather Belt",id4246
+299,"Elixir of Defense",id3389
+300,"Spider's Silk",id3182
+301,"Elixir of Lesser Agility",id3390
+302,"Lucky Charm",id5373
+303,"Heavy Hide",id4235
+304,"Raptor Hide",id4461
+305,"Black Dye",id2325
+306,"Thick Murloc Scale",id5785
+307,"Thick Hide",id8169
+308,"Turtle Scale",id8167
+309,"Scorpid Scale",id8154
+310,"Flask of Big Mojo",id8152
+311,"Rugged Hide",id8171
+312,"Refined Deeprock Salt",id15409
+313,"Heavy Scorpid Scale",id15408
+314,"Primal Tiger Leather",id19768
+315,"Heavy Silithid Carapace",id20501
+316,"Green Dragonscale",id15412
+317,"Blue Dragonscale",id15415
+318,"Chimera Leather",id15423
+319,"Frostsaber Leather",id15422
+320,"Warbear Leather",id15419
+321,"Bolt of Linen Cloth",id2996
+322,"Yellow Dye",id4341
+323,"Mana Potion",id3827
+324,"Orange Dye",id6261
+325,"Pink Dye",id10290
+326,Morrowgrain,id11040
+327,"Small Glimmering Shard",id10978
+328,"Lesser Astral Essence",id10998
+329,"Large Glimmering Shard",id11084
+330,"Iron Ore",id2772
+331,"Small Glowing Shard",id11138
+332,"Large Glowing Shard",id11139
+333,"Lesser Nether Essence",id11174
+334,"Small Radiant Shard",id11177
+335,"Greater Nether Essence",id11175
+336,"Elixir of Demonslaying",id9224
+337,"Large Radiant Shard",id11178
