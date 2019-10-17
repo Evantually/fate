@@ -1,56 +1,26 @@
-from flask import render_template, flash, redirect, url_for, request
-from app import app, db
-from app.models import User, ProfessionItem, RecipeIngredient, ProfessionIngredient
-from app.forms import LoginForm, RegistrationForm, EditProfileForm, AddRecipeForm
-from flask_login import current_user, login_user, logout_user, login_required
 from datetime import datetime
+from flask import render_template, flash, redirect, url_for, request, g, \
+    jsonify, current_app
+from flask_login import current_user, login_required
+from app import db
+from app.main.forms import EditProfileForm, AddRecipeForm, SearchForm
+from app.models import User, ProfessionItem, ProfessionIngredient, RecipeIngredient
+from app.main import bp
 
-@app.before_request
+@bp.before_app_request
 def before_request():
     if current_user.is_authenticated:
         current_user.last_seen = datetime.utcnow()
         db.session.commit()
+        g.search_form = SearchForm()
 
-@app.route('/')
-@app.route('/index')
+@bp.route('/')
+@bp.route('/index')
 @login_required
 def index():
     return render_template('index.html', title='Home')
 
-@app.route('/login', methods=['GET','POST'])
-def login():
-    if current_user.is_authenticated:
-        return redirect(url_for('index'))
-    form = LoginForm()
-    if form.validate_on_submit():
-        user = User.query.filter_by(username=form.username.data).first()
-        if user is None or not user.check_password(form.password.data):
-            flash('Invalid username or password')
-            return redirect(url_for('login'))
-        login_user(user, remember=form.remember_me.data)
-        return redirect(url_for('index'))
-    return render_template('login.html', title='Sign In', form=form)
-
-@app.route('/logout')
-def logout():
-    logout_user()
-    return redirect(url_for('index'))
-
-@app.route('/register', methods=['GET', 'POST'])
-def register():
-    if current_user.is_authenticated:
-        return redirect(url_for('index'))
-    form = RegistrationForm()
-    if form.validate_on_submit():
-        user = User(username=form.username.data, email=form.email.data)
-        user.set_password(form.password.data)
-        db.session.add(user)
-        db.session.commit()
-        flash('Congratulations, you are now a registered user!')
-        return redirect(url_for('login'))
-    return render_template('register.html', title='Register', form=form)
-
-@app.route('/user/<username>')
+@bp.route('/user/<username>')
 def user(username):
     user = User.query.filter_by(username=username).first_or_404()
     recipes = user.known_recipes
@@ -64,9 +34,11 @@ def user(username):
         recipe.ingredients = RecipeIngredient.query.filter_by(item_id=recipe.id).all()
         for item in recipe.ingredients:
             item.name = ProfessionIngredient.query.filter_by(id=item.ingredient_id).first().name
-    return render_template('user.html', user=user, profession_one=user.profession_one, profession_two=user.profession_two, profession_one_recipes=profession_one_recipes, profession_two_recipes=profession_two_recipes)
+    return render_template('user.html', user=user, profession_one=user.profession_one, 
+                        profession_two=user.profession_two, profession_one_recipes=profession_one_recipes, 
+                        profession_two_recipes=profession_two_recipes)
 
-@app.route('/edit_profile', methods=['GET', 'POST'])
+@bp.route('/edit_profile', methods=['GET', 'POST'])
 @login_required
 def edit_profile():
     form = EditProfileForm(current_user.username)
@@ -88,7 +60,7 @@ def edit_profile():
     return render_template('edit_profile.html', title='Edit Profile',
                            form=form)
 
-@app.route('/recipes/<profession>')
+@bp.route('/recipes/<profession>')
 def recipes(profession):
     profession = profession[0].upper() + profession[1:].lower()
     recipes = ProfessionItem.query.filter_by(profession=profession).filter(ProfessionItem.skill_required>0).order_by(ProfessionItem.skill_required).all()
@@ -98,7 +70,7 @@ def recipes(profession):
             item.name = ProfessionIngredient.query.filter_by(id=item.ingredient_id).first().name
     return render_template('profession_recipes.html', recipes=recipes)
 
-@app.route('/add_recipes/<profession>', methods=['GET','POST'])
+@bp.route('/add_recipes/<profession>', methods=['GET','POST'])
 @login_required
 def add_recipes(profession):
     profession = profession[0].upper() + profession[1:].lower()
@@ -114,3 +86,11 @@ def add_recipes(profession):
             db.session.commit()
         return redirect(url_for('index'))
     return render_template('recipe_selection.html', profession=profession, form=form)
+
+@bp.route('/search')
+@login_required
+def search():
+    if not g.search_form.validate():
+        return redirect(url_for('main.index'))
+    recipes, total = ProfessionItem.search(g.search_form.q.data)
+    return render_template('search.html', title='Search', recipes=recipes)

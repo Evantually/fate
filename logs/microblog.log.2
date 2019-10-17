@@ -1,18 +1,4 @@
-2019-10-11 19:04:04,681 INFO: Fate startup [in C:\Users\Evan\documents\fate\app\__init__.py:46]
-2019-10-11 19:07:11,423 INFO: Fate startup [in C:\Users\Evan\documents\fate\app\__init__.py:46]
-2019-10-11 19:07:43,141 INFO: Fate startup [in C:\Users\Evan\documents\fate\app\__init__.py:46]
-2019-10-11 19:09:05,245 INFO: Fate startup [in C:\Users\Evan\documents\fate\app\__init__.py:46]
-2019-10-11 19:13:28,737 INFO: Fate startup [in C:\Users\Evan\documents\fate\app\__init__.py:46]
-2019-10-11 19:13:58,647 INFO: Fate startup [in C:\Users\Evan\documents\fate\app\__init__.py:46]
-2019-10-11 19:14:56,924 INFO: Fate startup [in C:\Users\Evan\documents\fate\app\__init__.py:46]
-2019-10-11 19:16:50,534 INFO: Fate startup [in C:\Users\Evan\documents\fate\app\__init__.py:46]
-2019-10-11 19:18:55,412 INFO: Fate startup [in C:\Users\Evan\documents\fate\app\__init__.py:46]
-2019-10-11 19:19:19,258 INFO: Fate startup [in C:\Users\Evan\documents\fate\app\__init__.py:46]
-2019-10-11 19:23:33,834 INFO: Fate startup [in C:\Users\Evan\documents\fate\app\__init__.py:46]
-2019-10-11 19:24:33,944 INFO: Fate startup [in C:\Users\Evan\documents\fate\app\__init__.py:46]
-2019-10-11 19:26:28,876 INFO: Fate startup [in C:\Users\Evan\documents\fate\app\__init__.py:46]
-2019-10-11 19:29:04,752 INFO: Fate startup [in C:\Users\Evan\documents\fate\app\__init__.py:46]
-2019-10-11 19:29:19,143 ERROR: Exception on /add_recipes/Alchemy [POST] [in c:\users\evan\anaconda3\envs\fate\lib\site-packages\flask\app.py:1891]
+2019-10-11 22:44:54,039 ERROR: Exception on /user/Malthador [GET] [in c:\users\evan\anaconda3\envs\fate\lib\site-packages\flask\app.py:1891]
 Traceback (most recent call last):
   File "c:\users\evan\anaconda3\envs\fate\lib\site-packages\flask\app.py", line 2446, in wsgi_app
     response = self.full_dispatch_request()
@@ -26,37 +12,71 @@ Traceback (most recent call last):
     rv = self.dispatch_request()
   File "c:\users\evan\anaconda3\envs\fate\lib\site-packages\flask\app.py", line 1935, in dispatch_request
     return self.view_functions[rule.endpoint](**req.view_args)
-  File "c:\users\evan\anaconda3\envs\fate\lib\site-packages\flask_login\utils.py", line 261, in decorated_view
-    return func(*args, **kwargs)
-  File "C:\Users\Evan\documents\fate\app\routes.py", line 99, in add_recipes
-    if form.validate_on_submit():
-  File "c:\users\evan\anaconda3\envs\fate\lib\site-packages\flask_wtf\form.py", line 101, in validate_on_submit
-    return self.is_submitted() and self.validate()
-  File "c:\users\evan\anaconda3\envs\fate\lib\site-packages\wtforms\form.py", line 310, in validate
-    return super(Form, self).validate(extra)
-  File "c:\users\evan\anaconda3\envs\fate\lib\site-packages\wtforms\form.py", line 152, in validate
-    if not field.validate(self, extra):
-  File "c:\users\evan\anaconda3\envs\fate\lib\site-packages\wtforms\fields\core.py", line 195, in validate
-    self.pre_validate(form)
-  File "c:\users\evan\anaconda3\envs\fate\lib\site-packages\wtforms\fields\core.py", line 505, in pre_validate
-    values = list(c[0] for c in self.choices)
-TypeError: 'NoneType' object is not iterable
-2019-10-11 19:29:50,281 INFO: Fate startup [in C:\Users\Evan\documents\fate\app\__init__.py:46]
-2019-10-11 19:31:20,949 INFO: Fate startup [in C:\Users\Evan\documents\fate\app\__init__.py:46]
-2019-10-11 19:32:08,737 INFO: Fate startup [in C:\Users\Evan\documents\fate\app\__init__.py:46]
-2019-10-11 19:35:41,340 INFO: Fate startup [in C:\Users\Evan\documents\fate\app\__init__.py:46]
-2019-10-11 19:36:03,189 INFO: Fate startup [in C:\Users\Evan\documents\fate\app\__init__.py:46]
-2019-10-11 19:39:40,949 INFO: Fate startup [in C:\Users\Evan\documents\fate\app\__init__.py:46]
-2019-10-11 19:39:57,901 INFO: Fate startup [in C:\Users\Evan\documents\fate\app\__init__.py:46]
-2019-10-11 19:50:13,912 INFO: Fate startup [in C:\Users\Evan\documents\fate\app\__init__.py:46]
-2019-10-11 19:51:12,323 INFO: Fate startup [in C:\Users\Evan\documents\fate\app\__init__.py:46]
-2019-10-11 22:13:48,386 INFO: Fate startup [in C:\Users\Evan\documents\fate\app\__init__.py:46]
-2019-10-11 22:13:52,857 INFO: Fate startup [in C:\Users\Evan\documents\fate\app\__init__.py:46]
-2019-10-11 22:16:51,958 INFO: Fate startup [in C:\Users\Evan\documents\fate\app\__init__.py:46]
-2019-10-11 22:26:25,383 INFO: Fate startup [in C:\Users\Evan\documents\fate\app\__init__.py:46]
-2019-10-11 22:31:52,737 INFO: Fate startup [in C:\Users\Evan\documents\fate\app\__init__.py:46]
-2019-10-11 22:35:09,137 INFO: Fate startup [in C:\Users\Evan\documents\fate\app\__init__.py:46]
-2019-10-11 22:41:41,607 INFO: Fate startup [in C:\Users\Evan\documents\fate\app\__init__.py:46]
-2019-10-11 22:42:11,436 INFO: Fate startup [in C:\Users\Evan\documents\fate\app\__init__.py:46]
-2019-10-11 22:43:34,344 INFO: Fate startup [in C:\Users\Evan\documents\fate\app\__init__.py:46]
-2019-10-11 22:44:51,807 INFO: Fate startup [in C:\Users\Evan\documents\fate\app\__init__.py:46]
+  File "C:\Users\Evan\documents\fate\app\routes.py", line 62, in user
+    return render_template('user.html', user=user, recipes=recipes)
+  File "c:\users\evan\anaconda3\envs\fate\lib\site-packages\flask\templating.py", line 138, in render_template
+    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "c:\users\evan\anaconda3\envs\fate\lib\site-packages\jinja2\environment.py", line 869, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "c:\users\evan\anaconda3\envs\fate\lib\site-packages\jinja2\environment.py", line 830, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "c:\users\evan\anaconda3\envs\fate\lib\site-packages\jinja2\environment.py", line 804, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "c:\users\evan\anaconda3\envs\fate\lib\site-packages\jinja2\loaders.py", line 125, in load
+    code = environment.compile(source, name, filename)
+  File "c:\users\evan\anaconda3\envs\fate\lib\site-packages\jinja2\environment.py", line 591, in compile
+    self.handle_exception(exc_info, source_hint=source_hint)
+  File "c:\users\evan\anaconda3\envs\fate\lib\site-packages\jinja2\environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\users\evan\anaconda3\envs\fate\lib\site-packages\jinja2\_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\Evan\documents\fate\app\templates\user.html", line 22, in template
+    {% if recipe.name != '' or recipe.name is not None %}
+  File "c:\users\evan\anaconda3\envs\fate\lib\site-packages\jinja2\environment.py", line 543, in _generate
+    optimized=self.optimized)
+  File "c:\users\evan\anaconda3\envs\fate\lib\site-packages\jinja2\compiler.py", line 82, in generate
+    generator.visit(node)
+  File "c:\users\evan\anaconda3\envs\fate\lib\site-packages\jinja2\visitor.py", line 38, in visit
+    return f(node, *args, **kwargs)
+  File "c:\users\evan\anaconda3\envs\fate\lib\site-packages\jinja2\compiler.py", line 799, in visit_Template
+    self.blockvisit(block.body, block_frame)
+  File "c:\users\evan\anaconda3\envs\fate\lib\site-packages\jinja2\compiler.py", line 378, in blockvisit
+    self.visit(node, frame)
+  File "c:\users\evan\anaconda3\envs\fate\lib\site-packages\jinja2\visitor.py", line 38, in visit
+    return f(node, *args, **kwargs)
+  File "c:\users\evan\anaconda3\envs\fate\lib\site-packages\jinja2\compiler.py", line 1122, in visit_For
+    self.blockvisit(node.body, loop_frame)
+  File "c:\users\evan\anaconda3\envs\fate\lib\site-packages\jinja2\compiler.py", line 378, in blockvisit
+    self.visit(node, frame)
+  File "c:\users\evan\anaconda3\envs\fate\lib\site-packages\jinja2\visitor.py", line 38, in visit
+    return f(node, *args, **kwargs)
+  File "c:\users\evan\anaconda3\envs\fate\lib\site-packages\jinja2\compiler.py", line 1122, in visit_For
+    self.blockvisit(node.body, loop_frame)
+  File "c:\users\evan\anaconda3\envs\fate\lib\site-packages\jinja2\compiler.py", line 378, in blockvisit
+    self.visit(node, frame)
+  File "c:\users\evan\anaconda3\envs\fate\lib\site-packages\jinja2\visitor.py", line 38, in visit
+    return f(node, *args, **kwargs)
+  File "c:\users\evan\anaconda3\envs\fate\lib\site-packages\jinja2\compiler.py", line 1157, in visit_If
+    self.visit(node.test, if_frame)
+  File "c:\users\evan\anaconda3\envs\fate\lib\site-packages\jinja2\visitor.py", line 38, in visit
+    return f(node, *args, **kwargs)
+  File "c:\users\evan\anaconda3\envs\fate\lib\site-packages\jinja2\compiler.py", line 70, in new_func
+    return f(self, node, frame, **kwargs)
+  File "c:\users\evan\anaconda3\envs\fate\lib\site-packages\jinja2\compiler.py", line 1484, in visitor
+    self.visit(node.right, frame)
+  File "c:\users\evan\anaconda3\envs\fate\lib\site-packages\jinja2\visitor.py", line 38, in visit
+    return f(node, *args, **kwargs)
+  File "c:\users\evan\anaconda3\envs\fate\lib\site-packages\jinja2\compiler.py", line 70, in new_func
+    return f(self, node, frame, **kwargs)
+  File "c:\users\evan\anaconda3\envs\fate\lib\site-packages\jinja2\compiler.py", line 1497, in visitor
+    self.visit(node.node, frame)
+  File "c:\users\evan\anaconda3\envs\fate\lib\site-packages\jinja2\visitor.py", line 38, in visit
+    return f(node, *args, **kwargs)
+  File "c:\users\evan\anaconda3\envs\fate\lib\site-packages\jinja2\compiler.py", line 70, in new_func
+    return f(self, node, frame, **kwargs)
+  File "c:\users\evan\anaconda3\envs\fate\lib\site-packages\jinja2\compiler.py", line 1607, in visit_Test
+    self.fail('no test named %r' % node.name, node.lineno)
+  File "c:\users\evan\anaconda3\envs\fate\lib\site-packages\jinja2\compiler.py", line 315, in fail
+    raise TemplateAssertionError(msg, lineno, self.name, self.filename)
+jinja2.exceptions.TemplateAssertionError: no test named 'None'
+2019-10-11 22:46:03,744 INFO: Fate startup [in C:\Users\Evan\documents\fate\app\__init__.py:46]
