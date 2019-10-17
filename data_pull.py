@@ -232,10 +232,8 @@ def initialize():
 #    option = webdriver.ChromeOptions()
 #    option.add_argument("--incognito")
 #    option.add_argument("--window-size=1440,800")
-    cap = DesiredCapabilities().FIREFOX
-    cap["marionette"] = True
     options = Options()
     options.set_headless(headless=True)
     binary = FirefoxBinary(os.environ.get('FIREFOX_BIN'))
-    browser = webdriver.Firefox(executable_path=os.environ.get('GECKODRIVER_PATH'), capabilities=cap, firefox_binary=binary, firefox_options=options)
+    browser = webdriver.Firefox(executable_path=os.environ.get('GECKODRIVER_PATH'), firefox_binary=binary, firefox_options=options)
     return browser
