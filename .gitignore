@@ -1,0 +1,5 @@
+app.db
+*.csv
+*.exe
+*.log
+/logs
