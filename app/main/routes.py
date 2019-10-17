@@ -24,8 +24,8 @@ def index():
 def user(username):
     user = User.query.filter_by(username=username).first_or_404()
     recipes = user.known_recipes
-    profession_one_recipes = recipes.filter_by(profession=user.profession_one).all()
-    profession_two_recipes = recipes.filter_by(profession=user.profession_two).all()
+    profession_one_recipes = recipes.filter_by(profession=user.profession_one).order_by(recipes.skill_required).all()
+    profession_two_recipes = recipes.filter_by(profession=user.profession_two).order_by(recipes.skill_required).all()
     for recipe in profession_one_recipes:
         recipe.ingredients = RecipeIngredient.query.filter_by(item_id=recipe.id).all()
         for item in recipe.ingredients:
