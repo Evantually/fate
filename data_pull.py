@@ -241,13 +241,23 @@ def initialize():
     return browser
 
 def fillDatabase():
+    with open('profession-ingredient.csv') as f:
+        lines = csv.reader(f, delimiter=',')
+        next(lines)
+        for row in lines:
+            print(row[2])
+            db.session.add(ProfessionIngredient(name=row[1], internal_id=row[2], item_quality=row[3], item_type=row[4]))
+        db.session.commit()
     with open('description-text.csv') as f:
         lines = csv.reader(f, delimiter=',')
+        next(lines)
         for row in lines:
+            print(row[2])
             db.session.add(DescriptionText(text=row[1], item_id=int(row[2])))
         db.session.commit()
     with open('profession-item.csv') as f:
         lines = csv.reader(f, delimiter=',')
+        next(lines)
         for row in lines:
             db.session.add(ProfessionItem(profession=row[1], image_link=row[2], internal_id=row[3],
                             name=row[4], learned_from=row[5], skill_required=int(row[6]), item_quality=row[7],
@@ -255,6 +265,7 @@ def fillDatabase():
         db.session.commit()
     with open('recipe-ingredient.csv') as f:
         lines = csv.reader(f, delimiter=',')
+        next(lines)
         for row in lines:
             db.session.add(RecipeIngredient(item_id=int(row[1]), ingredient_id=int(row[2]), quantity=int(row[3])))
         db.session.commit()
