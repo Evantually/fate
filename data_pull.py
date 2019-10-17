@@ -5,6 +5,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.keys import Keys
 from selenium.common.exceptions import NoSuchElementException, StaleElementReferenceException
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
+from selenium.webdriver.firefox.firefox_binary import FirefoxBinary
 import urllib.request
 from urllib.error import HTTPError
 from app.models import ProfessionItem, ProfessionIngredient, RecipeIngredient, DescriptionText
@@ -233,6 +234,7 @@ def initialize():
     profile = webdriver.FirefoxProfile()
     cap = DesiredCapabilities().FIREFOX
     cap["marionette"] = False
+    binary = FirefoxBinary(os.environ.get('FIREFOX_BIN'))
     profile.set_preference("browser.privatebrowsing.autostart", True)
-    browser = webdriver.Firefox(executable_path=os.environ.get('GECKODRIVER_PATH'), firefox_profile=profile, capabilities=cap)
+    browser = webdriver.Firefox(executable_path=os.environ.get('GECKODRIVER_PATH'), firefox_profile=profile, capabilities=cap, firefox_binary=binary)
     return browser
