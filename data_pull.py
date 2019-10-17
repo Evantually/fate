@@ -226,10 +226,12 @@ def gatherProfessionInfo(db):
     browser.quit()
 
 def initialize():
-    #    option = webdriver.ChromeOptions()
-    #    option.add_argument("--incognito")
-    #    option.add_argument("--window-size=1440,800")
-        profile = webdriver.FirefoxProfile()
-        profile.set_preference("browser.privatebrowsing.autostart", True)
-        browser = webdriver.Firefox(executable_path=os.environ.get('GECKODRIVER_PATH'), firefox_profile=profile)
-        return browser
+#    option = webdriver.ChromeOptions()
+#    option.add_argument("--incognito")
+#    option.add_argument("--window-size=1440,800")
+    profile = webdriver.FirefoxProfile()
+    cap = DesiredCapabilities().FIREFOX
+    cap["marionette"] = False
+    profile.set_preference("browser.privatebrowsing.autostart", True)
+    browser = webdriver.Firefox(executable_path=os.environ.get('GECKODRIVER_PATH'), firefox_profile=profile, capabilities=cap)
+    return browser
