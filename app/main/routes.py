@@ -84,7 +84,7 @@ def add_recipes(profession):
             ProfessionItem.query.filter_by(id=item).first().known.append(current_user)
             current_user.known_recipes.append(ProfessionItem.query.filter_by(id=item).first())
             db.session.commit()
-        return redirect(url_for('index'))
+        return redirect(url_for('main.index'))
     return render_template('recipe_selection.html', profession=profession, form=form)
 
 @bp.route('/search')
