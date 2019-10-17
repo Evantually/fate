@@ -6,6 +6,7 @@ from selenium.webdriver.common.keys import Keys
 from selenium.common.exceptions import NoSuchElementException, StaleElementReferenceException
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 from selenium.webdriver.firefox.firefox_binary import FirefoxBinary
+from selenium.webdriver.firefox.options import Options
 import urllib.request
 from urllib.error import HTTPError
 from app.models import ProfessionItem, ProfessionIngredient, RecipeIngredient, DescriptionText
@@ -233,6 +234,8 @@ def initialize():
 #    option.add_argument("--window-size=1440,800")
     cap = DesiredCapabilities().FIREFOX
     cap["marionette"] = True
+    options = Options()
+    options.headless = True
     binary = FirefoxBinary(os.environ.get('FIREFOX_BIN'))
-    browser = webdriver.Firefox(executable_path=os.environ.get('GECKODRIVER_PATH'), capabilities=cap, firefox_binary=binary)
+    browser = webdriver.Firefox(executable_path=os.environ.get('GECKODRIVER_PATH'), capabilities=cap, firefox_binary=binary, options=options)
     return browser
