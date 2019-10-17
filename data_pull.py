@@ -252,6 +252,7 @@ def fillDatabase():
             except ValueError:
                 print(f'skill_req={row[6]}, result={row[8]}')
                 continue
+        ProfessionItem.reindex()
         db.session.commit()
     with open('profession-ingredient.csv') as f:
         lines = csv.reader(f, delimiter=',')
