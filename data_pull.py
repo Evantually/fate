@@ -235,7 +235,7 @@ def initialize():
     cap = DesiredCapabilities().FIREFOX
     cap["marionette"] = True
     options = Options()
-    options.headless = True
+    options.set_headless(headless=True)
     binary = FirefoxBinary(os.environ.get('FIREFOX_BIN'))
-    browser = webdriver.Firefox(executable_path=os.environ.get('GECKODRIVER_PATH'), capabilities=cap, firefox_binary=binary, options=options)
+    browser = webdriver.Firefox(executable_path=os.environ.get('GECKODRIVER_PATH'), capabilities=cap, firefox_binary=binary, firefox_options=options)
     return browser
