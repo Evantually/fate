@@ -4,4 +4,4 @@ app.db
 *.log
 /logs
 /__pycache__
-*.pyc
+*.cpython-37.pyc
