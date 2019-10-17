@@ -241,12 +241,7 @@ def initialize():
     return browser
 
 def fillDatabase():
-    with open('profession-ingredient.csv') as f:
-        lines = csv.reader(f, delimiter=',')
-        for row in lines:
-            db.session.add(ProfessionIngredient(name=row[1], internal_id=row[2], item_quality=row[3], item_type=row[4]))
-        db.session.commit()
-    with open('description_text.csv') as f:
+    with open('description-text.csv') as f:
         lines = csv.reader(f, delimiter=',')
         for row in lines:
             db.session.add(DescriptionText(text=row[1], item_id=row[2]))
