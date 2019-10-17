@@ -246,7 +246,7 @@ def fillDatabase():
         next(lines)
         for row in lines:
             try:
-                db.session.add(ProfessionItem(profession=row[1], image_link=row[2], internal_id=row[3],
+                db.session.add(ProfessionItem(id=int(row[0]), profession=row[1], image_link=row[2], internal_id=row[3],
                             name=row[4], learned_from=row[5], skill_required=int(row[6]), action=row[7],
                             result=int(row[8]), armor_class=row[9], item_quality=row[10], item_slot=row[11]))
             except ValueError:
@@ -257,14 +257,14 @@ def fillDatabase():
         lines = csv.reader(f, delimiter=',')
         next(lines)
         for row in lines:
-            db.session.add(ProfessionIngredient(name=row[1], internal_id=row[2], item_quality=row[3], item_type=row[4]))
+            db.session.add(ProfessionIngredient(id=int(row[0]), name=row[1], internal_id=row[2], item_quality=row[3], item_type=row[4]))
         db.session.commit()
     with open('recipe-ingredient.csv') as f:
         lines = csv.reader(f, delimiter=',')
         next(lines)
         for row in lines:
             try:
-                db.session.add(RecipeIngredient(item_id=int(row[1]), ingredient_id=int(row[2]), quantity=int(row[3])))
+                db.session.add(RecipeIngredient(id=int(row[0]), item_id=int(row[1]), ingredient_id=int(row[2]), quantity=int(row[3])))
             except ValueError:
                 print(f'ing_id={row[2]}, quantity={row[3]}')
                 continue
@@ -274,7 +274,7 @@ def fillDatabase():
         next(lines)
         for row in lines:
             try:
-                db.session.add(DescriptionText(text=row[1], item_id=int(row[2])))
+                db.session.add(DescriptionText(id=int(row[0]), text=row[1], item_id=int(row[2])))
             except ValueError:
                 print(f'item_id={row[2]}')
                 continue
