@@ -87,6 +87,7 @@ def add_recipes(profession):
         return redirect(url_for('main.index'))
     return render_template('recipe_selection.html', profession=profession, form=form)
 
+
 @bp.route('/search')
 @login_required
 def search():
