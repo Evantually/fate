@@ -18,7 +18,8 @@ def before_request():
 @bp.route('/index')
 @login_required
 def index():
-    return render_template('index.html', title='Home')
+    users = User.query.filter_by(id!=current_user.id).all()
+    return render_template('index.html', title='Home', users=users)
 
 @bp.route('/user/<username>')
 def user(username):
