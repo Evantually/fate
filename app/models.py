@@ -67,6 +67,7 @@ class User(UserMixin, db.Model):
         'ProfessionItem', 
         secondary=user_recipes,
         primaryjoin=(user_recipes.c.user_id==id),
+        secondaryjoin=(user_recipes.c.recipe_id == 'profession_item.id')
         backref=db.backref('item', lazy='dynamic'), lazy='dynamic'
     )
 
