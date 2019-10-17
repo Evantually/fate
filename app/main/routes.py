@@ -20,10 +20,12 @@ def before_request():
 def index():
     users = User.query.filter(User.id != current_user.id).all()
     for user in users:
-        profession_one_recipes = user.known_recipes.filter_by(profession=user.profession_one).order_by(ProfessionItem.skill_required.desc()).all()
-        user.max_skill_prof_one = profession_one_recipes.first().skill_required
-        profession_two_recipes = user.known_recipes.filter_by(profession=user.profession_two).order_by(ProfessionItem.skill_required.desc()).all()
-        user.max_skill_prof_two = profession_two_recipes.first().skill_required
+        if user.profession_one != 'None':
+            profession_one_recipes = user.known_recipes.filter_by(profession=user.profession_one).order_by(ProfessionItem.skill_required.desc()).all()
+            user.max_skill_prof_one = profession_one_recipes.first().skill_required
+        if user.profession_two != 'None':
+            profession_two_recipes = user.known_recipes.filter_by(profession=user.profession_two).order_by(ProfessionItem.skill_required.desc()).all()
+            user.max_skill_prof_two = profession_two_recipes.first().skill_required
     return render_template('index.html', title='Home', users=users)
 
 @bp.route('/user/<username>')
