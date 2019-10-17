@@ -7,6 +7,7 @@ from selenium.common.exceptions import NoSuchElementException, StaleElementRefer
 import urllib.request
 from urllib.error import HTTPError
 from app.models import ProfessionItem, ProfessionIngredient, RecipeIngredient, DescriptionText
+import os
 
 def gatherProfessionInfo(db):
 
