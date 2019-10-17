@@ -246,8 +246,8 @@ def fillDatabase():
         next(lines)
         for row in lines:
             db.session.add(ProfessionItem(profession=row[1], image_link=row[2], internal_id=row[3],
-                            name=row[4], learned_from=row[5], skill_required=int(row[6]), item_quality=row[7],
-                            armor_class=row[8], item_slot=row[9], action=row[10], result=int(row[11])))
+                            name=row[4], learned_from=row[5], skill_required=int(row[6]), action=row[7],
+                            result=int(row[8]), armor_class=row[9], item_quality=row[10], item_slot=row[11]))
         db.session.commit()
     with open('profession-ingredient.csv') as f:
         lines = csv.reader(f, delimiter=',')
