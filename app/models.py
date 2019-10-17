@@ -54,6 +54,33 @@ user_recipes = db.Table('user_recipes',
     db.Column('recipe_id', db.Integer, db.ForeignKey('profession_item.id'))
 )
 
+class ProfessionItem(SearchableMixin, db.Model):
+    __searchable__ = ['name']
+    id = db.Column(db.Integer, primary_key=True)
+    profession = db.Column(db.String(64))
+    image_link = db.Column(db.String(128))
+    internal_id = db.Column(db.String(128))
+    name = db.Column(db.String(128))
+    learned_from = db.Column(db.String(128))
+    skill_required = db.Column(db.Integer)
+    item_quality = db.Column(db.String(64))
+    armor_class = db.Column(db.String(64), default='None')
+    item_slot = db.Column(db.String(64), default='None')
+    action = db.Column(db.String(256))
+    result = db.Column(db.Integer)
+    description_text = db.relationship('DescriptionText', backref='description', lazy='dynamic')
+
+    def add_user(self, user):
+        if not self.knows_user(user):
+            self.known.append(user)
+    
+    def remove_user(self, user):
+        if self.knows_user(user):
+            self.known.remove(user)
+    
+    def knows_user(self, user):
+        return self.known.filter(user_recipes.c.user_id).count > 0
+
 class User(UserMixin, db.Model):
     id = db.Column(db.Integer, primary_key=True)
     username = db.Column(db.String(64), index=True, unique=True)
@@ -66,9 +93,9 @@ class User(UserMixin, db.Model):
     known_recipes = db.relationship(
         'ProfessionItem', 
         secondary=user_recipes,
-        primaryjoin=(user_recipes.c.user_id==id),
-        secondaryjoin=(user_recipes.c.recipe_id == 'profession_item.id'),
-        backref=db.backref('item', lazy='dynamic'), lazy='dynamic'
+        primaryjoin=(user_recipes.c.user_id== id),
+        secondaryjoin=(user_recipes.c.recipe_id == ProfessionItem.id),
+        backref=db.backref('user', lazy='dynamic'), lazy='dynamic'
     )
 
     def __repr__(self):
@@ -115,40 +142,6 @@ class RecipeIngredient(db.Model):
     item_id = db.Column(db.Integer, db.ForeignKey('profession_item.id'))
     ingredient_id = db.Column(db.Integer, db.ForeignKey('profession_ingredient.id'))
     quantity = db.Column(db.Integer)
-
-class ProfessionItem(SearchableMixin, db.Model):
-    __searchable__ = ['name']
-    id = db.Column(db.Integer, primary_key=True)
-    profession = db.Column(db.String(64))
-    image_link = db.Column(db.String(128))
-    internal_id = db.Column(db.String(128))
-    name = db.Column(db.String(128))
-    learned_from = db.Column(db.String(128))
-    skill_required = db.Column(db.Integer)
-    item_quality = db.Column(db.String(64))
-    armor_class = db.Column(db.String(64), default='None')
-    item_slot = db.Column(db.String(64), default='None')
-    action = db.Column(db.String(256))
-    result = db.Column(db.Integer)
-    known = db.relationship(
-        'User', 
-        secondary=user_recipes,
-        primaryjoin=(user_recipes.c.recipe_id==id),
-        backref=db.backref('user', lazy='dynamic'),
-        lazy='dynamic'
-    )
-    description_text = db.relationship('DescriptionText', backref='description', lazy='dynamic')
-
-    def add_user(self, user):
-        if not self.knows_user(user):
-            self.known.append(user)
-    
-    def remove_user(self, user):
-        if self.knows_user(user):
-            self.known.remove(user)
-    
-    def knows_user(self, user):
-        return self.known.filter(user_recipes.c.user_id).count > 0
 
 class ProfessionIngredient(db.Model):
     id = db.Column(db.Integer, primary_key=True)

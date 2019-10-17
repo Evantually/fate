@@ -19,6 +19,11 @@ def before_request():
 @login_required
 def index():
     users = User.query.filter(User.id != current_user.id).all()
+    for user in users:
+        profession_one_recipes = recipes.filter_by(profession=user.profession_one).order_by(ProfessionItem.skill_required).all()
+        user.max_skill_prof_one = profession_one_recipes.last().skill_required
+        profession_two_recipes = recipes.filter_by(profession=user.profession_two).order_by(ProfessionItem.skill_required).all()
+        user.max_skill_prof_two = profession_two_recipes.last().skill_required
     return render_template('index.html', title='Home', users=users)
 
 @bp.route('/user/<username>')

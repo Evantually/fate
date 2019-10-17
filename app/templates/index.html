@@ -7,12 +7,12 @@
         <h2><a href="{{ url_for('user', username=user.username) }}">{{ user.username }}</a></h2>
         {% if user.profession_one != 'None' %}
         <p>
-            Profession One: {{ user.profession_two }}
+            Profession One: {{ user.profession_two }} {{ user.max_skill_prof_one }}
         </p>
         {% endif %}
         {% if user.profession_two != 'None' %}
         <p>
-            Profession Two: {{ user.profession_two }}
+            Profession Two: {{ user.profession_two }} {{ user.max_skill_prof_two }}
         </p>
         {% endif %}
         <hr>
