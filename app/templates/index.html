@@ -4,7 +4,7 @@
     <h1>Hello, {{ current_user.username }}!</h1>
     <h3>Here are the other guild members who have decided to join, and their listed professions.</h3>
     {% for user in users %}
-        {% if user.profession_one != 'None' and user.profession_two != 'None' %}
+        {% if user.profession_one != 'None' or user.profession_two != 'None' %}
             <h2><a href="{{ url_for('main.user', username=user.username) }}">{{ user.username }}</a></h2>
             {% if user.profession_one != 'None' %}
             <p>
