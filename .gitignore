@@ -3,3 +3,4 @@ app.db
 *.exe
 *.log
 /logs
+/__pycache__
