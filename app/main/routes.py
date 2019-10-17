@@ -49,7 +49,7 @@ def edit_profile():
         current_user.profession_two = form.profession_two.data
         db.session.commit()
         flash('Your changes have been saved.')
-        return redirect(url_for('edit_profile'))
+        return redirect(url_for('main.edit_profile'))
     elif request.method == 'GET':
         form.username.data = current_user.username
         form.about_me.data = current_user.about_me
@@ -76,7 +76,7 @@ def add_recipes(profession):
     profession = profession[0].upper() + profession[1:].lower()
     if profession not in (current_user.profession_one, current_user.profession_two):
         flash(f'You do not have {profession} listed as one of your professions.')
-        return redirect(url_for('edit_profile'))
+        return redirect(url_for('main.edit_profile'))
     form = AddRecipeForm()
     form.options.choices = [(recipe.id, recipe.name) for recipe in ProfessionItem.query.filter_by(profession=profession).filter(ProfessionItem.skill_required>0).order_by(ProfessionItem.skill_required).all()]
     if form.validate_on_submit():
