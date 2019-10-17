@@ -245,27 +245,37 @@ def fillDatabase():
         lines = csv.reader(f, delimiter=',')
         next(lines)
         for row in lines:
-            db.session.add(ProfessionItem(profession=row[1], image_link=row[2], internal_id=row[3],
+            try:
+                db.session.add(ProfessionItem(profession=row[1], image_link=row[2], internal_id=row[3],
                             name=row[4], learned_from=row[5], skill_required=int(row[6]), action=row[7],
                             result=int(row[8]), armor_class=row[9], item_quality=row[10], item_slot=row[11]))
+            except ValueError:
+                print(f'skill_req={row[6]}, result={row[8]}')
+                continue
         db.session.commit()
     with open('profession-ingredient.csv') as f:
         lines = csv.reader(f, delimiter=',')
         next(lines)
         for row in lines:
-            print(row[2])
             db.session.add(ProfessionIngredient(name=row[1], internal_id=row[2], item_quality=row[3], item_type=row[4]))
         db.session.commit()
     with open('recipe-ingredient.csv') as f:
         lines = csv.reader(f, delimiter=',')
         next(lines)
         for row in lines:
-            db.session.add(RecipeIngredient(item_id=int(row[1]), ingredient_id=int(row[2]), quantity=int(row[3])))
+            try:
+                db.session.add(RecipeIngredient(item_id=int(row[1]), ingredient_id=int(row[2]), quantity=int(row[3])))
+            except ValueError:
+                print(f'ing_id={row[2]}, quantity={row[3]}')
+                continue
         db.session.commit()
     with open('description-text.csv') as f:
         lines = csv.reader(f, delimiter=',')
         next(lines)
         for row in lines:
-            print(row[2])
-            db.session.add(DescriptionText(text=row[1], item_id=int(row[2])))
+            try:
+                db.session.add(DescriptionText(text=row[1], item_id=int(row[2])))
+            except ValueError:
+                print(f'item_id={row[2]}')
+                continue
         db.session.commit()
