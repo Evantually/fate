@@ -1,0 +1,3785 @@
+id,text,item_id
+1,"Requires Level 5",4
+2,"Requires Level 5",5
+3,"Requires Level 2",6
+4,"Requires Level 5",7
+5,"Requires Level 2",8
+6,"Requires Level 3",9
+7,"Classes: Warrior ",10
+8,"Requires Level 4",10
+9,"Requires Level 5",11
+10,"Requires Level 5",12
+11,"Requires Level 10",440
+12,"Requires Level 8",13
+13,"Requires Level 8",14
+14,"Requires Level 10",15
+15,"Requires Level 10",16
+16,"Requires Level 12",17
+17,"Requires Level 12",18
+18,"Requires Level 14",19
+19,"Requires Level 14",20
+20,"Requires Level 15",21
+21,"Requires Level 16",22
+22,"Requires Level 17",441
+23,"Requires Level 18",24
+24,"Requires Level 18",25
+25,"Requires Level 20",26
+26,"Requires Level 20",27
+27,"Requires Level 21",28
+28,"Requires Level 22",29
+29,"Requires Level 23",30
+30,"Requires Level 24",31
+31,"Requires Level 23",32
+32,"Requires Level 25",33
+33,"Classes: Warrior ",34
+34,"Requires Level 25",34
+35,"Requires Level 26",35
+36,"Requires Level 27",36
+37,"Requires Level 28",37
+38,"Requires Level 28",38
+39,"Requires Level 28",39
+40,"Requires Level 29",40
+41,"Requires Level 29",41
+42,"Requires Level 30",42
+43,"Requires Level 30",43
+44,"Requires Level 31",44
+45,"Requires Level 31",45
+46,"Requires Level 32",46
+47,"Requires Level 33",442
+48,"Requires Level 32",48
+49,"Requires Level 35",49
+50,"Requires Level 35",50
+51,"Requires Level 35",51
+52,"Binds when picked up",52
+53,"Requires Level 36",445
+54,"Requires Level 35",53
+55,"Requires Level 37",54
+56,"Requires Level 37",55
+57,"Requires Level 37",56
+58,"Requires Level 38",57
+59,"Requires Level 38",58
+60,"Requires Level 38",59
+61,"Requires Level 38",60
+62,"Requires Level 40",446
+63,"Requires Level 40",62
+64,"Requires Level 40",63
+65,"Requires Level 45",447
+66,"Classes: Warrior ",65
+67,"Requires Level 46",65
+68,"Requires Level 41",66
+69,"Requires Level 43",67
+70,"Requires Level 44",68
+71,"Requires Level 45",448
+72,"Requires Level 45",70
+73,"Requires Level 40",452
+74,"Requires Level 55",72
+75,"Requires Level 46",73
+76,"Requires Level 46",74
+77,"Requires Level 47",75
+78,"Requires Level 47",76
+79,"Requires Level 47",77
+80,"Requires Level 48",78
+81,"Requires Level 48",79
+82,"Requires Level 48",80
+83,"Requires Level 48",81
+84,"Requires Level 48",82
+85,"Requires Level 53",83
+86,"Requires Level 49",84
+87,"Binds when picked up",85
+88,Unique,85
+89,Trinket,85
+90,"+8 Spirit",85
+91,"Requires Alchemy (300)",85
+92,"Requires Level 50",86
+93,"Requires Level 50",87
+94,"Requires Level 50",88
+95,"Requires Level 50",89
+96,"Requires Level 50",90
+97,"Requires Level 50",91
+98,"Classes: ",455
+99,"Classes: ",456
+100,"Classes: ",457
+101,"Classes: ",458
+102,"Requires Level 40",93
+103,Wrist,95
+104,"35 Armor",95
+105,"Requires Level 2",95
+106,Chest,460
+107,"81 Armor",460
+108,"Requires Level 2",460
+109,Legs,461
+110,"83 Armor",461
+111,"Requires Level 4",461
+112,"Main Hand",462
+113,"6 -  11 Damage",462
+114,"(3.9 damage per second)",462
+115,"Requires Level 4",462
+116,Feet,463
+117,"65 Armor",463
+118,"Requires Level 4",463
+119,"Main Hand",464
+120,"5 -  10 Damage",464
+121,"(3.9 damage per second)",464
+122,"Requires Level 4",464
+123,"Main Hand",466
+124,"5 -  11 Damage",466
+125,"(3.8 damage per second)",466
+126,"Requires Level 4",466
+127,One-Hand,467
+128,"5 -  10 Damage",467
+129,"(5.0 damage per second)",467
+130,"Requires Level 6",467
+131,Two-Hand,468
+132,"15 -  23 Damage",468
+133,"(6.3 damage per second)",468
+134,"Requires Level 6",468
+135,"Binds when equipped",469
+136,Two-Hand,469
+137,"23 -  35 Damage",469
+138,"(9.1 damage per second)",469
+139,"+3 Stamina",469
+140,"Requires Level 8",469
+141,"Binds when equipped",470
+142,Chest,470
+143,"108 Armor",470
+144,"+1 Strength",470
+145,"Requires Level 5",470
+146,Waist,471
+147,"61 Armor",471
+148,"Requires Level 6",471
+149,Hands,472
+150,"73 Armor",472
+151,"Requires Level 7",472
+152,"Binds when equipped",473
+153,Legs,473
+154,"113 Armor",473
+155,"+2 Strength",473
+156,"+2 Stamina",473
+157,"Requires Level 8",473
+158,"Binds when equipped",474
+159,Hands,474
+160,"90 Armor",474
+161,"Requires Level 10",474
+162,"Requires Level 5",475
+163,Two-Hand,97
+164,"21 -  32 Damage",97
+165,"(9.5 damage per second)",97
+166,"Requires Level 11",97
+167,"Requires Level 5",476
+168,"Binds when equipped",477
+169,Chest,477
+170,"162 Armor",477
+171,"+4 Strength",477
+172,"+3 Stamina",477
+173,"Requires Level 13",477
+174,Wrist,478
+175,"68 Armor",478
+176,"Requires Level 14",478
+177,"Binds when equipped",479
+178,"Main Hand",479
+179,"15 -  28 Damage",479
+180,"(8.6 damage per second)",479
+181,"+1 Stamina",479
+182,"+1 Strength",479
+183,"Requires Level 12",479
+184,Waist,480
+185,"86 Armor",480
+186,"Requires Level 13",480
+187,"Binds when equipped",481
+188,Two-Hand,481
+189,"27 -  41 Damage",481
+190,"(12.6 damage per second)",481
+191,"+6 Stamina",481
+192,"Requires Level 14",481
+193,Feet,482
+194,"106 Armor",482
+195,"Requires Level 13",482
+196,"Binds when equipped",483
+197,One-Hand,483
+198,"13 -  25 Damage",483
+199,"(10.0 damage per second)",483
+200,"+3 Stamina",483
+201,"Requires Level 15",483
+202,"Binds when equipped",485
+203,Chest,485
+204,"198 Armor",485
+205,"+3 Strength",485
+206,"+3 Stamina",485
+207,"Requires Level 15",485
+208,"Requires Blacksmithing (100)",486
+209,"Binds when equipped",99
+210,Legs,99
+211,"149 Armor",99
+212,"+5 Stamina",99
+213,"+4 Spirit",99
+214,"Requires Level 16",99
+215,Chest,487
+216,"168 Armor",487
+217,"Requires Level 18",487
+218,Shoulder,488
+219,"124 Armor",488
+220,"Requires Level 17",488
+221,"Main Hand",489
+222,"18 -  34 Damage",489
+223,"(10.0 damage per second)",489
+224,"Requires Level 17",489
+225,"Binds when equipped",490
+226,One-Hand,490
+227,"13 -  26 Damage",490
+228,"(11.5 damage per second)",490
+229,"+2 Agility",490
+230,"+2 Stamina",490
+231,"Requires Level 18",490
+232,"Main Hand",491
+233,"15 -  29 Damage",491
+234,"(10.5 damage per second)",491
+235,"Requires Level 18",491
+236,"Main Hand",492
+237,"16 -  31 Damage",492
+238,"(11.2 damage per second)",492
+239,"Requires Level 19",492
+240,"Binds when equipped",493
+241,Wrist,493
+242,"80 Armor",493
+243,"+5 Strength",493
+244,"Requires Level 20",493
+245,"Requires Level 15",494
+246,"Binds when equipped",100
+247,One-Hand,100
+248,"16 -  30 Damage",100
+249,"(12.8 damage per second)",100
+250,"+4 Agility",100
+251,"Requires Level 20",100
+252,"Binds when equipped",495
+253,Shoulder,495
+254,"137 Armor",495
+255,"+3 Strength",495
+256,"+3 Stamina",495
+257,"+3 Spirit",495
+258,"Requires Level 20",495
+259,Two-Hand,497
+260,"37 -  57 Damage",497
+261,"(15.2 damage per second)",497
+262,"Requires Level 20",497
+263,"Requires Level 15",498
+264,"Binds when equipped",101
+265,"Main Hand",101
+266,"25 -  47 Damage",101
+267,"(12.9 damage per second)",101
+268,"+4 Strength",101
+269,"Requires Level 20",101
+270,"Binds when equipped",499
+271,Feet,499
+272,"128 Armor",499
+273,"+4 Strength",499
+274,"+4 Stamina",499
+275,"+3 Spirit",499
+276,"Requires Level 21",499
+277,"Binds when equipped",500
+278,Chest,500
+279,"186 Armor",500
+280,"+5 Strength",500
+281,"+5 Stamina",500
+282,"+4 Spirit",500
+283,"Requires Level 21",500
+284,Two-Hand,501
+285,"38 -  58 Damage",501
+286,"(16.0 damage per second)",501
+287,"Requires Level 21",501
+288,"Binds when equipped",502
+289,Hands,502
+290,"118 Armor",502
+291,"+4 Strength",502
+292,"+4 Stamina",502
+293,"+3 Spirit",502
+294,"Requires Level 22",502
+295,Two-Hand,503
+296,"39 -  59 Damage",503
+297,"(16.9 damage per second)",503
+298,"Requires Level 22",503
+299,"Binds when equipped",504
+300,One-Hand,504
+301,"18 -  34 Damage",504
+302,"(14.4 damage per second)",504
+303,"+3 Strength",504
+304,"+3 Stamina",504
+305,"Requires Level 23",504
+306,"Binds when equipped",505
+307,"Main Hand",505
+308,"30 -  57 Damage",505
+309,"(15.5 damage per second)",505
+310,"+5 Strength",505
+311,"Requires Level 25",505
+312,"Binds when equipped",506
+313,Feet,506
+314,"134 Armor",506
+315,"+7 Stamina",506
+316,"+3 Strength",506
+317,"Requires Level 24",506
+318,"Binds when equipped",507
+319,Chest,507
+320,"214 Armor",507
+321,"+14 Strength",507
+322,"+6 Stamina",507
+323,"Requires Level 24",507
+324,"Binds when equipped",508
+325,Hands,508
+326,"124 Armor",508
+327,"+6 Stamina",508
+328,"+5 Strength",508
+329,"Requires Level 25",508
+330,"Requires Blacksmithing (150)",509
+331,"Requires Blacksmithing (150)",511
+332,"Binds when equipped",103
+333,Two-Hand,103
+334,"59 -  89 Damage",103
+335,"(21.1 damage per second)",103
+336,"+12 Stamina",103
+337,"Requires Level 26",103
+338,"Binds when equipped",512
+339,Legs,512
+340,"176 Armor",512
+341,"+8 Stamina",512
+342,"+8 Strength",512
+343,"Requires Level 26",512
+344,"Binds when equipped",513
+345,Legs,513
+346,"176 Armor",513
+347,"+7 Strength",513
+348,"+6 Stamina",513
+349,"+6 Spirit",513
+350,"Requires Level 26",513
+351,"Binds when equipped",514
+352,"Main Hand",514
+353,"21 -  39 Damage",514
+354,"(16.7 damage per second)",514
+355,"+5 Stamina",514
+356,"Requires Level 27",514
+357,"Binds when equipped",515
+358,Shoulder,515
+359,"153 Armor",515
+360,"+7 Stamina",515
+361,"+4 Strength",515
+362,"Requires Level 27",515
+363,"Binds when equipped",516
+364,Shoulder,516
+365,"153 Armor",516
+366,"+6 Strength",516
+367,"+6 Agility",516
+368,"Requires Level 27",516
+369,Chest,517
+370,"204 Armor",517
+371,"+12 Strength",517
+372,"Requires Level 27",517
+373,Wrist,518
+374,"86 Armor",518
+375,"Requires Level 28",518
+376,"Requires Blacksmithing (165)",519
+377,"Binds when equipped",104
+378,Two-Hand,104
+379,"50 -  76 Damage",104
+380,"(22.9 damage per second)",104
+381,"+11 Strength",104
+382,"+4 Stamina",104
+383,"Requires Level 29",104
+384,"Binds when equipped",520
+385,Head,520
+386,"171 Armor",520
+387,"+11 Stamina",520
+388,"+5 Strength",520
+389,"Requires Level 29",520
+390,"Binds when equipped",521
+391,Legs,521
+392,"184 Armor",521
+393,"+11 Strength",521
+394,"+5 Spirit",521
+395,"Requires Level 29",521
+396,"Binds when equipped",522
+397,One-Hand,522
+398,"33 -  62 Damage",522
+399,"(18.3 damage per second)",522
+400,"+4 Strength",522
+401,"+4 Agility",522
+402,"Requires Level 30",522
+403,"Binds when equipped",523
+404,Shoulder,523
+405,"160 Armor",523
+406,"+7 Strength",523
+407,"+6 Spirit",523
+408,"Requires Level 30",523
+409,"Binds when equipped",524
+410,Head,524
+411,"173 Armor",524
+412,"+9 Agility",524
+413,"+9 Strength",524
+414,"Requires Level 30",524
+415,"Binds when equipped",525
+416,Two-Hand,525
+417,"55 -  83 Damage",525
+418,"(24.6 damage per second)",525
+419,"+4 Stamina",525
+420,"+12 Spirit",525
+421,"Requires Level 31",525
+422,"Binds when equipped",526
+423,Chest,526
+424,"358 Armor",526
+425,"+11 Stamina",526
+426,"+7 Strength",526
+427,"Requires Level 31",526
+428,"Binds when equipped",527
+429,Feet,527
+430,"149 Armor",527
+431,"+7 Strength",527
+432,"+7 Agility",527
+433,"Requires Level 31",527
+434,"Binds when equipped",528
+435,One-Hand,528
+436,"19 -  37 Damage",528
+437,"(18.7 damage per second)",528
+438,"Requires Level 31",528
+439,"Binds when equipped",105
+440,Two-Hand,105
+441,"71 -  108 Damage",105
+442,"(25.6 damage per second)",105
+443,"+11 Strength",105
+444,"+7 Stamina",105
+445,"Requires Level 32",105
+446,"Binds when equipped",529
+447,Feet,529
+448,"151 Armor",529
+449,"+11 Stamina",529
+450,"Requires Level 32",529
+451,Wrist,530
+452,"91 Armor",530
+453,"Requires Level 32",530
+454,"Binds when equipped",531
+455,Hands,531
+456,"137 Armor",531
+457,"+11 Strength",531
+458,"Requires Level 32",531
+459,"Binds when equipped",532
+460,Head,532
+461,"181 Armor",532
+462,"+10 Strength",532
+463,"+10 Spirit",532
+464,"Requires Level 33",532
+465,"Requires Blacksmithing (190)",533
+466,"Binds when equipped",106
+467,One-Hand,106
+468,"21 -  39 Damage",106
+469,"(21.4 damage per second)",106
+470,"Requires Level 34",106
+471,"Binds when equipped",107
+472,"Main Hand",107
+473,"30 -  56 Damage",107
+474,"(20.5 damage per second)",107
+475,"+3 Stamina",107
+476,"Requires Level 33",107
+477,"Binds when equipped",108
+478,Chest,108
+479,"231 Armor",108
+480,"+14 Strength",108
+481,"+6 Spirit",108
+482,"Requires Level 35",108
+483,"Binds when equipped",534
+484,Two-Hand,534
+485,"78 -  118 Damage",534
+486,"(28.8 damage per second)",534
+487,"Requires Level 35",534
+488,"Binds when equipped",109
+489,Two-Hand,109
+490,"58 -  87 Damage",109
+491,"(29.0 damage per second)",109
+492,"+11 Strength",109
+493,"+10 Stamina",109
+494,"Requires Level 35",109
+495,"Binds when equipped",535
+496,Feet,535
+497,"159 Armor",535
+498,"+8 Strength",535
+499,"+8 Spirit",535
+500,"Requires Level 35",535
+501,"Binds when equipped",536
+502,Chest,536
+503,"381 Armor",536
+504,"Requires Level 35",536
+505,"Requires Level 25",537
+506,"Requires Level 25",110
+507,"Requires Blacksmithing (200)",540
+508,"Binds when equipped",112
+509,Shoulder,112
+510,"225 Armor",112
+511,"+12 Stamina",112
+512,"Requires Level 40",112
+513,"Binds when equipped",541
+514,Hands,541
+515,"268 Armor",541
+516,"+8 Stamina",541
+517,"Requires Level 40",541
+518,"Binds when equipped",542
+519,Hands,542
+520,"146 Armor",542
+521,"+11 Strength",542
+522,"+4 Spirit",542
+523,"Requires Level 36",542
+524,"Binds when equipped",543
+525,Legs,543
+526,"208 Armor",543
+527,"+11 Spirit",543
+528,"Requires Level 37",543
+529,"Binds when equipped",113
+530,Legs,113
+531,"417 Armor",113
+532,"+11 Stamina",113
+533,"Requires Level 40",113
+534,"Binds when equipped",544
+535,"Main Hand",544
+536,"45 -  85 Damage",544
+537,"(24.1 damage per second)",544
+538,"+7 Stamina",544
+539,"Requires Level 37",544
+540,Head,545
+541,"355 Armor",545
+542,"Requires Level 40",545
+543,"Binds when equipped",546
+544,Wrist,546
+545,"106 Armor",546
+546,"+7 Spirit",546
+547,"+6 Stamina",546
+548,"Requires Level 38",546
+549,"Requires Blacksmithing (215)",547
+550,"Binds when equipped",114
+551,Legs,114
+552,"375 Armor",114
+553,"+12 Strength",114
+554,"Requires Level 40",114
+555,"Binds when equipped",115
+556,Hands,115
+557,"268 Armor",115
+558,"Requires Level 40",115
+559,"Binds when equipped",116
+560,One-Hand,116
+561,"32 -  61 Damage",116
+562,"(25.8 damage per second)",116
+563,"+8 Agility",116
+564,"Requires Level 39",116
+565,"Binds when equipped",548
+566,Shoulder,548
+567,"327 Armor",548
+568,"+5 Strength",548
+569,"Requires Level 40",548
+570,"Binds when equipped",117
+571,Hands,117
+572,"300 Armor",117
+573,"+16 Strength",117
+574,"+7 Stamina",117
+575,"Requires Level 40",117
+576,"Binds when equipped",549
+577,"Main Hand",549
+578,"43 -  80 Damage",549
+579,"(26.7 damage per second)",549
+580,"+6 Strength",549
+581,"+4 Agility",549
+582,"Requires Level 40",549
+583,"Binds when equipped",550
+584,Chest,550
+585,"536 Armor",550
+586,"+15 Stamina",550
+587,"Requires Level 41",550
+588,"Binds when equipped",551
+589,Head,551
+590,"206 Armor",551
+591,"+13 Spirit",551
+592,"+12 Stamina",551
+593,"Requires Level 41",551
+594,"Binds when equipped",552
+595,"Main Hand",552
+596,"46 -  86 Damage",552
+597,"(27.5 damage per second)",552
+598,"+8 Strength",552
+599,"Requires Level 41",552
+600,"Requires Blacksmithing (215)",553
+601,"Binds when equipped",118
+602,Shoulder,118
+603,"194 Armor",118
+604,"+10 Spirit",118
+605,"+10 Stamina",118
+606,"Requires Level 42",118
+607,"Binds when equipped",554
+608,Feet,554
+609,"382 Armor",554
+610,"+12 Stamina",554
+611,"Requires Level 42",554
+612,"Binds when equipped",555
+613,Chest,555
+614,"463 Armor",555
+615,"Requires Level 43",555
+616,"Binds when equipped",119
+617,"Main Hand",119
+618,"53 -  99 Damage",119
+619,"(31.7 damage per second)",119
+620,"Requires Level 42",119
+621,"Binds when equipped",120
+622,Feet,120
+623,"324 Armor",120
+624,"Requires Level 44",120
+625,"Binds when equipped",121
+626,"Main Hand",121
+627,"34 -  63 Damage",121
+628,"(28.5 damage per second)",121
+629,"+8 Agility",121
+630,"Requires Level 43",121
+631,"Binds when equipped",556
+632,Head,556
+633,"469 Armor",556
+634,"+15 Stamina",556
+635,"Requires Level 42",556
+636,"Binds when equipped",557
+637,Chest,557
+638,"519 Armor",557
+639,"+12 Stamina",557
+640,"Requires Level 44",557
+641,"Binds when equipped",122
+642,Head,122
+643,"383 Armor",122
+644,"+10 Strength",122
+645,"Requires Level 44",122
+646,"Binds when equipped",123
+647,"Main Hand",123
+648,"59 -  111 Damage",123
+649,"(32.7 damage per second)",123
+650,"Requires Level 44",123
+651,"Binds when equipped",124
+652,"Main Hand",124
+653,"41 -  76 Damage",124
+654,"(29.2 damage per second)",124
+655,"+7 Strength",124
+656,"+4 Stamina",124
+657,"Requires Level 44",124
+658,"Binds when equipped",558
+659,Two-Hand,558
+660,"93 -  141 Damage",558
+661,"(43.3 damage per second)",558
+662,"Requires Level 45",558
+663,"Requires Level 35",125
+664,"Requires Level 35",126
+665,"Binds when equipped",559
+666,Chest,559
+667,"480 Armor",559
+668,"+8 Fire Resistance+8 Nature Resistance+8 Frost Resistance+8 Shadow Resistance+8 Arcane ResistanceRequires Level 45",559
+669,"Binds when equipped",560
+670,Waist,560
+671,"270 Armor",560
+672,"+6 Fire Resistance+6 Nature Resistance+6 Frost Resistance+6 Shadow Resistance+6 Arcane ResistanceRequires Level 45",560
+673,"Binds when equipped",561
+674,One-Hand,561
+675,"32 -  59 Damage",561
+676,"(30.3 damage per second)",561
+677,"+9 Agility",561
+678,"Requires Level 46",561
+679,"Binds when equipped",562
+680,Wrist,562
+681,"214 Armor",562
+682,"+5 Fire Resistance+5 Nature Resistance+5 Frost Resistance+5 Shadow Resistance+5 Arcane ResistanceRequires Level 46",562
+683,"Binds when equipped",563
+684,Two-Hand,563
+685,"108 -  162 Damage",563
+686,"(45.0 damage per second)",563
+687,"Requires Level 47",563
+688,"Binds when equipped",128
+689,Waist,128
+690,"159 Armor",128
+691,"+12 Frost Resistance+12 Shadow ResistanceRequires Level 47",128
+692,"Binds when equipped",564
+693,Shoulder,564
+694,"380 Armor",564
+695,"+12 Strength",564
+696,"+11 Stamina",564
+697,"Requires Level 47",564
+698,"Binds when equipped",565
+699,Waist,565
+700,"285 Armor",565
+701,"+12 Strength",565
+702,"+11 Stamina",565
+703,"Requires Level 47",565
+704,"Binds when equipped",566
+705,Chest,566
+706,"433 Armor",566
+707,"+13 Stamina",566
+708,"+12 Fire ResistanceRequires Level 51",566
+709,"Binds when equipped",567
+710,Chest,567
+711,"293 Armor",567
+712,"+16 Frost Resistance+16 Shadow ResistanceRequires Level 49",567
+713,"Binds when equipped",568
+714,Wrist,568
+715,"225 Armor",568
+716,"+9 Strength",568
+717,"+8 Stamina",568
+718,"Requires Level 49",568
+719,"Requires Blacksmithing (250)",569
+720,"Binds when picked up",129
+721,"Main Hand",129
+722,"43 -  81 Damage",129
+723,"(32.6 damage per second)",129
+724,"+10 Strength",129
+725,"Requires Level 50",129
+726,"Requires Blacksmithing (275)",570
+727,"Binds when equipped",571
+728,Shoulder,571
+729,"514 Armor",571
+730,"+10 Stamina",571
+731,"+10 Fire ResistanceRequires Level 53",571
+732,"Binds when equipped",572
+733,Feet,572
+734,"367 Armor",572
+735,"+7 Fire Resistance+7 Nature Resistance+7 Frost Resistance+7 Shadow Resistance+7 Arcane ResistanceRequires Level 51",572
+736,"Binds when equipped",573
+737,Head,573
+738,"434 Armor",573
+739,"+10 Fire Resistance+10 Nature Resistance+10 Frost Resistance+10 Shadow Resistance+10 Arcane ResistanceRequires Level 51",573
+740,"Binds when equipped",574
+741,Two-Hand,574
+742,"114 -  172 Damage",574
+743,"(43.3 damage per second)",574
+744,"Requires Level 51",574
+745,"Binds when equipped",131
+746,Hands,131
+747,"192 Armor",131
+748,"+12 Frost Resistance+12 Shadow ResistanceRequires Level 52",131
+749,"Binds when equipped",575
+750,Feet,575
+751,"215 Armor",575
+752,"+15 Frost Resistance+15 Shadow ResistanceRequires Level 53",575
+753,"Binds when equipped",576
+754,"Main Hand",576
+755,"60 -  113 Damage",576
+756,"(34.6 damage per second)",576
+757,"Requires Level 53",576
+758,"Binds when equipped",132
+759,Waist,132
+760,"193 Armor",132
+761,"+9 Stamina",132
+762,"Requires Level 53",132
+763,"Binds when equipped",133
+764,Waist,133
+765,"341 Armor",133
+766,"+21 Strength",133
+767,"+9 Stamina",133
+768,"Requires Level 53",133
+769,"Binds when equipped",577
+770,Feet,577
+771,"386 Armor",577
+772,"+13 Strength",577
+773,"+12 Stamina",577
+774,"Requires Level 54",577
+775,"Binds when equipped",578
+776,Head,578
+777,"456 Armor",578
+778,"+18 Strength",578
+779,"+17 Stamina",578
+780,"Requires Level 54",578
+781,"Binds when equipped",579
+782,Head,579
+783,"258 Armor",579
+784,"+18 Frost Resistance+18 Shadow ResistanceRequires Level 54",579
+785,"Binds when equipped",580
+786,Head,580
+787,"258 Armor",580
+788,"+18 Frost Resistance+18 Shadow ResistanceRequires Level 54",580
+789,"Binds when equipped",580
+790,Legs,580
+791,"499 Armor",580
+792,"+10 Fire Resistance+10 Nature Resistance+10 Frost Resistance+10 Shadow Resistance+10 Arcane ResistanceRequires Level 55",580
+793,"Binds when equipped",581
+794,Chest,581
+795,"570 Armor",581
+796,"+18 Strength",581
+797,"+17 Stamina",581
+798,"Requires Level 55",581
+799,"Binds when equipped",582
+800,Shoulder,582
+801,"527 Armor",582
+802,"+10 Fire Resistance+10 Nature ResistanceRequires Level 55",582
+803,"Binds when equipped",583
+804,Feet,583
+805,"492 Armor",583
+806,"+10 Fire Resistance+10 Nature ResistanceRequires Level 55",583
+807,"Binds when equipped",584
+808,Legs,584
+809,"286 Armor",584
+810,"+18 Frost Resistance+18 Shadow ResistanceRequires Level 56",584
+811,"Binds when equipped",585
+812,Head,585
+813,"621 Armor",585
+814,"+13 Fire Resistance+13 Nature ResistanceRequires Level 56",585
+815,"Binds when equipped",586
+816,Legs,586
+817,"507 Armor",586
+818,"+18 Strength",586
+819,"+18 Stamina",586
+820,"Requires Level 56",586
+821,"Binds when equipped",587
+822,Chest,587
+823,"738 Armor",587
+824,"+15 Fire Resistance+15 Nature ResistanceRequires Level 57",587
+825,"Binds when equipped",588
+826,Legs,588
+827,"665 Armor",588
+828,"+14 Fire Resistance+14 Nature ResistanceRequires Level 57",588
+829,"Binds when equipped",589
+830,Two-Hand,589
+831,"176 -  295 Damage",589
+832,"(63.6 damage per second)",589
+833,"Requires Level 60",589
+834,"Requires Level 50",134
+835,"Binds when equipped",135
+836,Feet,135
+837,"258 Armor",135
+838,"+23 Stamina",135
+839,"Requires Level 59",135
+840,"Binds when equipped",136
+841,Hands,136
+842,"417 Armor",136
+843,"+23 Strength",136
+844,"+10 Stamina",136
+845,"Requires Level 59",136
+846,"Binds when equipped",590
+847,Head,590
+848,"758 Armor",590
+849,"+20 Stamina",590
+850,"+35 Fire ResistanceRequires Level 60",590
+851,"Binds when equipped",591
+852,Hands,591
+853,"495 Armor",591
+854,"+16 Stamina",591
+855,"+12 Agility",591
+856,"+28 Fire ResistanceRequires Level 60",591
+857,"Binds when equipped",592
+858,One-Hand,592
+859,"53 -  100 Damage",592
+860,"(47.8 damage per second)",592
+861,"Requires Level 60",592
+862,"Binds when equipped",137
+863,Two-Hand,137
+864,"105 -  158 Damage",137
+865,"(62.6 damage per second)",137
+866,"+35 Strength",137
+867,"+15 Stamina",137
+868,"+10 Fire ResistanceRequires Level 60",137
+869,"Binds when equipped",138
+870,One-Hand,138
+871,"83 -  154 Damage",138
+872,"(51.5 damage per second)",138
+873,"+9 Stamina",138
+874,"+7 Fire ResistanceRequires Level 60",138
+875,"Binds when equipped",139
+876,One-Hand,139
+877,"65 -  121 Damage",139
+878,"(51.7 damage per second)",139
+879,"+9 Stamina",139
+880,"Requires Level 60",139
+881,"Binds when equipped",140
+882,Two-Hand,140
+883,"171 -  258 Damage",140
+884,"(67.0 damage per second)",140
+885,"Requires Level 60",140
+886,"Binds when equipped",141
+887,Chest,141
+888,"381 Armor",141
+889,"+13 Stamina",141
+890,"+9 Agility",141
+891,"Requires Level 60",141
+892,"Binds when equipped",142
+893,Hands,142
+894,"238 Armor",142
+895,"+17 Stamina",142
+896,"+10 Agility",142
+897,"Requires Level 60",142
+898,"Binds when equipped",143
+899,Shoulder,143
+900,"286 Armor",143
+901,"+24 Agility",143
+902,"+10 Stamina",143
+903,"Requires Level 60",143
+904,"Binds when equipped",593
+905,Chest,593
+906,"736 Armor",593
+907,"+32 Stamina",593
+908,"Requires Level 60",593
+909,"Binds when equipped",144
+910,Legs,144
+911,"722 Armor",144
+912,"+22 Stamina",144
+913,"Requires Level 60",144
+914,"Binds when equipped",145
+915,Shoulder,145
+916,"507 Armor",145
+917,"+24 Stamina",145
+918,"Requires Level 60",145
+919,"Binds when equipped",146
+920,Feet,146
+921,"664 Armor",146
+922,"+28 Fire ResistanceRequires Level 60",146
+923,"Binds when equipped",594
+924,Chest,594
+925,"657 Armor",594
+926,"+14 Stamina",594
+927,"+25 Shadow ResistanceRequires Level 58",594
+928,"Binds when equipped",147
+929,Hands,147
+930,"410 Armor",147
+931,"+8 Stamina",147
+932,"+20 Shadow ResistanceRequires Level 58",147
+933,"Binds when equipped",148
+934,Head,148
+935,"534 Armor",148
+936,"+13 Stamina",148
+937,"+25 Shadow ResistanceRequires Level 58",148
+938,"Classes: ",149
+939,"Classes: ",595
+940,"Classes: ",596
+941,"Classes: ",597
+942,"Binds when equipped",598
+943,Legs,598
+944,"208 Armor",598
+945,"+17 Strength",598
+946,"Requires Level 37",598
+947,"Classes: ",599
+948,"Classes: ",600
+949,"Classes: ",601
+950,"Classes: ",602
+951,"Classes: ",603
+952,"Classes: ",604
+953,"Classes: ",605
+954,"Binds when equipped",606
+955,Waist,606
+956,"397 Armor",606
+957,"+25 Strength",606
+958,"Requires Level 60",606
+959,"Binds when equipped",150
+960,Waist,150
+961,"224 Armor",150
+962,"Requires Level 60",150
+963,"Binds when equipped",151
+964,"Off Hand (Shield)",151
+965,"2645 Armor",151
+966,"48 Block",151
+967,"Requires Level 60",151
+968,"Binds when equipped",152
+969,Hands,152
+970,"279 Armor",152
+971,"Requires Level 60",152
+972,"Binds when equipped",153
+973,Chest,153
+974,"458 Armor",153
+975,"Requires Level 60",153
+976,"Binds when equipped",154
+977,Chest,154
+978,"814 Armor",154
+979,"+38 Strength",154
+980,"+16 Stamina",154
+981,"Requires Level 60",154
+982,"Binds when equipped",155
+983,"Main Hand",155
+984,"86 -  161 Damage",155
+985,"(45.7 damage per second)",155
+986,"Requires Level 58",155
+987,"Binds when equipped",156
+988,Legs,156
+989,"598 Armor",156
+990,"+30 Strength",156
+991,"Requires Level 55",156
+992,"Binds when equipped",157
+993,"Main Hand",157
+994,"49 -  100 Damage",157
+995,"(41.4 damage per second)",157
+996,"+14 Stamina",157
+997,"+6 Intellect",157
+998,"Requires Level 59",157
+999,"Binds when equipped",158
+1000,Two-Hand,158
+1001,"140 -  211 Damage",158
+1002,"(47.4 damage per second)",158
+1003,"Requires Level 50",158
+1004,"Binds when equipped",159
+1005,Two-Hand,159
+1006,"101 -  153 Damage",159
+1007,"(48.8 damage per second)",159
+1008,"Requires Level 52",159
+1009,"Binds when equipped",160
+1010,Unique,160
+1011,One-Hand,160
+1012,"49 -  92 Damage",160
+1013,"(41.5 damage per second)",160
+1014,"+4 Strength",160
+1015,"Requires Level 58",160
+1016,"Binds when equipped",161
+1017,Chest,161
+1018,"322 Armor",161
+1019,"+11 Spirit",161
+1020,"+5 Stamina",161
+1021,"Requires Level 49",161
+1022,"Binds when picked up",162
+1023,Chest,162
+1024,"817 Armor",162
+1025,"+12 Stamina",162
+1026,"+19 Fire ResistanceRequires Level 54",162
+1027,"Binds when equipped",607
+1028,Chest,607
+1029,"597 Armor",607
+1030,"+12 Stamina",607
+1031,"Requires Level 52",607
+1032,"Binds when equipped",163
+1033,Hands,163
+1034,"379 Armor",163
+1035,"+10 Fire ResistanceRequires Level 53",163
+1036,"Binds when equipped",164
+1037,Hands,164
+1038,"218 Armor",164
+1039,"+7 Intellect",164
+1040,"+10 Fire ResistanceRequires Level 54",164
+1041,"Binds when equipped",165
+1042,Wrist,165
+1043,"394 Armor",165
+1044,"+7 Stamina",165
+1045,"+18 Fire ResistanceRequires Level 54",165
+1046,"Binds when equipped",608
+1047,Waist,608
+1048,"214 Armor",608
+1049,"+10 Stamina",608
+1050,"+9 Intellect",608
+1051,"+8 Spirit",608
+1052,"+24 Fire ResistanceRequires Level 54",608
+1053,"Binds when equipped",609
+1054,Head,609
+1055,"629 Armor",609
+1056,"+15 Spirit",609
+1057,"+15 Intellect",609
+1058,"Requires Level 55",609
+1059,"Binds when equipped",166
+1060,Head,166
+1061,"292 Armor",166
+1062,"+12 Stamina",166
+1063,"+30 Spirit",166
+1064,"Requires Level 56",166
+1065,"Binds when equipped",610
+1066,Head,610
+1067,"565 Armor",610
+1068,"+18 Strength",610
+1069,"Requires Level 56",610
+1070,"Binds when equipped",167
+1071,Hands,167
+1072,"441 Armor",167
+1073,"+12 Stamina",167
+1074,"Requires Level 57",167
+1075,"Binds when equipped",168
+1076,Head,168
+1077,"526 Armor",168
+1078,"+25 Stamina",168
+1079,"+12 Strength",168
+1080,"Requires Level 57",168
+1081,"Binds when equipped",169
+1082,Legs,169
+1083,"575 Armor",169
+1084,"+21 Stamina",169
+1085,"+20 Strength",169
+1086,"Requires Level 58",169
+1087,"Binds when equipped",170
+1088,Chest,170
+1089,"657 Armor",170
+1090,"+26 Stamina",170
+1091,"+12 Strength",170
+1092,"Requires Level 58",170
+1093,"Binds when equipped",171
+1094,Chest,171
+1095,"554 Armor",171
+1096,"Requires Level 57",171
+1097,"Binds when equipped",172
+1098,Legs,172
+1099,"778 Armor",172
+1100,"+14 Stamina",172
+1101,"+30 Fire ResistanceRequires Level 55",172
+1102,"Binds when equipped",611
+1103,Shoulder,611
+1104,"299 Armor",611
+1105,"+14 Intellect",611
+1106,"+10 Stamina",611
+1107,"+25 Fire ResistanceRequires Level 57",611
+1108,"Binds when equipped",612
+1109,One-Hand,612
+1110,"44 -  82 Damage",612
+1111,"(37.1 damage per second)",612
+1112,"Requires Level 51",612
+1113,"Binds when picked up",173
+1114,Two-Hand,173
+1115,"119 -  179 Damage",173
+1116,"(49.7 damage per second)",173
+1117,"+30 Strength",173
+1118,"+30 Stamina",173
+1119,"-40 Spirit",173
+1120,"Classes: Warlock Mage Shaman Druid Priest Rogue Warrior Hunter Paladin ",173
+1121,"Requires Level 53",173
+1122,"Binds when equipped",613
+1123,Two-Hand,613
+1124,"129 -  194 Damage",613
+1125,"(53.8 damage per second)",613
+1126,"Requires Level 58",613
+1127,"Binds when equipped",174
+1128,"Main Hand",174
+1129,"66 -  124 Damage",174
+1130,"(41.3 damage per second)",174
+1131,"Requires Level 58",174
+1132,"Binds when equipped",175
+1133,"Main Hand",175
+1134,"71 -  134 Damage",175
+1135,"(42.7 damage per second)",175
+1136,"+10 Stamina",175
+1137,"+6 Fire ResistanceRequires Level 60",175
+1138,"Binds when equipped",614
+1139,Two-Hand,614
+1140,"100 -  150 Damage",614
+1141,"(48.1 damage per second)",614
+1142,"Requires Level 51",614
+1143,"Binds when equipped",176
+1144,"Main Hand",176
+1145,"52 -  98 Damage",176
+1146,"(37.5 damage per second)",176
+1147,"Requires Level 52",176
+1148,"Binds when equipped",177
+1149,Two-Hand,177
+1150,"163 -  246 Damage",177
+1151,"(53.8 damage per second)",177
+1152,"+15 Strength",177
+1153,"Requires Level 58",177
+1154,"Binds when equipped",178
+1155,"Main Hand",178
+1156,"58 -  108 Damage",178
+1157,"(41.5 damage per second)",178
+1158,"Requires Level 57",178
+1159,"Binds when equipped",179
+1160,One-Hand,179
+1161,"53 -  100 Damage",179
+1162,"(36.4 damage per second)",179
+1163,"Requires Level 50",179
+1164,"Binds when equipped",180
+1165,"Main Hand",180
+1166,"49 -  92 Damage",180
+1167,"(41.5 damage per second)",180
+1168,"Requires Level 58",180
+1169,"Binds when equipped",181
+1170,Two-Hand,181
+1171,"153 -  256 Damage",181
+1172,"(53.8 damage per second)",181
+1173,"+13 Stamina",181
+1174,"Requires Level 58",181
+1175,"Binds when equipped",182
+1176,"Main Hand",182
+1177,"71 -  134 Damage",182
+1178,"(42.7 damage per second)",182
+1179,"+10 Strength",182
+1180,"+6 Fire ResistanceRequires Level 60",182
+1181,"Binds when equipped",615
+1182,"Main Hand",615
+1183,"71 -  134 Damage",615
+1184,"(42.7 damage per second)",615
+1185,"+10 Strength",615
+1186,"+6 Fire ResistanceRequires Level 60",615
+1187,"Binds when equipped",998
+1188,"Main Hand",998
+1189,"71 -  134 Damage",998
+1190,"(42.7 damage per second)",998
+1191,"+10 Strength",998
+1192,"+6 Fire ResistanceRequires Level 60",998
+1193,"Binds when picked up",998
+1194,"Binds when picked up",616
+1195,"Binds when picked up",998
+1196,"Binds when equipped",998
+1197,Range,998
+1198,"12 -  22 Arcane Damage",998
+1199,"(11.3 damage per second)",998
+1200,"Requires Level 5",998
+1201,"Binds when equipped",617
+1202,Range,617
+1203,"12 -  22 Arcane Damage",617
+1204,"(11.3 damage per second)",617
+1205,"Requires Level 5",617
+1206,"Binds when equipped",998
+1207,Range,998
+1208,"12 -  22 Arcane Damage",998
+1209,"(11.3 damage per second)",998
+1210,"Requires Level 5",998
+1211,"Binds when equipped",998
+1212,Range,998
+1213,"12 -  22 Arcane Damage",998
+1214,"(11.3 damage per second)",998
+1215,"Requires Level 5",998
+1216,"Requires Level 5",998
+1217,"Requires Level 5",183
+1218,"Requires Level 5",998
+1219,"Requires Level 5",998
+1220,"Requires Level 5",998
+1221,"Binds when equipped",998
+1222,Range,998
+1223,"22 -  41 Arcane Damage",998
+1224,"(17.5 damage per second)",998
+1225,"Requires Level 13",998
+1226,"Binds when equipped",618
+1227,Range,618
+1228,"22 -  41 Arcane Damage",618
+1229,"(17.5 damage per second)",618
+1230,"Requires Level 13",618
+1231,"Binds when equipped",998
+1232,Range,998
+1233,"22 -  41 Arcane Damage",998
+1234,"(17.5 damage per second)",998
+1235,"Requires Level 13",998
+1236,"Binds when equipped",998
+1237,Range,998
+1238,"22 -  41 Arcane Damage",998
+1239,"(17.5 damage per second)",998
+1240,"Requires Level 13",998
+1241,"Binds when equipped",998
+1242,Range,998
+1243,"22 -  41 Arcane Damage",998
+1244,"(17.5 damage per second)",998
+1245,"Requires Level 13",998
+1246,"Binds when equipped",998
+1247,Range,998
+1248,"22 -  41 Arcane Damage",998
+1249,"(17.5 damage per second)",998
+1250,"Requires Level 13",998
+1251,"Binds when equipped",998
+1252,Range,998
+1253,"22 -  41 Arcane Damage",998
+1254,"(17.5 damage per second)",998
+1255,"Requires Level 13",998
+1256,"Binds when equipped",998
+1257,Range,998
+1258,"22 -  41 Arcane Damage",998
+1259,"(17.5 damage per second)",998
+1260,"Requires Level 13",998
+1261,"Binds when picked up",998
+1262,"Binds when picked up",619
+1263,"Binds when picked up",998
+1264,"Binds when picked up",998
+1265,"Binds when picked up",998
+1266,"Binds when picked up",998
+1267,"Binds when picked up",998
+1268,"Binds when picked up",998
+1269,"Binds when picked up",998
+1270,"Binds when picked up",998
+1271,"Binds when picked up",998
+1272,"Binds when picked up",998
+1273,"Binds when picked up",998
+1274,"Binds when picked up",998
+1275,"Binds when picked up",998
+1276,"Binds when picked up",998
+1277,"Binds when picked up",998
+1278,"Binds when picked up",998
+1279,"Binds when picked up",998
+1280,"Binds when picked up",998
+1281,"Binds when picked up",998
+1282,"Binds when picked up",998
+1283,"Binds when picked up",998
+1284,"Binds when equipped",620
+1285,Range,620
+1286,"23 -  43 Arcane Damage",620
+1287,"(25.4 damage per second)",620
+1288,"Requires Level 26",620
+1289,"Requires Level 20",621
+1290,"Requires Level 20",184
+1291,"Requires Level 20",998
+1292,"Requires Level 20",998
+1293,"Requires Level 20",998
+1294,"Requires Level 20",998
+1295,"Requires Level 20",998
+1296,"Requires Level 20",998
+1297,"Requires Level 20",998
+1298,"Requires Level 20",998
+1299,"Requires Level 20",998
+1300,"Requires Level 20",998
+1301,"Binds when equipped",998
+1302,Range,998
+1303,"40 -  76 Arcane Damage",998
+1304,"(29.0 damage per second)",998
+1305,"Requires Level 30",998
+1306,"Binds when equipped",622
+1307,Range,622
+1308,"40 -  76 Arcane Damage",622
+1309,"(29.0 damage per second)",622
+1310,"Requires Level 30",622
+1311,"Binds when equipped",998
+1312,Range,998
+1313,"40 -  76 Arcane Damage",998
+1314,"(29.0 damage per second)",998
+1315,"Requires Level 30",998
+1316,"Binds when equipped",998
+1317,Range,998
+1318,"40 -  76 Arcane Damage",998
+1319,"(29.0 damage per second)",998
+1320,"Requires Level 30",998
+1321,"Binds when equipped",998
+1322,Range,998
+1323,"40 -  76 Arcane Damage",998
+1324,"(29.0 damage per second)",998
+1325,"Requires Level 30",998
+1326,"Binds when equipped",998
+1327,Range,998
+1328,"40 -  76 Arcane Damage",998
+1329,"(29.0 damage per second)",998
+1330,"Requires Level 30",998
+1331,"Binds when equipped",998
+1332,Range,998
+1333,"40 -  76 Arcane Damage",998
+1334,"(29.0 damage per second)",998
+1335,"Requires Level 30",998
+1336,"Binds when equipped",998
+1337,Range,998
+1338,"40 -  76 Arcane Damage",998
+1339,"(29.0 damage per second)",998
+1340,"Requires Level 30",998
+1341,"Binds when equipped",998
+1342,Range,998
+1343,"40 -  76 Arcane Damage",998
+1344,"(29.0 damage per second)",998
+1345,"Requires Level 30",998
+1346,"Binds when equipped",998
+1347,Range,998
+1348,"40 -  76 Arcane Damage",998
+1349,"(29.0 damage per second)",998
+1350,"Requires Level 30",998
+1351,"Binds when picked up",998
+1352,"Requires Level 30",623
+1353,"Requires Level 30",185
+1354,"Requires Level 30",998
+1355,"Requires Level 30",998
+1356,"Requires Level 30",998
+1357,"Requires Level 30",998
+1358,"Requires Level 30",998
+1359,"Requires Level 30",998
+1360,"Requires Level 30",998
+1361,"Requires Level 30",998
+1362,"Requires Level 30",998
+1363,"Requires Level 30",998
+1364,"Requires Level 30",998
+1365,"Requires Level 30",998
+1366,"Requires Level 30",998
+1367,"Requires Level 30",998
+1368,"Requires Level 30",998
+1369,"Requires Level 30",998
+1370,"Requires Level 30",998
+1371,"Requires Level 30",998
+1372,"Requires Level 30",998
+1373,"Requires Level 30",998
+1374,"Requires Level 30",998
+1375,"Requires Level 30",998
+1376,"Requires Level 30",998
+1377,"Requires Level 40",625
+1378,"Requires Level 40",186
+1379,"Requires Level 40",998
+1380,"Requires Level 40",998
+1381,"Binds when picked up",998
+1382,Unique,998
+1383,Trinket,998
+1384,"150 Armor",998
+1385,"+7 Fire Resistance+7 Nature Resistance+7 Frost Resistance+7 Shadow ResistanceRequires Level 50",998
+1386,"Binds when picked up",626
+1387,Unique,626
+1388,Trinket,626
+1389,"150 Armor",626
+1390,"+7 Fire Resistance+7 Nature Resistance+7 Frost Resistance+7 Shadow ResistanceRequires Level 50",626
+1391,"Binds when picked up",998
+1392,Unique,998
+1393,Trinket,998
+1394,"150 Armor",998
+1395,"+7 Fire Resistance+7 Nature Resistance+7 Frost Resistance+7 Shadow ResistanceRequires Level 50",998
+1396,"Binds when picked up",998
+1397,Unique,998
+1398,Trinket,998
+1399,"150 Armor",998
+1400,"+7 Fire Resistance+7 Nature Resistance+7 Frost Resistance+7 Shadow ResistanceRequires Level 50",998
+1401,"Binds when picked up",998
+1402,Unique,998
+1403,Trinket,998
+1404,"150 Armor",998
+1405,"+7 Fire Resistance+7 Nature Resistance+7 Frost Resistance+7 Shadow ResistanceRequires Level 50",998
+1406,"Binds when picked up",998
+1407,Unique,998
+1408,Trinket,998
+1409,"150 Armor",998
+1410,"+7 Fire Resistance+7 Nature Resistance+7 Frost Resistance+7 Shadow ResistanceRequires Level 50",998
+1411,"Binds when picked up",998
+1412,Unique,998
+1413,Trinket,998
+1414,"150 Armor",998
+1415,"+7 Fire Resistance+7 Nature Resistance+7 Frost Resistance+7 Shadow ResistanceRequires Level 50",998
+1416,"Requires Level 40",998
+1417,"Requires Level 40",187
+1418,"Requires Level 40",998
+1419,"Requires Level 40",998
+1420,"Requires Level 40",998
+1421,"Binds when picked up",998
+1422,"Binds when picked up",627
+1423,"Binds when picked up",998
+1424,"Binds when picked up",998
+1425,"Binds when picked up",998
+1426,"Binds when picked up",998
+1427,"Binds when picked up",998
+1428,"Binds when picked up",998
+1429,"Binds when picked up",998
+1430,"Binds when picked up",998
+1431,"Binds when picked up",998
+1432,"Binds when picked up",998
+1433,"Binds when picked up",998
+1434,"Binds when picked up",998
+1435,"Binds when picked up",998
+1436,"Binds when picked up",998
+1437,"Binds when picked up",998
+1438,"Binds when picked up",998
+1439,"Binds when picked up",998
+1440,"Binds when picked up",998
+1441,"Binds when picked up",998
+1442,"Binds when picked up",998
+1443,"Binds when picked up",998
+1444,"Binds when picked up",998
+1445,"Binds when picked up",998
+1446,"Binds when picked up",998
+1447,"Binds when picked up",998
+1448,"Binds when picked up",998
+1449,"Binds when picked up",998
+1450,"Binds when picked up",998
+1451,"Binds when picked up",998
+1452,"Binds when picked up",998
+1453,"Requires Level 45",998
+1454,"Requires Level 45",188
+1455,"Requires Level 45",189
+1456,"Requires Level 45",998
+1457,"Requires Level 45",998
+1458,"Requires Level 45",998
+1459,"Requires Level 45",998
+1460,"Classes: ",998
+1461,"Classes: ",628
+1462,"Requires Engineering (1)",629
+1463,Ammo,190
+1464,"2 -  2 Damage",190
+1465,"(0.7 damage per second)",190
+1466,"Requires Level 5",190
+1467,"Requires Engineering (30)",631
+1468,"Binds when equipped",632
+1469,Range,632
+1470,"6 -  13 Damage",632
+1471,"(4.1 damage per second)",632
+1472,"Requires Level 5",632
+1473,"Main Hand",633
+1474,"5 -  8 Damage",633
+1475,"(2.7 damage per second)",633
+1476,"Requires Engineering (50)",633
+1477,"Requires Level 5",634
+1478,Ammo,636
+1479,"4 -  5 Damage",636
+1480,"(1.5 damage per second)",636
+1481,"Requires Level 15",636
+1482,"Requires Engineering (75)",637
+1483,"Requires Engineering (85)",194
+1484,"Requires Engineering (100)",638
+1485,"Binds when equipped",196
+1486,Head,196
+1487,"27 Armor",196
+1488,"+4 Stamina",196
+1489,"+4 Spirit",196
+1490,"Requires Engineering (100)",196
+1491,"Requires Level 10",640
+1492,"Binds when equipped",197
+1493,Range,197
+1494,"15 -  28 Damage",197
+1495,"(8.3 damage per second)",197
+1496,"Requires Level 16",197
+1497,"Requires Engineering (105)",641
+1498,"Requires Level 10",642
+1499,"Binds when equipped",199
+1500,Range,199
+1501,"12 -  23 Damage",199
+1502,"(9.7 damage per second)",199
+1503,"Requires Level 19",199
+1504,"Binds when equipped",643
+1505,Head,643
+1506,"31 Armor",643
+1507,"+6 Spirit",643
+1508,"+5 Intellect",643
+1509,"Requires Engineering (120)",643
+1510,"Requires Engineering (120)",644
+1511,"Requires Level 15",645
+1512,"Requires Engineering (125)",646
+1513,Ammo,202
+1514,"8 -  9 Damage",202
+1515,"(2.8 damage per second)",202
+1516,"Requires Level 30",202
+1517,"Binds when equipped",647
+1518,Trinket,647
+1519,"Requires Engineering (125)",647
+1520,"Binds when equipped",206
+1521,Range,206
+1522,"19 -  37 Damage",206
+1523,"(10.4 damage per second)",206
+1524,"Requires Level 21",206
+1525,"Binds when equipped",648
+1526,Feet,648
+1527,"41 Armor",648
+1528,"Requires Engineering (140)",208
+1529,Trinket,209
+1530,"Requires Engineering (140)",209
+1531,"Binds when equipped",649
+1532,Range,649
+1533,"14 -  26 Damage",649
+1534,"(11.8 damage per second)",649
+1535,"Requires Level 24",649
+1536,"Requires Engineering (150)",650
+1537,"Binds when equipped",211
+1538,Head,211
+1539,"35 Armor",211
+1540,"+8 Stamina",211
+1541,"+7 Spirit",211
+1542,"Requires Engineering (150)",211
+1543,"Requires Fishing (100)",651
+1544,"Requires Level 21",215
+1545,"Requires Engineering (165)",217
+1546,Trinket,218
+1547,"Requires Engineering (165)",218
+1548,"Requires Engineering (175)",654
+1549,"Requires Level 30",220
+1550,"Requires Engineering (175)",220
+1551,"Requires Engineering (175)",655
+1552,"Binds when equipped",222
+1553,Head,222
+1554,"38 Armor",222
+1555,"+9 Spirit",222
+1556,"+9 Stamina",222
+1557,"Requires Engineering (175)",222
+1558,"Requires Level 20",225
+1559,"Requires Engineering (185)",226
+1560,"Binds when equipped",227
+1561,Head,227
+1562,"40 Armor",227
+1563,"+15 Intellect",227
+1564,"Requires Level 32",227
+1565,"Requires Engineering (185)",227
+1566,"Requires Level 27",658
+1567,"Requires Engineering (190)",228
+1568,"Requires Engineering (190)",229
+1569,"Requires Engineering (195)",230
+1570,"Binds when equipped",659
+1571,Unique,659
+1572,Trinket,659
+1573,"Requires Level 30",659
+1574,"Requires Engineering (200)",659
+1575,"Binds when equipped",232
+1576,Trinket,232
+1577,"Requires Engineering (200)",232
+1578,"Requires Engineering (200)",233
+1579,"Requires Engineering (200)",660
+1580,"Requires Level 30",235
+1581,"Binds when equipped",236
+1582,Head,236
+1583,"44 Armor",236
+1584,"+17 Fire ResistanceRequires Engineering (205)",236
+1585,"Binds when equipped",661
+1586,Range,661
+1587,"36 -  68 Damage",661
+1588,"(17.9 damage per second)",661
+1589,"+5 Agility",661
+1590,"Requires Level 36",661
+1591,"Requires Alchemy (210)",662
+1592,"Binds when equipped",237
+1593,Trinket,237
+1594,"Requires Engineering (205)",237
+1595,"Binds when picked up",238
+1596,Head,238
+1597,"190 Armor",238
+1598,"+15 Stamina",238
+1599,"Requires Engineering (205)",238
+1600,"Binds when picked up",239
+1601,Head,239
+1602,"44 Armor",239
+1603,"+15 Fire ResistanceRequires Engineering (205)",239
+1604,"Requires Engineering (205)",240
+1605,"Binds when picked up",241
+1606,"Binds when picked up",242
+1607,Ammo,243
+1608,"12 -  13 Damage",243
+1609,"(4.2 damage per second)",243
+1610,"Requires Level 37",243
+1611,"Requires Level 30",663
+1612,"Binds when picked up",244
+1613,Head,244
+1614,"45 Armor",244
+1615,"+9 Agility",244
+1616,"+9 Stamina",244
+1617,"+9 Spirit",244
+1618,"Requires Engineering (210)",244
+1619,"Binds when equipped",664
+1620,Trinket,664
+1621,"Requires Engineering (210)",664
+1622,"Requires Engineering (205)",665
+1623,"Binds when equipped",246
+1624,Waist,246
+1625,"66 Armor",246
+1626,"+6 Stamina",246
+1627,"Requires Engineering (215)",246
+1628,"Binds when equipped",247
+1629,Head,247
+1630,"47 Armor",247
+1631,"Requires Engineering (220)",247
+1632,"Binds when equipped",248
+1633,Range,248
+1634,"41 -  76 Damage",248
+1635,"(20.2 damage per second)",248
+1636,"Requires Level 39",248
+1637,"Binds when equipped",249
+1638,Head,249
+1639,"46 Armor",249
+1640,"Requires Engineering (215)",249
+1641,"Binds when equipped",250
+1642,Back,250
+1643,"30 Armor",250
+1644,"+8 Agility",250
+1645,"Requires Engineering (225)",250
+1646,"Binds when equipped",251
+1647,Feet,251
+1648,"41 Armor",251
+1649,"Requires Engineering (225)",251
+1650,"Binds when equipped",256
+1651,Head,256
+1652,"49 Armor",256
+1653,"+15 Stamina",256
+1654,"Requires Engineering (230)",256
+1655,"Binds when equipped",257
+1656,Head,257
+1657,"49 Armor",257
+1658,"+13 Spirit",257
+1659,"+12 Intellect",257
+1660,"Requires Engineering (230)",257
+1661,"Binds when picked up",666
+1662,Trinket,666
+1663,"Requires Engineering (230)",666
+1664,"Binds when picked up",258
+1665,Trinket,258
+1666,"Requires Engineering (230)",258
+1667,"Requires Engineering (235)",259
+1668,"Requires Engineering (225)",260
+1669,"Binds when equipped",261
+1670,Head,261
+1671,"50 Armor",261
+1672,"+14 Spirit",261
+1673,"Requires Engineering (215)",261
+1674,"Requires Level 40",262
+1675,"Binds when picked up",263
+1676,Trinket,263
+1677,"Binds when picked up",264
+1678,Trinket,264
+1679,Ammo,265
+1680,"15 -  15 Damage",265
+1681,"(5.0 damage per second)",265
+1682,"Requires Level 44",265
+1683,"Binds when equipped",667
+1684,Head,667
+1685,"57 Armor",667
+1686,"+10 Stamina",667
+1687,"Requires Engineering (245)",667
+1688,"Binds when equipped",668
+1689,Head,668
+1690,"50 Armor",668
+1691,"+15 Stamina",668
+1692,"Requires Engineering (235)",668
+1693,"Binds when equipped",266
+1694,Unique,266
+1695,Trinket,266
+1696,"Requires Level 40",266
+1697,"Requires Engineering (250)",266
+1698,"Requires Leatherworking (250)",267
+1699,"Requires Engineering (250)",669
+1700,"Requires Engineering (260)",270
+1701,"Binds when equipped",271
+1702,Range,271
+1703,"42 -  79 Damage",271
+1704,"(24.2 damage per second)",271
+1705,"Requires Level 47",271
+1706,"Binds when equipped",671
+1707,Trinket,671
+1708,"+15 Frost ResistanceRequires Level 47",671
+1709,"Requires Engineering (260)",671
+1710,"Binds when equipped",274
+1711,Head,274
+1712,"57 Armor",274
+1713,"Requires Engineering (270)",274
+1714,"Binds when equipped",275
+1715,Range,275
+1716,"53 -  100 Damage",275
+1717,"+ 2 -  4 Shadow Damage",275
+1718,"(29.4 damage per second)",275
+1719,"Requires Level 50",275
+1720,"Requires Engineering (275)",672
+1721,Trinket,673
+1722,"Requires Engineering (275)",673
+1723,"Requires Engineering (275)",277
+1724,"Requires Engineering (285)",674
+1725,Ammo,283
+1726,"17 -  18 Damage",283
+1727,"(5.8 damage per second)",283
+1728,"Requires Level 52",283
+1729,"Binds when equipped",675
+1730,Neck,675
+1731,"Binds when equipped",284
+1732,Head,284
+1733,"61 Armor",284
+1734,"+17 Spirit",284
+1735,"+16 Stamina",284
+1736,"Requires Engineering (280)",284
+1737,"Binds when equipped",676
+1738,Trinket,676
+1739,"+18 Fire ResistanceRequires Level 53",676
+1740,"Requires Engineering (290)",676
+1741,"Requires Engineering (300)",285
+1742,"Binds when equipped",286
+1743,Unique,286
+1744,Trinket,286
+1745,"Requires Level 50",286
+1746,"Requires Engineering (300)",286
+1747,"Binds when equipped",287
+1748,Range,287
+1749,"65 -  122 Damage",287
+1750,"(31.2 damage per second)",287
+1751,"Requires Level 56",287
+1752,"Requires Level 50",288
+1753,"Binds when equipped",289
+1754,Range,289
+1755,"64 -  120 Damage",289
+1756,"(36.8 damage per second)",289
+1757,"Requires Level 60",289
+1758,"Binds when equipped",290
+1759,"Off Hand (Shield)",290
+1760,"2548 Armor",290
+1761,"44 Block",290
+1762,"+11 Stamina",290
+1763,"Requires Level 60",290
+1764,"Requires Engineering (300)",290
+1765,"Binds when equipped",291
+1766,Trinket,291
+1767,"+20 Shadow ResistanceRequires Level 55",291
+1768,"Requires Engineering (300)",291
+1769,"Binds when equipped",292
+1770,Head,292
+1771,"75 Armor",292
+1772,"Requires Level 60",292
+1773,"Requires Engineering (300)",292
+1774,"Binds when equipped",293
+1775,Head,293
+1776,"147 Armor",293
+1777,"+12 Stamina",293
+1778,"Requires Level 60",293
+1779,"Requires Engineering (300)",293
+1780,"Classes: ",294
+1781,"Classes: ",677
+1782,"Classes: ",678
+1783,"Requires Blacksmithing (200)",679
+1784,"Classes: ",295
+1785,"Classes: ",680
+1786,"Requires Engineering (300)",681
+1787,Trinket,296
+1788,"Requires Engineering (260)",296
+1789,"Requires: Gnomish Engineer",296
+1790,Trinket,297
+1791,"Requires Engineering (260)",297
+1792,"Requires: Goblin Engineer",297
+1793,Unique,298
+1794,"Binds when equipped",299
+1795,Trinket,299
+1796,"Requires Engineering (205)",299
+1797,"Requires Engineering (250)",300
+1798,"Requires: Gnomish Engineer",300
+1799,"Requires Engineering (265)",301
+1800,Trinket,302
+1801,"Requires Engineering (265)",302
+1802,Feet,303
+1803,"31 Armor",303
+1804,"Requires Level 3",303
+1805,Chest,683
+1806,"45 Armor",683
+1807,"Requires Level 3",683
+1808,Back,684
+1809,"8 Armor",684
+1810,"Requires Level 4",684
+1811,Wrist,685
+1812,"21 Armor",685
+1813,"Requires Level 4",685
+1814,Legs,686
+1815,"46 Armor",686
+1816,"Requires Level 5",686
+1817,Waist,687
+1818,"29 Armor",687
+1819,"Requires Level 5",687
+1820,"8 Slot Bag",688
+1821,"8 Slot Bag",305
+1822,"Binds when equipped",689
+1823,Legs,689
+1824,"51 Armor",689
+1825,"+1 Stamina",689
+1826,"Requires Level 6",689
+1827,"6 Slot Bag",690
+1828,"Binds when equipped",691
+1829,Chest,691
+1830,"62 Armor",691
+1831,"+2 Stamina",691
+1832,"Requires Level 7",691
+1833,Hands,692
+1834,"39 Armor",692
+1835,"Requires Level 8",692
+1836,"Binds when equipped",693
+1837,Feet,693
+1838,"48 Armor",693
+1839,"+2 Stamina",693
+1840,"+2 Spirit",693
+1841,"Requires Level 10",693
+1842,Back,694
+1843,"12 Armor",694
+1844,"Requires Level 8",694
+1845,Chest,695
+1846,"62 Armor",695
+1847,"Requires Level 8",695
+1848,"Binds when equipped",696
+1849,Legs,696
+1850,"61 Armor",696
+1851,"+2 Stamina",696
+1852,"+3 Spirit",696
+1853,"Requires Level 10",696
+1854,"Binds when equipped",697
+1855,Hands,697
+1856,"43 Armor",697
+1857,"+2 Intellect",697
+1858,"+2 Spirit",697
+1859,"Requires Level 10",697
+1860,Waist,698
+1861,"38 Armor",698
+1862,"Requires Level 11",698
+1863,"Binds when equipped",699
+1864,Back,699
+1865,"14 Armor",699
+1866,"+2 Stamina",699
+1867,"Requires Level 10",699
+1868,"Binds when equipped",700
+1869,Chest,700
+1870,"73 Armor",700
+1871,"+4 Agility",700
+1872,"+3 Stamina",700
+1873,"Requires Level 12",700
+1874,Waist,701
+1875,"42 Armor",701
+1876,"+3 Agility",701
+1877,"+2 Strength",701
+1878,"Requires Level 13",701
+1879,"Binds when equipped",702
+1880,Back,702
+1881,"16 Armor",702
+1882,"+2 Stamina",702
+1883,"+2 Agility",702
+1884,"Requires Level 13",702
+1885,"Binds when equipped",703
+1886,Chest,703
+1887,"74 Armor",703
+1888,"+4 Spirit",703
+1889,"+3 Intellect",703
+1890,"Requires Level 13",703
+1891,Feet,704
+1892,"49 Armor",704
+1893,"Requires Level 13",704
+1894,Wrist,705
+1895,"28 Armor",705
+1896,"Requires Level 9",705
+1897,"Binds when equipped",706
+1898,Chest,706
+1899,"76 Armor",706
+1900,"+5 Strength",706
+1901,"+3 Agility",706
+1902,"Requires Level 14",706
+1903,"Binds when equipped",707
+1904,Legs,707
+1905,"66 Armor",707
+1906,"+5 Agility",707
+1907,"+3 Spirit",707
+1908,"Requires Level 14",707
+1909,"Binds when equipped",708
+1910,Chest,708
+1911,"78 Armor",708
+1912,"+4 Stamina",708
+1913,"+4 Spirit",708
+1914,"Requires Level 15",708
+1915,"Binds when equipped",710
+1916,Back,710
+1917,"17 Armor",710
+1918,"+3 Stamina",710
+1919,"Requires Level 15",710
+1920,"Binds when equipped",712
+1921,Chest,712
+1922,"78 Armor",712
+1923,"+5 Strength",712
+1924,"+3 Agility",712
+1925,"Requires Level 15",712
+1926,"Requires Level 5",713
+1927,Feet,307
+1928,"51 Armor",307
+1929,"Requires Level 15",307
+1930,"Binds when equipped",714
+1931,Chest,714
+1932,"78 Armor",714
+1933,"+6 Agility",714
+1934,"Requires Level 15",714
+1935,"Binds when equipped",715
+1936,Legs,715
+1937,"69 Armor",715
+1938,"+5 Intellect",715
+1939,"+4 Spirit",715
+1940,"Requires Level 16",715
+1941,"Binds when equipped",716
+1942,Hands,716
+1943,"49 Armor",716
+1944,"+3 Stamina",716
+1945,"+3 Agility",716
+1946,"Requires Level 16",716
+1947,Back,717
+1948,"17 Armor",717
+1949,"Requires Level 17",717
+1950,"Binds when equipped",718
+1951,Legs,718
+1952,"72 Armor",718
+1953,"+8 Agility",718
+1954,"Requires Level 18",718
+1955,"Binds when equipped",719
+1956,Waist,719
+1957,"51 Armor",719
+1958,"+6 Stamina",719
+1959,"+5 Agility",719
+1960,"+3 Spirit",719
+1961,"Requires Level 18",719
+1962,"Binds when equipped",720
+1963,Hands,720
+1964,"54 Armor",720
+1965,"Requires Level 21",720
+1966,"Binds when equipped",308
+1967,Waist,308
+1968,"48 Armor",308
+1969,"+4 Stamina",308
+1970,"+4 Spirit",308
+1971,"Requires Level 20",308
+1972,"Binds when equipped",721
+1973,Hands,721
+1974,"52 Armor",721
+1975,"Requires Level 19",721
+1976,"Binds when equipped",309
+1977,Hands,309
+1978,"52 Armor",309
+1979,"+4 Agility",309
+1980,"+4 Spirit",309
+1981,"Requires Level 19",309
+1982,Chest,722
+1983,"80 Armor",722
+1984,"Requires Level 19",722
+1985,"Binds when equipped",723
+1986,Waist,723
+1987,"48 Armor",723
+1988,"+4 Agility",723
+1989,"+4 Stamina",723
+1990,"Requires Level 20",723
+1991,"Binds when equipped",724
+1992,Hands,724
+1993,"53 Armor",724
+1994,"Requires Level 20",724
+1995,"Binds when equipped",310
+1996,Shoulder,310
+1997,"65 Armor",310
+1998,"+5 Stamina",310
+1999,"+4 Spirit",310
+2000,"Requires Level 21",310
+2001,"Binds when equipped",725
+2002,Hands,725
+2003,"61 Armor",725
+2004,"+6 Agility",725
+2005,"+6 Spirit",725
+2006,"+3 Stamina",725
+2007,"Requires Level 22",725
+2008,"Binds when equipped",726
+2009,Hands,726
+2010,"55 Armor",726
+2011,"Requires Level 22",726
+2012,"Binds when equipped",311
+2013,Shoulder,311
+2014,"67 Armor",311
+2015,"+7 Stamina",311
+2016,"Requires Level 22",311
+2017,"Binds when equipped",727
+2018,Shoulder,727
+2019,"68 Armor",727
+2020,"+7 Agility",727
+2021,"Requires Level 23",727
+2022,"Binds when equipped",728
+2023,Hands,728
+2024,"56 Armor",728
+2025,"+8 Agility",728
+2026,"Requires Level 23",728
+2027,"Binds when equipped",729
+2028,Hands,729
+2029,"57 Armor",729
+2030,"+6 Stamina",729
+2031,"+5 Spirit",729
+2032,"Requires Level 24",729
+2033,"Binds when equipped",730
+2034,Hands,730
+2035,"57 Armor",730
+2036,"Requires Level 24",730
+2037,Back,312
+2038,"20 Armor",312
+2039,"Requires Level 25",312
+2040,"Binds when equipped",731
+2041,Hands,731
+2042,"58 Armor",731
+2043,"+5 Stamina",731
+2044,"+4 Spirit",731
+2045,"+4 Agility",731
+2046,"Requires Level 25",731
+2047,"Requires Level 20",733
+2048,"14 Slot Bag",313
+2049,"Requires Level 30",313
+2050,"14 Slot Bag",314
+2051,"Requires Level 30",314
+2052,"Unique (10)",734
+2053,"Binds when equipped",316
+2054,Chest,316
+2055,"95 Armor",316
+2056,"+8 Agility",316
+2057,"+8 Spirit",316
+2058,"Requires Level 26",316
+2059,"Binds when equipped",735
+2060,Wrist,735
+2061,"47 Armor",735
+2062,"+6 Stamina",735
+2063,"+4 Spirit",735
+2064,"+4 Agility",735
+2065,"Requires Level 27",735
+2066,"Binds when equipped",736
+2067,Waist,736
+2068,"54 Armor",736
+2069,"+6 Agility",736
+2070,"+6 Spirit",736
+2071,"Requires Level 27",736
+2072,"Binds when equipped",737
+2073,Legs,737
+2074,"85 Armor",737
+2075,"+8 Intellect",737
+2076,"+8 Spirit",737
+2077,"Requires Level 27",737
+2078,"Binds when equipped",738
+2079,Waist,738
+2080,"55 Armor",738
+2081,"+6 Strength",738
+2082,"+6 Stamina",738
+2083,"Requires Level 28",738
+2084,"Binds when equipped",739
+2085,Chest,739
+2086,"98 Armor",739
+2087,"+13 Stamina",739
+2088,"Requires Level 28",739
+2089,"Binds when equipped",740
+2090,Legs,740
+2091,"86 Armor",740
+2092,"+13 Agility",740
+2093,"Requires Level 28",740
+2094,"Binds when equipped",741
+2095,Waist,741
+2096,"56 Armor",741
+2097,"+7 Intellect",741
+2098,"+6 Spirit",741
+2099,"Requires Level 29",741
+2100,"Binds when equipped",742
+2101,Chest,742
+2102,"100 Armor",742
+2103,"+9 Strength",742
+2104,"+8 Stamina",742
+2105,"Requires Level 29",742
+2106,"Binds when equipped",743
+2107,Legs,743
+2108,"87 Armor",743
+2109,"+7 Stamina",743
+2110,"+7 Spirit",743
+2111,"+7 Agility",743
+2112,"Requires Level 29",743
+2113,"Binds when equipped",744
+2114,Chest,744
+2115,"102 Armor",744
+2116,"+10 Intellect",744
+2117,"+9 Spirit",744
+2118,"Requires Level 30",744
+2119,"Binds when equipped",745
+2120,Shoulder,745
+2121,"76 Armor",745
+2122,"+6 Stamina",745
+2123,"+5 Spirit",745
+2124,"+5 Agility",745
+2125,"Requires Level 30",745
+2126,"Binds when equipped",746
+2127,Chest,746
+2128,"102 Armor",746
+2129,"+14 Agility",746
+2130,"Requires Level 30",746
+2131,"Binds when equipped",747
+2132,Chest,747
+2133,"102 Armor",747
+2134,"+11 Spirit",747
+2135,"Requires Level 30",747
+2136,"Binds when equipped",317
+2137,Wrist,317
+2138,"45 Armor",317
+2139,"+6 Agility",317
+2140,"+5 Spirit",317
+2141,"Requires Level 31",317
+2142,"Binds when equipped",748
+2143,Back,748
+2144,"24 Armor",748
+2145,"Requires Level 31",748
+2146,"Binds when equipped",318
+2147,Waist,318
+2148,"65 Armor",318
+2149,"+8 Stamina",318
+2150,"+6 Spirit",318
+2151,"Requires Level 32",318
+2152,"Binds when equipped",319
+2153,Back,319
+2154,"24 Armor",319
+2155,"+6 Spirit",319
+2156,"+5 Intellect",319
+2157,"Requires Level 32",319
+2158,"Binds when equipped",749
+2159,Wrist,749
+2160,"46 Armor",749
+2161,"+8 Agility",749
+2162,"Requires Level 32",749
+2163,Chest,750
+2164,"101 Armor",750
+2165,"Requires Level 33",750
+2166,"Binds when equipped",751
+2167,Wrist,751
+2168,"47 Armor",751
+2169,"+6 Stamina",751
+2170,"+5 Strength",751
+2171,"Requires Level 33",751
+2172,Hands,752
+2173,"63 Armor",752
+2174,"Requires Level 33",752
+2175,"Binds when equipped",753
+2176,Wrist,753
+2177,"47 Armor",753
+2178,"+8 Spirit",753
+2179,"Requires Level 33",753
+2180,"Binds when equipped",754
+2181,Hands,754
+2182,"66 Armor",754
+2183,"Requires Level 33",754
+2184,"Binds when equipped",320
+2185,Wrist,320
+2186,"48 Armor",320
+2187,"+6 Intellect",320
+2188,"+6 Spirit",320
+2189,"Requires Level 34",320
+2190,"Binds when equipped",755
+2191,Waist,755
+2192,"61 Armor",755
+2193,"+8 Agility",755
+2194,"+8 Stamina",755
+2195,"Requires Level 34",755
+2196,"Binds when equipped",756
+2197,Waist,756
+2198,"62 Armor",756
+2199,"+11 Strength",756
+2200,"Requires Level 35",756
+2201,"Binds when equipped",321
+2202,Feet,321
+2203,"76 Armor",321
+2204,"+11 Agility",321
+2205,"+3 Stamina",321
+2206,"Requires Level 35",321
+2207,"Binds when equipped",757
+2208,Feet,757
+2209,"76 Armor",757
+2210,"+10 Spirit",757
+2211,"Requires Level 35",757
+2212,"Requires Level 30",758
+2213,"Binds when equipped",323
+2214,Head,323
+2215,"90 Armor",323
+2216,"+11 Stamina",323
+2217,"+10 Spirit",323
+2218,"Requires Level 35",323
+2219,"Binds when equipped",760
+2220,Hands,760
+2221,"76 Armor",760
+2222,"+6 Stamina",760
+2223,"Requires Level 35",760
+2224,"Binds when equipped",324
+2225,Chest,324
+2226,"113 Armor",324
+2227,"+15 Agility",324
+2228,"+6 Stamina",324
+2229,"Requires Level 36",324
+2230,"Binds when equipped",761
+2231,Head,761
+2232,"91 Armor",761
+2233,"+12 Agility",761
+2234,"+11 Stamina",761
+2235,"Requires Level 36",761
+2236,"Binds when equipped",762
+2237,Hands,762
+2238,"146 Armor",762
+2239,"+7 Stamina",762
+2240,"+6 Spirit",762
+2241,"+6 Intellect",762
+2242,"Requires Level 36",762
+2243,"Binds when equipped",763
+2244,Chest,763
+2245,"238 Armor",763
+2246,"+9 Stamina",763
+2247,"+9 Spirit",763
+2248,"+9 Intellect",763
+2249,"Requires Level 37",763
+2250,"Binds when equipped",764
+2251,Shoulder,764
+2252,"86 Armor",764
+2253,"+11 Agility",764
+2254,"+5 Stamina",764
+2255,"Requires Level 37",764
+2256,"Binds when equipped",765
+2257,Wrist,765
+2258,"204 Armor",765
+2259,"Requires Level 37",765
+2260,"Binds when equipped",766
+2261,Chest(Robe),766
+2262,"117 Armor",766
+2263,"+14 Intellect",766
+2264,"+9 Spirit",766
+2265,"Requires Level 38",766
+2266,"Binds when equipped",767
+2267,Chest,767
+2268,"245 Armor",767
+2269,"+15 Agility",767
+2270,"+7 Spirit",767
+2271,"Requires Level 39",767
+2272,"Binds when equipped",768
+2273,Shoulder,768
+2274,"90 Armor",768
+2275,"Requires Level 39",768
+2276,"Binds when equipped",769
+2277,Head,769
+2278,"97 Armor",769
+2279,"+14 Intellect",769
+2280,"+9 Spirit",769
+2281,"Requires Level 39",769
+2282,"Binds when equipped",770
+2283,Wrist,770
+2284,"107 Armor",770
+2285,"+7 Agility",770
+2286,"+6 Spirit",770
+2287,"Requires Level 39",770
+2288,"Binds when equipped",771
+2289,Hands,771
+2290,"155 Armor",771
+2291,"+10 Agility",771
+2292,"+9 Spirit",771
+2293,"Requires Level 40",771
+2294,"Binds when equipped",772
+2295,Chest,772
+2296,"121 Armor",772
+2297,"Requires Level 40",772
+2298,"Binds when equipped",773
+2299,Head,773
+2300,"99 Armor",773
+2301,"Requires Level 40",773
+2302,"16 Slot Bag",774
+2303,"Requires Level 40",774
+2304,"16 Slot Bag",325
+2305,"Requires Level 40",325
+2306,"Binds when equipped",326
+2307,Legs,326
+2308,"108 Armor",326
+2309,"+16 Agility",326
+2310,"+7 Stamina",326
+2311,"Requires Level 41",326
+2312,"Binds when equipped",775
+2313,Head,775
+2314,"206 Armor",775
+2315,"+10 Stamina",775
+2316,"+10 Spirit",775
+2317,"+10 Intellect",775
+2318,"Requires Level 41",775
+2319,"Binds when equipped",776
+2320,Feet,776
+2321,"178 Armor",776
+2322,"+12 Agility",776
+2323,"+7 Spirit",776
+2324,"Requires Level 42",776
+2325,"Binds when equipped",777
+2326,Legs,777
+2327,"226 Armor",777
+2328,"+11 Stamina",777
+2329,"+11 Spirit",777
+2330,"+10 Intellect",777
+2331,"Requires Level 42",777
+2332,"Binds when equipped",778
+2333,Feet,778
+2334,"87 Armor",778
+2335,"+12 Agility",778
+2336,"Requires Level 42",778
+2337,"Binds when equipped",327
+2338,Legs,327
+2339,"110 Armor",327
+2340,"+15 Spirit",327
+2341,"+10 Intellect",327
+2342,"Requires Level 42",327
+2343,"Binds when equipped",779
+2344,Back,779
+2345,"31 Armor",779
+2346,"+9 Intellect",779
+2347,"+5 Spirit",779
+2348,"Requires Level 43",779
+2349,"Binds when equipped",780
+2350,Shoulder,780
+2351,"197 Armor",780
+2352,"+10 Agility",780
+2353,"+10 Spirit",780
+2354,"Requires Level 43",780
+2355,"Binds when equipped",781
+2356,Feet,781
+2357,"90 Armor",781
+2358,"Requires Level 44",781
+2359,"Binds when equipped",782
+2360,Legs,782
+2361,"235 Armor",782
+2362,"+17 Agility",782
+2363,"+10 Spirit",782
+2364,"Requires Level 44",782
+2365,"Binds when equipped",783
+2366,Head,783
+2367,"222 Armor",783
+2368,"+14 Agility",783
+2369,"+14 Spirit",783
+2370,"Requires Level 45",783
+2371,"Binds when equipped",784
+2372,Legs,784
+2373,"116 Armor",784
+2374,"Requires Level 45",784
+2375,"Binds when equipped",785
+2376,Back,785
+2377,"33 Armor",785
+2378,"Requires Level 45",785
+2379,"Binds when equipped",786
+2380,Head,786
+2381,"118 Armor",786
+2382,"+17 Agility",786
+2383,"+10 Stamina",786
+2384,"+5 Fire ResistanceRequires Level 45",786
+2385,"Requires Level 40",787
+2386,"Binds when equipped",788
+2387,Chest,788
+2388,"306 Armor",788
+2389,"+10 Stamina",788
+2390,"+13 Fire Resistance+13 Frost Resistance+12 Shadow ResistanceRequires Level 46",788
+2391,"Binds when equipped",330
+2392,Wrist,330
+2393,"122 Armor",330
+2394,"+8 Stamina",330
+2395,"+8 Spirit",330
+2396,"Requires Level 46",330
+2397,"Binds when equipped",789
+2398,Hands,789
+2399,"86 Armor",789
+2400,"+12 Agility",789
+2401,"+11 Stamina",789
+2402,"Requires Level 47",789
+2403,"Binds when equipped",790
+2404,Chest,790
+2405,"288 Armor",790
+2406,"+16 Stamina",790
+2407,"+15 Spirit",790
+2408,"Requires Level 48",790
+2409,"Binds when equipped",791
+2410,Wrist,791
+2411,"61 Armor",791
+2412,"+11 Agility",791
+2413,"+5 Stamina",791
+2414,"Requires Level 48",791
+2415,"Binds when equipped",792
+2416,Hands,792
+2417,"88 Armor",792
+2418,"+14 Spirit",792
+2419,"+8 Intellect",792
+2420,"Requires Level 49",792
+2421,"Binds when equipped",793
+2422,Hands,793
+2423,"186 Armor",793
+2424,"+12 Stamina",793
+2425,"+12 Spirit",793
+2426,"Requires Level 50",793
+2427,"Binds when equipped",794
+2428,Wrist,794
+2429,"63 Armor",794
+2430,"+10 Intellect",794
+2431,"+10 Spirit",794
+2432,"Requires Level 50",794
+2433,"Binds when equipped",795
+2434,Waist,795
+2435,"170 Armor",795
+2436,"+12 Stamina",795
+2437,"+12 Spirit",795
+2438,"Requires Level 51",795
+2439,"Binds when equipped",796
+2440,Head,796
+2441,"118 Armor",796
+2442,"+16 Agility",796
+2443,"+16 Stamina",796
+2444,"Requires Level 51",796
+2445,"Binds when equipped",797
+2446,Waist,797
+2447,"82 Armor",797
+2448,"+14 Intellect",797
+2449,"+9 Spirit",797
+2450,"Requires Level 51",797
+2451,"Binds when equipped",798
+2452,Legs,798
+2453,"269 Armor",798
+2454,"+20 Spirit",798
+2455,"+12 Stamina",798
+2456,"Requires Level 52",798
+2457,"Binds when equipped",799
+2458,Head,799
+2459,"122 Armor",799
+2460,"+20 Intellect",799
+2461,"+12 Spirit",799
+2462,"Requires Level 53",799
+2463,"Binds when equipped",800
+2464,Legs,800
+2465,"131 Armor",800
+2466,"+20 Agility",800
+2467,"+12 Stamina",800
+2468,"Requires Level 53",800
+2469,"Binds when equipped",801
+2470,Waist,801
+2471,"93 Armor",801
+2472,"+21 Strength",801
+2473,"+9 Stamina",801
+2474,"Requires Level 53",801
+2475,"Binds when equipped",802
+2476,Feet,802
+2477,"114 Armor",802
+2478,"+18 Stamina",802
+2479,"Requires Level 53",802
+2480,"Binds when equipped",331
+2481,Head,331
+2482,"258 Armor",331
+2483,"+20 Stamina",331
+2484,"+13 Spirit",331
+2485,"Requires Level 54",331
+2486,"Binds when equipped",803
+2487,Legs,803
+2488,"135 Armor",803
+2489,"+20 Spirit",803
+2490,"+13 Intellect",803
+2491,"Requires Level 55",803
+2492,"Binds when equipped",804
+2493,Waist,804
+2494,"87 Armor",804
+2495,"+14 Agility",804
+2496,"+13 Stamina",804
+2497,"Requires Level 55",804
+2498,"Binds when equipped",805
+2499,Shoulder,805
+2500,"245 Armor",805
+2501,"+14 Stamina",805
+2502,"+13 Spirit",805
+2503,"Requires Level 56",805
+2504,"Binds when equipped",806
+2505,Chest,806
+2506,"158 Armor",806
+2507,"+21 Intellect",806
+2508,"+13 Spirit",806
+2509,"Requires Level 57",806
+2510,"Binds when equipped",807
+2511,Chest,807
+2512,"156 Armor",807
+2513,"+25 Agility",807
+2514,"+7 Stamina",807
+2515,"Requires Level 56",807
+2516,"Binds when equipped",808
+2517,Shoulder,808
+2518,"119 Armor",808
+2519,"+15 Intellect",808
+2520,"+10 Spirit",808
+2521,"Requires Level 57",808
+2522,"Requires Level 50",809
+2523,"Binds when equipped",332
+2524,Waist,332
+2525,"98 Armor",332
+2526,"+23 Intellect",332
+2527,"+9 Stamina",332
+2528,"Requires Level 57",332
+2529,"Binds when equipped",810
+2530,Feet,810
+2531,"120 Armor",810
+2532,"+23 Agility",810
+2533,"+9 Stamina",810
+2534,"Requires Level 57",810
+2535,"Binds when equipped",811
+2536,Wrist,811
+2537,"160 Armor",811
+2538,"+7 Stamina",811
+2539,"Requires Level 57",811
+2540,"Binds when equipped",333
+2541,Hands,333
+2542,"112 Armor",333
+2543,"+23 Strength",333
+2544,"+10 Stamina",333
+2545,"Requires Level 59",333
+2546,"Binds when equipped",812
+2547,Shoulder,812
+2548,"134 Armor",812
+2549,"+22 Stamina",812
+2550,"Requires Level 59",812
+2551,"Binds when equipped",334
+2552,Waist,334
+2553,"223 Armor",334
+2554,"+15 Stamina",334
+2555,"+26 Fire ResistanceRequires Level 60",334
+2556,"Binds when equipped",813
+2557,Chest,813
+2558,"181 Armor",813
+2559,"+17 Strength",813
+2560,"+17 Stamina",813
+2561,"+16 Intellect",813
+2562,"+13 Spirit",813
+2563,"Requires Level 60",813
+2564,"Binds when equipped",814
+2565,Shoulder,814
+2566,"136 Armor",814
+2567,"+13 Strength",814
+2568,"+13 Stamina",814
+2569,"+12 Intellect",814
+2570,"+10 Spirit",814
+2571,"Requires Level 60",814
+2572,"Binds when equipped",815
+2573,Wrist,815
+2574,"79 Armor",815
+2575,"+14 Agility",815
+2576,"+7 Stamina",815
+2577,"Requires Level 60",815
+2578,"Binds when equipped",335
+2579,Hands,335
+2580,"113 Armor",335
+2581,"+10 Agility",335
+2582,"+9 Stamina",335
+2583,"Requires Level 60",335
+2584,"Binds when equipped",336
+2585,Chest,336
+2586,"181 Armor",336
+2587,"+32 Agility",336
+2588,"+6 Stamina",336
+2589,"Requires Level 60",336
+2590,"Binds when equipped",337
+2591,Wrist,337
+2592,"160 Armor",337
+2593,"+9 Agility",337
+2594,"+9 Intellect",337
+2595,"Requires Level 57",337
+2596,"Binds when equipped",338
+2597,Hands,338
+2598,"228 Armor",338
+2599,"+12 Agility",338
+2600,"+12 Intellect",338
+2601,"Requires Level 57",338
+2602,"Binds when equipped",339
+2603,Chest,339
+2604,"365 Armor",339
+2605,"+16 Agility",339
+2606,"+16 Intellect",339
+2607,"Requires Level 57",339
+2608,"Binds when equipped",340
+2609,Wrist,340
+2610,"220 Armor",340
+2611,"+7 Stamina",340
+2612,"+15 Nature ResistanceRequires Level 57",340
+2613,"Binds when equipped",816
+2614,Hands,816
+2615,"308 Armor",816
+2616,"+9 Stamina",816
+2617,"+20 Nature ResistanceRequires Level 57",816
+2618,"Binds when equipped",817
+2619,Chest,817
+2620,"485 Armor",817
+2621,"+13 Stamina",817
+2622,"+25 Nature ResistanceRequires Level 57",817
+2623,"Binds when equipped",818
+2624,Chest,818
+2625,"434 Armor",818
+2626,"+15 Agility",818
+2627,"+15 Stamina",818
+2628,"+14 Intellect",818
+2629,"+30 Nature ResistanceRequires Level 60",818
+2630,"Classes: ",341
+2631,"Binds when equipped",819
+2632,Back,819
+2633,"43 Armor",819
+2634,"+7 Stamina",819
+2635,"+16 Fire ResistanceRequires Level 55",819
+2636,"Classes: ",342
+2637,Unique,820
+2638,"Requires Level 55",820
+2639,"Binds when equipped",343
+2640,Hands,343
+2641,"208 Armor",343
+2642,"+18 Spirit",343
+2643,"+5 Stamina",343
+2644,"+9 Nature ResistanceRequires Level 51",343
+2645,"Binds when equipped",821
+2646,Legs,821
+2647,"310 Armor",821
+2648,"+20 Intellect",821
+2649,"+19 Spirit",821
+2650,"+12 Arcane ResistanceRequires Level 55",821
+2651,"Binds when equipped",822
+2652,Hands,822
+2653,"109 Armor",822
+2654,"Requires Level 57",822
+2655,"Binds when equipped",344
+2656,Hands,344
+2657,"171 Armor",344
+2658,"+6 Spirit",344
+2659,"+7 Stamina",344
+2660,"Requires Level 40",344
+2661,"Binds when equipped",345
+2662,Chest,345
+2663,"311 Armor",345
+2664,"+21 Spirit",345
+2665,"+10 Stamina",345
+2666,"+11 Nature ResistanceRequires Level 47",345
+2667,"Binds when equipped",823
+2668,Legs,823
+2669,"282 Armor",823
+2670,"+22 Spirit",823
+2671,"+10 Stamina",823
+2672,"+11 Nature ResistanceRequires Level 49",823
+2673,"Binds when equipped",824
+2674,Chest,824
+2675,"338 Armor",824
+2676,"+28 Intellect",824
+2677,"+8 Spirit",824
+2678,"+8 Arcane ResistanceRequires Level 52",824
+2679,"Binds when equipped",825
+2680,Chest,825
+2681,"344 Armor",825
+2682,"+8 Stamina",825
+2683,"+12 Fire ResistanceRequires Level 53",825
+2684,"Binds when equipped",346
+2685,Shoulder,346
+2686,"262 Armor",346
+2687,"+21 Intellect",346
+2688,"+6 Spirit",346
+2689,"+6 Arcane ResistanceRequires Level 54",346
+2690,"Binds when equipped",826
+2691,Chest,826
+2692,"360 Armor",826
+2693,"+12 Fire ResistanceRequires Level 56",826
+2694,"Binds when equipped",347
+2695,Shoulder,347
+2696,"266 Armor",347
+2697,"+9 Stamina",347
+2698,"+6 Fire ResistanceRequires Level 55",347
+2699,"Binds when equipped",348
+2700,Legs,348
+2701,"320 Armor",348
+2702,"+8 Stamina",348
+2703,"+13 Fire ResistanceRequires Level 57",348
+2704,"Binds when equipped",349
+2705,Feet,349
+2706,"270 Armor",349
+2707,"+10 Stamina",349
+2708,"+24 Fire ResistanceRequires Level 56",349
+2709,"Binds when equipped",350
+2710,Back,350
+2711,"48 Armor",350
+2712,"+10 Stamina",350
+2713,"+9 Fire Resistance+9 Shadow ResistanceRequires Level 57",350
+2714,"Binds when equipped",351
+2715,Hands,351
+2716,"279 Armor",351
+2717,"+5 Fire Resistance+5 Nature Resistance+5 Frost Resistance+5 Shadow ResistanceRequires Level 60",351
+2718,"Binds when equipped",352
+2719,Hands,352
+2720,"85 Armor",352
+2721,"+7 Agility",352
+2722,"Requires Level 41",352
+2723,"Binds when equipped",353
+2724,Legs,353
+2725,"204 Armor",353
+2726,"+20 Fire ResistanceRequires Level 49",353
+2727,"Binds when equipped",827
+2728,Shoulder,827
+2729,"117 Armor",827
+2730,"+13 Spirit",827
+2731,"+8 Stamina",827
+2732,"+3 Nature ResistanceRequires Level 49",827
+2733,"Binds when equipped",354
+2734,Legs,354
+2735,"138 Armor",354
+2736,"Requires Level 50",354
+2737,"Binds when equipped",355
+2738,Chest,355
+2739,"268 Armor",355
+2740,"+20 Fire ResistanceRequires Level 52",355
+2741,"Binds when equipped",828
+2742,Legs,828
+2743,"142 Armor",828
+2744,"+25 Spirit",828
+2745,"+8 Stamina",828
+2746,"+5 Nature ResistanceRequires Level 52",828
+2747,"Binds when equipped",356
+2748,Chest,356
+2749,"163 Armor",356
+2750,"Requires Level 52",356
+2751,"Binds when equipped",357
+2752,Shoulder,357
+2753,"126 Armor",357
+2754,"+12 Stamina",357
+2755,"Requires Level 54",357
+2756,"Binds when equipped",358
+2757,Chest,358
+2758,"169 Armor",358
+2759,"+25 Spirit",358
+2760,"+10 Stamina",358
+2761,"+5 Nature ResistanceRequires Level 55",358
+2762,"Binds when equipped",359
+2763,Shoulder,359
+2764,"167 Armor",359
+2765,"+18 Fire ResistanceRequires Level 56",359
+2766,"Binds when equipped",829
+2767,Head,829
+2768,"150 Armor",829
+2769,"+16 Stamina",829
+2770,"+29 Fire ResistanceRequires Level 55",829
+2771,"Binds when equipped",360
+2772,Back,360
+2773,"48 Armor",360
+2774,"+17 Agility",360
+2775,"+8 Stamina",360
+2776,"Requires Level 57",360
+2777,"Binds when equipped",361
+2778,Waist,361
+2779,"118 Armor",361
+2780,"+28 Agility",361
+2781,"+16 Stamina",361
+2782,"+12 Fire ResistanceRequires Level 60",361
+2783,"Binds when equipped",830
+2784,Head,830
+2785,"109 Armor",830
+2786,"+10 Spirit",830
+2787,"Classes: Druid ",830
+2788,"Requires Level 40",830
+2789,"Binds when equipped",362
+2790,Chest,362
+2791,"146 Armor",362
+2792,"+24 Spirit",362
+2793,"+10 Intellect",362
+2794,"Requires Level 45",362
+2795,"Binds when equipped",831
+2796,Hands,831
+2797,"87 Armor",831
+2798,"+12 Nature Resistance+11 Arcane ResistanceRequires Level 48",831
+2799,"Binds when equipped",832
+2800,Shoulder,832
+2801,"117 Armor",832
+2802,"+20 Intellect",832
+2803,"+8 Spirit",832
+2804,"Requires Level 49",832
+2805,"Binds when equipped",833
+2806,Feet,833
+2807,"99 Armor",833
+2808,"+12 Nature Resistance+12 Arcane ResistanceRequires Level 50",833
+2809,"Binds when equipped",834
+2810,Feet,834
+2811,"99 Armor",834
+2812,"+12 Frost Resistance+12 Shadow ResistanceRequires Level 50",834
+2813,"Binds when equipped",835
+2814,Chest,835
+2815,"158 Armor",835
+2816,"+27 Stamina",835
+2817,"+11 Strength",835
+2818,"Requires Level 50",835
+2819,"Binds when equipped",836
+2820,Legs,836
+2821,"127 Armor",836
+2822,"+16 Nature Resistance+16 Arcane ResistanceRequires Level 51",836
+2823,"Binds when equipped",837
+2824,Legs,837
+2825,"129 Armor",837
+2826,"+17 Frost Resistance+16 Shadow ResistanceRequires Level 52",837
+2827,"Binds when equipped",838
+2828,Legs,838
+2829,"142 Armor",838
+2830,"+28 Strength",838
+2831,"+12 Stamina",838
+2832,"Requires Level 52",838
+2833,"Binds when equipped",839
+2834,Chest,839
+2835,"150 Armor",839
+2836,"+17 Nature Resistance+16 Arcane ResistanceRequires Level 53",839
+2837,"Binds when equipped",840
+2838,Hands,840
+2839,"103 Armor",840
+2840,"+9 Stamina",840
+2841,"Requires Level 53",840
+2842,"Binds when equipped",363
+2843,Chest,363
+2844,"165 Armor",363
+2845,"+28 Spirit",363
+2846,"+12 Intellect",363
+2847,"Requires Level 53",363
+2848,"Binds when equipped",841
+2849,Hands,841
+2850,"95 Armor",841
+2851,"+13 Frost Resistance+12 Shadow ResistanceRequires Level 54",841
+2852,"Binds when equipped",842
+2853,Feet,842
+2854,"126 Armor",842
+2855,"+13 Agility",842
+2856,"+10 Stamina",842
+2857,"+24 Fire ResistanceRequires Level 54",842
+2858,"Binds when equipped",843
+2859,Legs,843
+2860,"148 Armor",843
+2861,"+12 Stamina",843
+2862,"Requires Level 55",843
+2863,"Binds when equipped",364
+2864,Chest,364
+2865,"158 Armor",364
+2866,"+18 Frost Resistance+18 Shadow ResistanceRequires Level 57",364
+2867,"Binds when equipped",844
+2868,Back,844
+2869,"48 Armor",844
+2870,"+10 Intellect",844
+2871,"+8 Stamina",844
+2872,"Requires Level 57",844
+2873,"Binds when equipped",365
+2874,Waist,365
+2875,"118 Armor",365
+2876,"+16 Intellect",365
+2877,"+12 Fire ResistanceRequires Level 60",365
+2878,Back,845
+2879,"6 Armor",845
+2880,Shirt,846
+2881,Shirt,847
+2882,Legs,848
+2883,"12 Armor",848
+2884,"Requires Level 2",848
+2885,Chest,849
+2886,"15 Armor",849
+2887,"Requires Level 3",849
+2888,Waist,850
+2889,"9 Armor",850
+2890,"Requires Level 4",850
+2891,Feet,851
+2892,"11 Armor",851
+2893,"Requires Level 4",851
+2894,Legs,852
+2895,"16 Armor",852
+2896,"Requires Level 5",852
+2897,"Binds when equipped",853
+2898,Chest(Robe),853
+2899,"19 Armor",853
+2900,"+1 Spirit",853
+2901,"Requires Level 5",853
+2902,"Binds when equipped",854
+2903,Chest(Robe),854
+2904,"19 Armor",854
+2905,"+1 Intellect",854
+2906,"Requires Level 5",854
+2907,Hands,855
+2908,"11 Armor",855
+2909,"Requires Level 5",855
+2910,"Binds when equipped",856
+2911,Chest(Robe),856
+2912,"19 Armor",856
+2913,"+1 Intellect",856
+2914,"Requires Level 5",856
+2915,Shirt,857
+2916,Shirt,858
+2917,Chest(Robe),859
+2918,"6 Slot Bag",860
+2919,"Binds when equipped",861
+2920,Chest,861
+2921,"23 Armor",861
+2922,"+2 Spirit",861
+2923,"Requires Level 7",861
+2924,"Binds when equipped",862
+2925,Chest,862
+2926,"23 Armor",862
+2927,"+2 Spirit",862
+2928,"Requires Level 7",862
+2929,Back,863
+2930,"11 Armor",863
+2931,"Requires Level 7",863
+2932,Wrist,864
+2933,"9 Armor",864
+2934,"Requires Level 7",864
+2935,Feet,865
+2936,"16 Armor",865
+2937,"Requires Level 8",865
+2938,"6 Slot Bag",866
+2939,"Binds when equipped",867
+2940,Chest(Robe),867
+2941,"26 Armor",867
+2942,"+3 Spirit",867
+2943,"Requires Level 9",867
+2944,Back,869
+2945,"14 Armor",869
+2946,"Requires Level 11",869
+2947,Legs,870
+2948,"23 Armor",870
+2949,"Requires Level 10",870
+2950,"Binds when equipped",871
+2951,Feet,871
+2952,"20 Armor",871
+2953,"+2 Stamina",871
+2954,"+2 Intellect",871
+2955,"Requires Level 11",871
+2956,"8 Slot Bag",872
+2957,Chest,873
+2958,"29 Armor",873
+2959,"Requires Level 12",873
+2960,"Binds when equipped",874
+2961,Hands,874
+2962,"19 Armor",874
+2963,"+2 Intellect",874
+2964,"+2 Spirit",874
+2965,"Requires Level 12",874
+2966,"Binds when equipped",875
+2967,Back,875
+2968,"16 Armor",875
+2969,"+3 Intellect",875
+2970,"Requires Level 14",875
+2971,"Binds when equipped",876
+2972,Chest,876
+2973,"26 Armor",876
+2974,"+2 Stamina",876
+2975,"+2 Spirit",876
+2976,"Requires Level 9",876
+2977,Shirt,877
+2978,"Binds when equipped",878
+2979,Legs,878
+2980,"23 Armor",878
+2981,"+2 Spirit",878
+2982,"+2 Intellect",878
+2983,"Requires Level 9",878
+2984,"Binds when equipped",879
+2985,Feet,879
+2986,"22 Armor",879
+2987,"+2 Intellect",879
+2988,"+2 Spirit",879
+2989,"+2 Agility",879
+2990,"Requires Level 14",879
+2991,"Binds when equipped",880
+2992,Feet,880
+2993,"23 Armor",880
+2994,"+5 Spirit",880
+2995,"Requires Level 15",880
+2996,"8 Slot Bag",881
+2997,Shirt,882
+2998,"Binds when equipped",883
+2999,Back,883
+3000,"17 Armor",883
+3001,"+4 Spirit",883
+3002,"Requires Level 16",883
+3003,"Binds when equipped",884
+3004,Chest(Robe),884
+3005,"34 Armor",884
+3006,"+4 Strength",884
+3007,"+4 Stamina",884
+3008,"Requires Level 15",884
+3009,"Binds when equipped",885
+3010,Chest(Robe),885
+3011,"35 Armor",885
+3012,"+5 Intellect",885
+3013,"+4 Stamina",885
+3014,"Requires Level 16",885
+3015,Shoulder,886
+3016,"26 Armor",886
+3017,"Requires Level 17",886
+3018,"Binds when equipped",887
+3019,Legs,887
+3020,"31 Armor",887
+3021,"+6 Spirit",887
+3022,"+3 Intellect",887
+3023,"Requires Level 17",887
+3024,Chest(Robe),888
+3025,"34 Armor",888
+3026,"Requires Level 17",888
+3027,"8 Slot Bag",889
+3028,"Binds when equipped",890
+3029,Chest(Robe),890
+3030,"37 Armor",890
+3031,"+1 Stamina",890
+3032,"+2 Intellect",890
+3033,"+7 Spirit",890
+3034,"Requires Level 18",890
+3035,Shoulder,891
+3036,"27 Armor",891
+3037,"Requires Level 19",891
+3038,Shirt,892
+3039,Shirt,893
+3040,"Binds when equipped",894
+3041,Legs,894
+3042,"33 Armor",894
+3043,"+5 Agility",894
+3044,"+5 Spirit",894
+3045,"Requires Level 14",894
+3046,"Binds when equipped",896
+3047,Legs,896
+3048,"34 Armor",896
+3049,"+4 Intellect",896
+3050,"Requires Level 20",896
+3051,"Binds when equipped",367
+3052,Feet,367
+3053,"29 Armor",367
+3054,"+7 Spirit",367
+3055,"+4 Intellect",367
+3056,"+4 Stamina",367
+3057,"Requires Level 20",367
+3058,Shirt,897
+3059,"Binds when equipped",898
+3060,Hands,898
+3061,"24 Armor",898
+3062,"Requires Level 20",898
+3063,"Binds when equipped",368
+3064,Hands,368
+3065,"25 Armor",368
+3066,"+7 Spirit",368
+3067,"Requires Level 21",368
+3068,Shirt,899
+3069,"Binds when equipped",900
+3070,Chest(Robe),900
+3071,"41 Armor",900
+3072,"+8 Intellect",900
+3073,"+5 Spirit",900
+3074,"Requires Level 22",900
+3075,"Binds when equipped",901
+3076,Feet,901
+3077,"29 Armor",901
+3078,"+7 Spirit",901
+3079,"+3 Agility",901
+3080,"Requires Level 23",901
+3081,"Binds when equipped",902
+3082,Legs,902
+3083,"36 Armor",902
+3084,"+6 Intellect",902
+3085,"Requires Level 23",902
+3086,"Binds when equipped",369
+3087,Hands,369
+3088,"26 Armor",369
+3089,"+3 Spirit",369
+3090,"Requires Level 24",369
+3091,Head,370
+3092,"33 Armor",370
+3093,"Requires Level 24",370
+3094,"Binds when equipped",903
+3095,Hands,903
+3096,"26 Armor",903
+3097,"+5 Spirit",903
+3098,"Requires Level 24",903
+3099,"Binds when equipped",371
+3100,Chest,371
+3101,"43 Armor",371
+3102,"+9 Intellect",371
+3103,"Requires Level 25",371
+3104,"10 Slot Bag",372
+3105,"Binds when equipped",904
+3106,Chest(Robe),904
+3107,"43 Armor",904
+3108,"+8 Intellect",904
+3109,"+7 Spirit",904
+3110,"Requires Level 25",904
+3111,"Binds when equipped",905
+3112,Hands,905
+3113,"27 Armor",905
+3114,"+3 Intellect",905
+3115,"Requires Level 25",905
+3116,Shirt,373
+3117,Shirt,906
+3118,Head,907
+3119,"34 Armor",907
+3120,"Requires Level 27",907
+3121,"Binds when equipped",908
+3122,Head,908
+3123,"37 Armor",908
+3124,"+10 Intellect",908
+3125,"+6 Spirit",908
+3126,"Requires Level 28",908
+3127,"Binds when equipped",909
+3128,Chest,909
+3129,"45 Armor",909
+3130,"+13 Intellect",909
+3131,"Requires Level 28",909
+3132,"Binds when equipped",910
+3133,Head,910
+3134,"37 Armor",910
+3135,"+11 Intellect",910
+3136,"Requires Level 29",910
+3137,Shirt,374
+3138,"Binds when equipped",911
+3139,Chest,911
+3140,"46 Armor",911
+3141,"+10 Spirit",911
+3142,"+6 Stamina",911
+3143,"Requires Level 29",911
+3144,"Binds when equipped",913
+3145,Feet,913
+3146,"32 Armor",913
+3147,"+8 Spirit",913
+3148,"+5 Intellect",913
+3149,"Requires Level 30",913
+3150,"10 Slot Bag",914
+3151,Shirt,915
+3152,"Binds when equipped",916
+3153,Waist,916
+3154,"26 Armor",916
+3155,"+5 Intellect",916
+3156,"Requires Level 30",916
+3157,"Binds when equipped",375
+3158,Waist,375
+3159,"26 Armor",375
+3160,"+7 Intellect",375
+3161,"+6 Spirit",375
+3162,"Requires Level 30",375
+3163,"Binds when equipped",917
+3164,Back,917
+3165,"23 Armor",917
+3166,"+3 Spirit",917
+3167,"Requires Level 30",917
+3168,"Binds when equipped",376
+3169,Waist,376
+3170,"27 Armor",376
+3171,"+8 Intellect",376
+3172,"Requires Level 31",376
+3173,"Binds when equipped",377
+3174,Shoulder,377
+3175,"36 Armor",377
+3176,"+11 Intellect",377
+3177,"Requires Level 31",377
+3178,"Binds when equipped",918
+3179,Back,918
+3180,"24 Armor",918
+3181,"+3 Stamina",918
+3182,"+7 Fire ResistanceRequires Level 31",918
+3183,"Binds when equipped",919
+3184,Back,919
+3185,"24 Armor",919
+3186,"+6 Spirit",919
+3187,"+5 Intellect",919
+3188,"Requires Level 32",919
+3189,Shirt,920
+3190,"10 Slot Bag",921
+3191,Chest,922
+3192,"46 Armor",922
+3193,"Requires Level 32",922
+3194,"Binds when picked up",923
+3195,Chest(Robe),923
+3196,"55 Armor",923
+3197,"+12 Intellect",923
+3198,"+8 Spirit",923
+3199,"Requires Level 33",923
+3200,"Binds when equipped",378
+3201,Shoulder,378
+3202,"38 Armor",378
+3203,"+8 Intellect",378
+3204,"+7 Spirit",378
+3205,"Requires Level 33",378
+3206,"Binds when equipped",924
+3207,Shoulder,924
+3208,"38 Armor",924
+3209,"+5 Stamina",924
+3210,"Requires Level 33",924
+3211,Shirt,379
+3212,"Binds when equipped",925
+3213,Waist,925
+3214,"29 Armor",925
+3215,"+8 Spirit",925
+3216,"+8 Stamina",925
+3217,"Requires Level 34",925
+3218,Legs,926
+3219,"43 Armor",926
+3220,"Requires Level 34",926
+3221,"Binds when equipped",927
+3222,Back,927
+3223,"29 Armor",927
+3224,"+6 Spirit",927
+3225,"+11 Frost ResistanceRequires Level 35",927
+3226,"Binds when equipped",928
+3227,Waist,928
+3228,"30 Armor",928
+3229,"+4 Spirit",928
+3230,"Requires Level 35",928
+3231,Shirt,380
+3232,"Binds when equipped",929
+3233,Chest(Robe),929
+3234,"54 Armor",929
+3235,"+15 Intellect",929
+3236,"+6 Spirit",929
+3237,"Requires Level 36",929
+3238,"Binds when equipped",930
+3239,Chest,930
+3240,"54 Armor",930
+3241,"+12 Spirit",930
+3242,"+11 Intellect",930
+3243,"Requires Level 36",930
+3244,"Binds when equipped",931
+3245,Legs,931
+3246,"47 Armor",931
+3247,"+14 Spirit",931
+3248,"+8 Intellect",931
+3249,"Requires Level 36",931
+3250,"Binds when equipped",932
+3251,Hands,932
+3252,"35 Armor",932
+3253,"+6 Intellect",932
+3254,"Requires Level 37",932
+3255,"Binds when equipped",381
+3256,Chest(Robe),381
+3257,"55 Armor",381
+3258,"+14 Spirit",381
+3259,"+8 Intellect",381
+3260,"Requires Level 37",381
+3261,"Binds when equipped",933
+3262,Legs,933
+3263,"48 Armor",933
+3264,"+6 Stamina",933
+3265,"Requires Level 37",933
+3266,"Binds when equipped",382
+3267,Hands,382
+3268,"35 Armor",382
+3269,"Requires Level 38",382
+3270,"Binds when equipped",383
+3271,Chest(Robe),383
+3272,"57 Armor",383
+3273,"+7 Spirit",383
+3274,"Requires Level 38",383
+3275,"Binds when equipped",384
+3276,Chest,384
+3277,"57 Armor",384
+3278,"+18 Intellect",384
+3279,"Requires Level 38",384
+3280,"Binds when equipped",934
+3281,Head,934
+3282,"46 Armor",934
+3283,"+11 Agility",934
+3284,"+11 Strength",934
+3285,"Requires Level 38",934
+3286,"Binds when equipped",935
+3287,Legs,935
+3288,"49 Armor",935
+3289,"+12 Intellect",935
+3290,"Requires Level 38",935
+3291,Shirt,385
+3292,Shirt,936
+3293,"12 Slot Bag",937
+3294,"Binds when equipped",938
+3295,Hands,938
+3296,"37 Armor",938
+3297,"+10 Intellect",938
+3298,"Requires Level 40",938
+3299,"Binds when equipped",386
+3300,Hands,386
+3301,"41 Armor",386
+3302,"+7 Spirit",386
+3303,"+4 Intellect",386
+3304,"Requires Level 40",386
+3305,"Binds when equipped",387
+3306,Chest(Robe),387
+3307,"59 Armor",387
+3308,"Requires Level 40",387
+3309,"Binds when equipped",388
+3310,Chest,388
+3311,"65 Armor",388
+3312,"+14 Spirit",388
+3313,"+9 Intellect",388
+3314,"Requires Level 40",388
+3315,"Binds when equipped",389
+3316,Hands,389
+3317,"37 Armor",389
+3318,"+5 Intellect",389
+3319,"Requires Level 40",389
+3320,"Binds when equipped",390
+3321,Head,390
+3322,"49 Armor",390
+3323,"+13 Spirit",390
+3324,"+12 Intellect",390
+3325,"Requires Level 41",390
+3326,"Binds when equipped",939
+3327,Feet,939
+3328,"41 Armor",939
+3329,"+11 Spirit",939
+3330,"+7 Intellect",939
+3331,"Requires Level 41",939
+3332,"Binds when equipped",940
+3333,Shoulder,940
+3334,"45 Armor",940
+3335,"+10 Spirit",940
+3336,"+9 Intellect",940
+3337,"Requires Level 41",940
+3338,Shirt,941
+3339,"Binds when equipped",942
+3340,Shoulder,942
+3341,"46 Armor",942
+3342,"+7 Stamina",942
+3343,"Requires Level 42",942
+3344,Chest(Robe),391
+3345,"Binds when equipped",943
+3346,Shoulder,943
+3347,"46 Armor",943
+3348,"+15 Intellect",943
+3349,"Requires Level 42",943
+3350,"12 Slot Bag",944
+3351,Shirt,945
+3352,"Binds when equipped",946
+3353,Head,946
+3354,"51 Armor",946
+3355,"Requires Level 43",946
+3356,"Binds when equipped",392
+3357,Feet,392
+3358,"43 Armor",392
+3359,"+10 Spirit",392
+3360,"Requires Level 43",392
+3361,"Binds when equipped",393
+3362,Head,393
+3363,"51 Armor",393
+3364,"+20 Intellect",393
+3365,"Requires Level 43",393
+3366,Shirt,947
+3367,"Binds when equipped",948
+3368,Head,948
+3369,"52 Armor",948
+3370,"+10 Intellect",948
+3371,"Requires Level 44",948
+3372,"Binds when equipped",394
+3373,Feet,394
+3374,"44 Armor",394
+3375,"Requires Level 44",394
+3376,Legs,395
+3377,"39 Armor",395
+3378,"Requires Level 30",395
+3379,Chest(Robe),949
+3380,"44 Armor",949
+3381,"Requires Level 30",949
+3382,"Binds when equipped",950
+3383,Head,950
+3384,"53 Armor",950
+3385,"+12 Spirit",950
+3386,"+6 Intellect",950
+3387,"Requires Level 45",950
+3388,Chest,396
+3389,"44 Armor",396
+3390,"Requires Level 30",396
+3391,Chest(Robe),952
+3392,Chest(Robe),953
+3393,"Binds when equipped",954
+3394,Waist,954
+3395,"37 Armor",954
+3396,"+12 Intellect",954
+3397,"+8 Spirit",954
+3398,"Requires Level 46",954
+3399,"Binds when equipped",955
+3400,Chest,955
+3401,"66 Armor",955
+3402,"+11 Intellect",955
+3403,"Requires Level 46",955
+3404,"Binds when equipped",398
+3405,Chest(Robe),398
+3406,"66 Armor",398
+3407,"+11 Spirit",398
+3408,"Requires Level 46",398
+3409,"Binds when equipped",399
+3410,Chest(Robe),399
+3411,"68 Armor",399
+3412,"+17 Intellect",399
+3413,"+11 Spirit",399
+3414,"Requires Level 47",399
+3415,"14 Slot Bag",956
+3416,"Binds when equipped",957
+3417,Chest,957
+3418,"68 Armor",957
+3419,"+17 Spirit",957
+3420,"+11 Intellect",957
+3421,"Requires Level 47",957
+3422,"Binds when equipped",958
+3423,Chest,958
+3424,"68 Armor",958
+3425,"+11 Spirit",958
+3426,"Requires Level 47",958
+3427,"Binds when equipped",400
+3428,"20 Slot Bag",400
+3429,"Classes: Warlock ",400
+3430,"Binds when equipped",959
+3431,Back,959
+3432,"34 Armor",959
+3433,"+9 Spirit",959
+3434,"+8 Intellect",959
+3435,"Requires Level 48",959
+3436,"Binds when equipped",960
+3437,Waist,960
+3438,"39 Armor",960
+3439,"+8 Intellect",960
+3440,"Requires Level 48",960
+3441,"Binds when equipped",401
+3442,Hands,401
+3443,"43 Armor",401
+3444,"+6 Intellect",401
+3445,"Requires Level 47",401
+3446,"Binds when equipped",402
+3447,Hands,402
+3448,"44 Armor",402
+3449,"+11 Spirit",402
+3450,"Requires Level 49",402
+3451,"Binds when equipped",403
+3452,Hands,403
+3453,"44 Armor",403
+3454,"+12 Frost Resistance+11 Shadow ResistanceRequires Level 49",403
+3455,"Binds when equipped",961
+3456,Hands,961
+3457,"44 Armor",961
+3458,"+8 Intellect",961
+3459,"Requires Level 49",961
+3460,"Binds when equipped",404
+3461,Chest(Robe),404
+3462,"70 Armor",404
+3463,"+16 Frost Resistance+15 Shadow ResistanceRequires Level 49",404
+3464,"Binds when equipped",962
+3465,Chest,962
+3466,"71 Armor",962
+3467,"+9 Intellect",962
+3468,"Requires Level 50",962
+3469,"Binds when equipped",405
+3470,Hands,405
+3471,"45 Armor",405
+3472,"+9 Spirit",405
+3473,"+9 Intellect",405
+3474,"Requires Level 50",405
+3475,"Binds when equipped",406
+3476,Back,406
+3477,"36 Armor",406
+3478,"+8 Intellect",406
+3479,"Requires Level 50",406
+3480,"Binds when equipped",407
+3481,Legs,407
+3482,"62 Armor",407
+3483,"+12 Intellect",407
+3484,"Requires Level 50",407
+3485,"Binds when equipped",408
+3486,Back,408
+3487,"36 Armor",408
+3488,"+7 Frost Resistance+7 Shadow ResistanceRequires Level 50",408
+3489,"Binds when equipped",409
+3490,Legs,409
+3491,"62 Armor",409
+3492,"+16 Fire Resistance+16 Arcane ResistanceRequires Level 50",409
+3493,"Binds when equipped",963
+3494,Back,963
+3495,"39 Armor",963
+3496,"+7 Stamina",963
+3497,"+6 Fire ResistanceRequires Level 50",963
+3498,"Binds when equipped",410
+3499,Feet,410
+3500,"50 Armor",410
+3501,"+14 Spirit",410
+3502,"+9 Intellect",410
+3503,"Requires Level 51",410
+3504,"Binds when equipped",964
+3505,Legs,964
+3506,"63 Armor",964
+3507,"+12 Spirit",964
+3508,"Requires Level 51",964
+3509,"Binds when equipped",411
+3510,Legs,411
+3511,"63 Armor",411
+3512,"+12 Intellect",411
+3513,"Requires Level 51",411
+3514,"Binds when equipped",412
+3515,Chest(Robe),412
+3516,"81 Armor",412
+3517,"+12 Intellect",412
+3518,"Requires Level 52",412
+3519,"Binds when equipped",413
+3520,Feet,413
+3521,"51 Armor",413
+3522,"+12 Spirit",413
+3523,"Requires Level 52",413
+3524,"Binds when equipped",414
+3525,Legs,414
+3526,"65 Armor",414
+3527,"+20 Spirit",414
+3528,"+12 Intellect",414
+3529,"Requires Level 52",414
+3530,"Binds when equipped",965
+3531,Legs,965
+3532,"66 Armor",965
+3533,"+17 Frost Resistance+16 Shadow ResistanceRequires Level 53",965
+3534,"Binds when equipped",966
+3535,Legs,966
+3536,"72 Armor",966
+3537,"+21 Spirit",966
+3538,"+14 Intellect",966
+3539,"+12 Stamina",966
+3540,"Requires Level 53",966
+3541,"Binds when equipped",967
+3542,Legs,967
+3543,"66 Armor",967
+3544,"+12 Intellect",967
+3545,"Requires Level 53",967
+3546,"Binds when equipped",415
+3547,Head,415
+3548,"61 Armor",415
+3549,"+10 Intellect",415
+3550,"Requires Level 53",415
+3551,"Binds when equipped",416
+3552,Waist,416
+3553,"46 Armor",416
+3554,"+21 Intellect",416
+3555,"Requires Level 53",416
+3556,"Binds when equipped",417
+3557,Feet,417
+3558,"57 Armor",417
+3559,"+21 Stamina",417
+3560,"+7 Spirit",417
+3561,"+4 Shadow ResistanceRequires Level 53",417
+3562,"Binds when equipped",968
+3563,Head,968
+3564,"62 Armor",968
+3565,"+20 Intellect",968
+3566,"+13 Spirit",968
+3567,"Requires Level 54",968
+3568,"16 Slot Bag",969
+3569,"Binds when equipped",970
+3570,Chest(Robe),970
+3571,"77 Armor",970
+3572,"+18 Fire Resistance+17 Arcane ResistanceRequires Level 55",970
+3573,"Binds when equipped",971
+3574,Chest,971
+3575,"85 Armor",971
+3576,"+20 Intellect",971
+3577,"+19 Spirit",971
+3578,"+12 Stamina",971
+3579,"Requires Level 55",971
+3580,"Binds when equipped",972
+3581,Shoulder,972
+3582,"65 Armor",972
+3583,"+17 Intellect",972
+3584,"+11 Spirit",972
+3585,"+9 Stamina",972
+3586,"Requires Level 56",972
+3587,"Binds when equipped",973
+3588,Shoulder,973
+3589,"59 Armor",973
+3590,"+15 Intellect",973
+3591,"+10 Spirit",973
+3592,"Requires Level 56",973
+3593,"Binds when equipped",974
+3594,Head,974
+3595,"64 Armor",974
+3596,"+18 Fire Resistance+18 Arcane ResistanceRequires Level 56",974
+3597,"Binds when equipped",975
+3598,Chest(Robe),975
+3599,"79 Armor",975
+3600,"+7 Stamina",975
+3601,"Requires Level 56",975
+3602,"Binds when equipped",418
+3603,Head,418
+3604,"71 Armor",418
+3605,"+23 Intellect",418
+3606,"+15 Spirit",418
+3607,"+13 Stamina",418
+3608,"Requires Level 57",418
+3609,"Binds when equipped",976
+3610,Shoulder,976
+3611,"60 Armor",976
+3612,"+5 Spirit",976
+3613,"Requires Level 57",976
+3614,"Binds when equipped",419
+3615,Hands,419
+3616,"60 Armor",419
+3617,"+10 Intellect",419
+3618,"+8 Spirit",419
+3619,"Classes: Warlock Mage Priest ",419
+3620,"Requires Level 57",419
+3621,"Binds when equipped",420
+3622,"18 Slot Bag",420
+3623,"Binds when picked up",977
+3624,Chest(Robe),977
+3625,"96 Armor",977
+3626,"+14 Stamina",977
+3627,"Classes: Priest ",977
+3628,"Requires Level 57",977
+3629,"Binds when picked up",421
+3630,Chest(Robe),421
+3631,"96 Armor",421
+3632,"+12 Intellect",421
+3633,"Classes: Mage ",421
+3634,"Requires Level 57",421
+3635,"Binds when picked up",422
+3636,Chest(Robe),422
+3637,"96 Armor",422
+3638,"+14 Stamina",422
+3639,"Classes: Warlock ",422
+3640,"Requires Level 57",422
+3641,"Binds when equipped",423
+3642,Shoulder,423
+3643,"71 Armor",423
+3644,"+10 Spirit",423
+3645,"+10 Intellect",423
+3646,"+9 Stamina",423
+3647,"+24 Fire ResistanceRequires Level 56",423
+3648,"Binds when equipped",978
+3649,Hands,978
+3650,"60 Armor",978
+3651,"+14 Intellect",978
+3652,"+10 Stamina",978
+3653,"+25 Fire ResistanceClasses: Warlock Mage Priest ",978
+3654,"Requires Level 57",978
+3655,"Binds when equipped",979
+3656,Wrist,979
+3657,"43 Armor",979
+3658,"+8 Intellect",979
+3659,"+7 Fire ResistanceClasses: Warlock Mage Shaman Druid Priest Rogue Warrior Hunter Paladin ",979
+3660,"Requires Level 60",979
+3661,"Binds when equipped",424
+3662,Waist,424
+3663,"54 Armor",424
+3664,"+25 Intellect",424
+3665,"+10 Stamina",424
+3666,"Classes: Warlock Mage Shaman Druid Priest Rogue Warrior Hunter Paladin ",424
+3667,"Requires Level 57",424
+3668,"Binds when equipped",425
+3669,Hands,425
+3670,"55 Armor",425
+3671,"+9 Stamina",425
+3672,"Requires Level 57",425
+3673,"Binds when equipped",426
+3674,Hands,426
+3675,"55 Armor",426
+3676,"+9 Intellect",426
+3677,"Requires Level 57",426
+3678,"Binds when equipped",427
+3679,Hands,427
+3680,"55 Armor",427
+3681,"+16 Intellect",427
+3682,"+15 Spirit",427
+3683,"+9 Stamina",427
+3684,"Requires Level 57",427
+3685,"Binds when equipped",980
+3686,Back,980
+3687,"214 Armor",980
+3688,"Requires Level 57",980
+3689,"Binds when equipped",428
+3690,Chest(Robe),428
+3691,"87 Armor",428
+3692,"+25 Intellect",428
+3693,"+12 Spirit",428
+3694,"+12 Stamina",428
+3695,"Requires Level 56",428
+3696,"Binds when equipped",981
+3697,Shoulder,981
+3698,"68 Armor",981
+3699,"+21 Intellect",981
+3700,"Requires Level 59",981
+3701,"Binds when equipped",429
+3702,Shoulder,429
+3703,"68 Armor",429
+3704,"+23 Stamina",429
+3705,"+8 Spirit",429
+3706,"+5 Shadow ResistanceRequires Level 59",429
+3707,"Binds when equipped",982
+3708,Chest(Robe),982
+3709,"102 Armor",982
+3710,"+35 Stamina",982
+3711,"+15 Fire ResistanceRequires Level 60",982
+3712,"Binds when equipped",430
+3713,Legs,430
+3714,"94 Armor",430
+3715,"+21 Stamina",430
+3716,"+16 Fire ResistanceRequires Level 60",430
+3717,"Binds when equipped",431
+3718,Feet,431
+3719,"63 Armor",431
+3720,"+16 Intellect",431
+3721,"Requires Level 60",431
+3722,"Binds when equipped",432
+3723,Legs,432
+3724,"80 Armor",432
+3725,"+6 Intellect",432
+3726,"Requires Level 60",432
+3727,"Binds when equipped",433
+3728,Chest,433
+3729,"92 Armor",433
+3730,"+13 Intellect",433
+3731,"Requires Level 60",433
+3732,"Binds when equipped",434
+3733,Waist,434
+3734,"50 Armor",434
+3735,"+10 Stamina",434
+3736,"+20 Shadow ResistanceClasses: Warlock Mage Shaman Druid Priest Rogue Warrior Hunter Paladin ",434
+3737,"Requires Level 58",434
+3738,"Binds when equipped",435
+3739,Feet,435
+3740,"61 Armor",435
+3741,"+8 Stamina",435
+3742,"+20 Shadow ResistanceRequires Level 58",435
+3743,"Binds when equipped",436
+3744,Legs,436
+3745,"78 Armor",436
+3746,"+13 Stamina",436
+3747,"+25 Shadow ResistanceRequires Level 58",436
+3748,"Binds when equipped",437
+3749,"28 Slot Bag",437
+3750,"Classes: Warlock ",437
+3751,"Classes: ",983
+3752,"Binds when equipped",984
+3753,Feet,984
+3754,"15 Armor",984
+3755,"Classes: Rogue ",984
+3756,"Requires Level 23",984
+3757,"Classes: ",438
+3758,"Classes: ",985
+3759,"Classes: ",986
+3760,"Classes: ",987
+3761,"Classes: ",988
+3762,"Classes: ",989
+3763,"Binds when equipped",990
+3764,Feet,990
+3765,"55 Armor",990
+3766,"+14 Intellect",990
+3767,"+13 Spirit",990
+3768,"+11 Stamina",990
+3769,"Requires Level 51",990
+3770,Unique,991
+3771,"Requires Level 55",991
+3772,"Binds when equipped",343
+3773,"24 Slot Bag",343
+3774,"Classes: Warlock ",343
+3775,"Binds when equipped",992
+3776,"16 Slot Bag",992
+3777,"Binds when equipped",993
+3778,"20 Slot Bag",993
+3779,"Binds when equipped",994
+3780,"24 Slot Bag",994
+3781,"Binds when equipped",995
+3782,"20 Slot Bag",995
+3783,"Binds when equipped",996
+3784,"24 Slot Bag",996
