@@ -231,10 +231,8 @@ def initialize():
 #    option = webdriver.ChromeOptions()
 #    option.add_argument("--incognito")
 #    option.add_argument("--window-size=1440,800")
-    profile = webdriver.FirefoxProfile()
     cap = DesiredCapabilities().FIREFOX
-    cap["marionette"] = False
+    cap["marionette"] = True
     binary = FirefoxBinary(os.environ.get('FIREFOX_BIN'))
-    profile.set_preference("browser.privatebrowsing.autostart", True)
-    browser = webdriver.Firefox(executable_path=os.environ.get('GECKODRIVER_PATH'), firefox_profile=profile, capabilities=cap, firefox_binary=binary)
+    browser = webdriver.Firefox(executable_path=os.environ.get('GECKODRIVER_PATH'), capabilities=cap, firefox_binary=binary)
     return browser
