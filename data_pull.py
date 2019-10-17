@@ -230,5 +230,5 @@ def initialize():
     #    option.add_argument("--window-size=1440,800")
         profile = webdriver.FirefoxProfile()
         profile.set_preference("browser.privatebrowsing.autostart", True)
-        browser = webdriver.Firefox(executable_path='/app/vendor/geckodriver/geckodriver/geckodriver.exe', firefox_profile=profile)
+        browser = webdriver.Firefox(executable_path=os.environ.get('GECKODRIVER_PATH'), firefox_profile=profile)
         return browser
