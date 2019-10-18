@@ -58,7 +58,7 @@ class ProfessionItem(SearchableMixin, db.Model):
     __searchable__ = ['name']
     id = db.Column(db.Integer, primary_key=True)
     profession = db.Column(db.String(64))
-    image_link = db.Column(db.String(128))
+    image_link = db.Column(db.String(128), default='app/static/imgs/Alchemy/id21546.png')
     internal_id = db.Column(db.String(128))
     name = db.Column(db.String(128))
     learned_from = db.Column(db.String(128))
