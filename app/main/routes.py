@@ -141,7 +141,7 @@ def add_profession_item():
     if form.validate_on_submit():
         if ProfessionItem.query.filter_by(name=form.name.data).first() is None:
             profession_item = ProfessionItem(profession=form.profession.data, name=form.name.data,
-                            learned_form=form.learned_from.data, skill_required=form.skill_required.data,
+                            learned_from=form.learned_from.data, skill_required=form.skill_required.data,
                             item_quality=form.item_quality.data, armor_class=form.armor_class.data,
                             item_slot=form.item_slot.data, action=form.action.data, result=form.result.data)
             db.session.add(profession_item)        
