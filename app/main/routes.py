@@ -155,7 +155,7 @@ def add_profession_item():
 @bp.route('/add_description_text', methods=['GET', 'POST'])
 @login_required
 def add_description_text():
-    form = AddDescriptionForm()
+    form = AddDescriptionTextForm()
     form.options.choices = [(item.id, item.name) for item in ProfessionItem.query.order_by(ProfessionItem.name).all()]
     if form.validate_on_submit():
         description_text = DescriptionText(text=form.text.data, item_id=form.options.data)
