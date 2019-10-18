@@ -20,23 +20,6 @@
                                 Professions
                             </button>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                <a class="dropdown-item" href="{{ url_for('main.add_profession_item') }}">Add Profession Item</a>
-                                <a class="dropdown-item" href="{{ url_for('main.add_recipe_ingredient') }}">Add Recipe Ingredient</a>
-                                <a class="dropdown-item" href="{{ url_for('main.add_profession_ingredient') }}">Add Profession Ingredient</a>
-                                <a class="dropdown-item" href="{{ url_for('main.add_description_text') }}">Add Description Text</a>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
-                {% if current_user.username in ['sokroisonlytank','Malthador'] %}
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item"><a class="nav-link" href="{{ url_for('main.index') }}">Home</a></li>
-                    <li>
-                        <div class="dropdown">
-                            <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Professions
-                            </button>
-                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                 <a class="dropdown-item" href="{{ url_for('main.recipes', profession='Alchemy') }}">Alchemy</a>
                                 <a class="dropdown-item" href="{{ url_for('main.recipes', profession='Blacksmithing') }}">Blacksmithing</a>
                                 <a class="dropdown-item" href="{{ url_for('main.recipes', profession='Enchanting') }}">Enchanting</a>
@@ -46,8 +29,22 @@
                             </div>
                         </div>
                     </li>
+                    {% if current_user.username in ['sokroisonlytank','Malthador', 'Foodtruck'] %}
+                    <li>
+                        <div class="dropdown">
+                            <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Professions
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="{{ url_for('main.add_profession_item') }}">Add Profession Item</a>
+                                <a class="dropdown-item" href="{{ url_for('main.add_recipe_ingredient') }}">Add Recipe Ingredient</a>
+                                <a class="dropdown-item" href="{{ url_for('main.add_profession_ingredient') }}">Add Profession Ingredient</a>
+                                <a class="dropdown-item" href="{{ url_for('main.add_description_text') }}">Add Description Text</a>
+                            </div>
+                        </div>
+                    </li>
+                    {% endif %}
                 </ul>
-                {% endif %}
                 {% if g.search_form %}
                 <form class="navbar-form navbar-left" method="get"
                         action="{{ url_for('main.search') }}">
