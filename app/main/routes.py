@@ -91,7 +91,6 @@ def add_recipes(profession):
     form.options.choices = [(recipe.id, recipe.name) for recipe in ProfessionItem.query.filter_by(profession=profession).filter(ProfessionItem.skill_required>0).order_by(ProfessionItem.skill_required).all()]
     if form.validate_on_submit():
         for item in form.options.data:
-            ProfessionItem.query.filter_by(id=item).first().known.append(current_user)
             current_user.known_recipes.append(ProfessionItem.query.filter_by(id=item).first())
             db.session.commit()
         return redirect(url_for('main.index'))

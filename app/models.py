@@ -70,17 +70,6 @@ class ProfessionItem(SearchableMixin, db.Model):
     result = db.Column(db.Integer)
     description_text = db.relationship('DescriptionText', backref='description', lazy='dynamic')
 
-    def add_user(self, user):
-        if not self.knows_user(user):
-            self.known.append(user)
-    
-    def remove_user(self, user):
-        if self.knows_user(user):
-            self.known.remove(user)
-    
-    def knows_user(self, user):
-        return self.known.filter(user_recipes.c.user_id).count > 0
-
 class User(UserMixin, db.Model):
     id = db.Column(db.Integer, primary_key=True)
     username = db.Column(db.String(64), index=True, unique=True)
