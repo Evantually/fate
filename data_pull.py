@@ -280,3 +280,14 @@ def fillDatabase():
                 print(f'item_id={row[2]}')
                 continue
         db.session.commit()
+
+def pullFromDatabase():
+    models = [(ProfessionItem,'Profession-Item'), (ProfessionIngredient, 'Profession-Ingredient'), (RecipeIngredient, 'Recipe-Ingredient')]
+    for model in models:
+        outfile = open(f'{model[1]}.csv', 'wb')
+        outcsv = csv.writer(outfile)
+        records = model[0].query.all()
+        [outcsv.writerow([getattr(curr, column.name) for column in MyTable.__mapper__.columns]) for curr in records]
+        # or maybe use outcsv.writerows(records)
+
+        outfile.close()
