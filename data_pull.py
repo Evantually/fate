@@ -287,7 +287,16 @@ def pullFromDatabase():
         outfile = open(f'{model[1]}.csv', 'wb')
         outcsv = csv.writer(outfile)
         records = model[0].query.all()
-        [outcsv.writerow([getattr(curr, column.name) for column in model[1].__mapper__.columns]) for curr in records]
+        # [outcsv.writerow([getattr(curr, column.name) for column in model[1].__mapper__.columns]) for curr in records]
         # or maybe use outcsv.writerows(records)
 
         outfile.close()
+
+        import pandas as pd
+        from app.models import ProfessionItem, ProfessionIngredient, RecipeIngredient
+        df = pd.read_sql(ProfessionItem.query.statement, db.session.bind)
+        df.to_csv('profession-item.csv')
+        df = pd.read_sql(ProfessionIngredient.query.statement, db.session.bind)
+        df.to_csv('profession-ingredient.csv')
+        df = pd.read_sql(RecipeIngredient.query.statement, db.session.bind)
+        df.to_csv('recipe-ingredient.csv')

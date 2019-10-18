@@ -3,7 +3,9 @@ from flask import render_template, flash, redirect, url_for, request, g, \
     jsonify, current_app
 from flask_login import current_user, login_required
 from app import db
-from app.main.forms import EditProfileForm, AddRecipeForm, SearchForm
+from app.main.forms import EditProfileForm, AddRecipeForm, SearchForm, \
+    AddProfessionItemForm, AddRecipeIngredientForm, AddProfessionIngredientForm, \
+    AddDescriptionTextForm
 from app.models import User, ProfessionItem, ProfessionIngredient, RecipeIngredient
 from app.main import bp
 
@@ -103,3 +105,62 @@ def search():
         return redirect(url_for('main.index'))
     recipes, total = ProfessionItem.search(g.search_form.q.data)
     return render_template('search.html', title='Search', recipes=recipes)
+
+@bp.route('/add_recipe_ingredient', methods=['GET', 'POST'])
+@login_required
+def add_recipe_ingredient():
+    form = AddRecipeIngredientForm()
+    form.item_options.choices = [(item.id, item.name) for item in ProfessionItem.query.order_by(ProfessionItem.name).all()]
+    form.ingredient_options.choices = [(item.id, item.name) for item in ProfessionIngredient.query.order_by(ProfessionIngredient.name).all()]
+    if form.validate_on_submit():
+        recipe_ingredient = RecipeIngredient(item_id=form.item_options.data, ingredient_id=form.ingredient_options.data,
+                                            quantity=form.quantity.data)
+        db.session.add(recipe_ingredient)
+        db.session.commit()
+        flash('Recipe Ingredient added.')
+        return redirect(url_for('main.add_recipe_ingredient'))
+    return render_template('standard_form_page.html', form=form, title='Add Recipe Ingredient')
+
+@bp.route('/add_profession_ingredient', methods=['GET', 'POST'])
+@login_required
+def add_profession_ingredient():
+    form = AddProfessionIngredientForm()
+    if form.validate_on_submit():
+        profession_ingredient = ProfessionIngredient(name=form.name.data, item_quality=form.item_quality.data,
+                                                item_type=form.item_type.data)
+        db.session.add(profession_ingredient)
+        db.session.commit()
+        flash('Profession Ingredient Added')
+        return redirect(url_for('main.add_profession_ingredient'))
+    return render_template('standard_form_page.html', form=form, title='Add Profession Ingredient')
+
+@bp.route('/add_profession_item', methods=['GET', 'POST'])
+@login_required
+def add_profession_item():
+    form = AddProfessionItemForm()
+    if form.validate_on_submit():
+        if ProfessionItem.query.filter_by(name=form.name.data).first() is None:
+            profession_item = ProfessionItem(profession=form.profession.data, name=form.name.data,
+                            learned_form=form.learned_from.data, skill_required=form.skill_required.data,
+                            item_quality=form.item_quality.data, armor_class=form.armor_class.data,
+                            item_slot=form.item_slot.data, action=form.action.data, result=form.result.data)
+            db.session.add(profession_item)        
+            db.session.commit()
+            flash('Profession Item Added.')
+            return redirect(url_for('main.add_profession_item'))
+        flash('This item already exists in the database.')
+        return redirect(url_for('main.add_profession_item'))
+    return render_template('standard_form_page.html', form=form, title='Add Profession Item')
+
+@bp.route('/add_description_text', methods=['GET', 'POST'])
+@login_required
+def add_description_text():
+    form = AddDescriptionForm()
+    form.options.choices = [(item.id, item.name) for item in ProfessionItem.query.order_by(ProfessionItem.name).all()]
+    if form.validate_on_submit():
+        description_text = DescriptionText(text=form.text.data, item_id=form.options.data)
+        db.session.add(description_text)
+        db.session.commit()
+        flash('Description Text Added.')
+        return redirect(url_for('main.add_description_text'))
+    return render_template('standard_form_page.html', form=form, title='Add Description Text')

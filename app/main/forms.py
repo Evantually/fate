@@ -1,6 +1,6 @@
 from flask import request
 from flask_wtf import FlaskForm
-from wtforms import StringField, SubmitField, TextAreaField, SelectField, SelectMultipleField
+from wtforms import StringField, SubmitField, TextAreaField, SelectField, SelectMultipleField, IntegerField
 from wtforms.validators import ValidationError, DataRequired, Length
 from app.models import User
 
@@ -34,6 +34,45 @@ class EditProfileForm(FlaskForm):
 class AddRecipeForm(FlaskForm):
     options = SelectMultipleField('Recipes', coerce=int, validators=[DataRequired()])
     submit = SubmitField('Add to my known recipes.')
+
+class AddProfessionItemForm(FlaskForm):
+    profession = SelectField(
+        'Profession',
+        choices=[('Alchemy', 'Alchemy'), ('Blacksmithing', 'Blacksmithing'), 
+            ('Enchanting', 'Enchanting'), ('Engineering', 'Engineering'),
+            ('Leatherworking', 'Leatherworking'), ('Tailoring', 'Tailoring')])
+    name = StringField('Name', validators=[DataRequired()])
+    learned_from = SelectField('Learned From', choices=[('trainer', 'Trainer'), ('recipe', 'Recipe')])
+    skill_required = IntegerField('Skill Required', validators=[DataRequired()])
+    item_quality = SelectField(
+        'Item Quality',
+        choices=[('Common', 'Common'), ('Uncommon', 'Uncommon'), 
+            ('Rare', 'Rare'), ('Epic', 'Epic')])
+    armor_class = StringField('Armor Class')
+    item_slot = StringField('Item Slot')
+    action = StringField('Crafting Result')
+    result = IntegerField('Result Quantity')
+    submit = SubmitField('Add Profession Item.')
+
+class AddRecipeIngredientForm(FlaskForm):
+    item_options = SelectField('Item', coerce=int, validators=[DataRequired()])
+    ingredient_options = SelectField('Ingredient', coerce=int, validators=[DataRequired()])
+    quantity = IntegerField('Quantity', validators=[DataRequired()])
+    submit = SubmitField('Add Recipe Ingredient.')
+
+class AddProfessionIngredientForm(FlaskForm):
+    name = StringField('name', validators=[DataRequired()])
+    item_quality = SelectField(
+        'Item Quality',
+        choices=[('Common', 'Common'), ('Uncommon', 'Uncommon'), 
+            ('Rare', 'Rare'), ('Epic', 'Epic')])
+    item_type = StringField('Item Type', validators=[DataRequired()])
+    submit = SubmitField('Add Profession Ingredient.')
+
+class AddDescriptionTextForm(FlaskForm):
+    options = SelectField('Recipes', coerce=int, validators=[DataRequired()])
+    text = StringField('text', validators=[DataRequired()])
+    submit = SubmitField('Add Description Text.')
 
 class SearchForm(FlaskForm):
     q = StringField('Search', validators=[DataRequired()])
